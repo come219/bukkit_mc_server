@@ -1,0 +1,47 @@
+curSection: 4
+'0':
+  storedDate: March 1, 2014 4:27:33 PM EST
+  armor: []
+  contents:
+  - STONE_SWORD 1
+  - STONE_SPADE 1
+  - STONE_PICKAXE 1
+  - STONE_AXE 1
+  - SNOW_BLOCK 1
+  - DIAMOND_SPADE 1
+  - ROTTEN_FLESH 1
+  - SAND 1
+  - MAP:6 displayName="The Guildworld Map" 1
+  - COAL_BLOCK 1
+  - SOUL_SAND 1
+  - MONSTER_EGG:93 1
+  - ANVIL 1
+'1':
+  storedDate: March 1, 2014 4:29:44 PM EST
+  armor: []
+  contents:
+  - STONE_SWORD 1
+  - STONE_SPADE 1
+  - STONE_PICKAXE 1
+  - STONE_AXE 1
+  - SNOW_BLOCK 1
+  - DIAMOND_SPADE 1
+  - ROTTEN_FLESH 1
+  - SAND 1
+  - MAP:6 displayName="The Guildworld Map" 1
+  - COAL_BLOCK 1
+  - SOUL_SAND 1
+  - MONSTER_EGG:93 1
+  - ANVIL 1
+'2':
+  storedDate: March 1, 2014 4:36:24 PM EST
+  armor: []
+  contents:
+  - STONE_SWORD 1
+  - STONE_AXE 1
+'3':
+  storedDate: March 1, 2014 4:38:17 PM EST
+  armor: []
+  contents:
+  - STONE_SWORD 1
+  - STONE_AXE 1

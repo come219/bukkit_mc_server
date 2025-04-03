@@ -1,0 +1,61 @@
+arenas:
+  ColorFull:
+    locations:
+      '0':
+      - MiniGames,116,130,23
+      '1':
+      - MiniGames,112,137,45
+      '10':
+      - MiniGames,116,79,21
+      '11':
+      - MiniGames,84,90,53
+      '12':
+      - MiniGames,56,77,32
+      '13':
+      - MiniGames,72,102,0
+      '14':
+      - MiniGames,83,117,18
+      '15':
+      - MiniGames,93,114,60
+      '16':
+      - MiniGames,56,97,64
+      '17':
+      - MiniGames,57,115,13
+      '18':
+      - MiniGames,51,124,0
+      '19':
+      - MiniGames,95,139,0
+      '2':
+      - MiniGames,97,132,64
+      '3':
+      - MiniGames,77,135,77
+      '4':
+      - MiniGames,59,142,65
+      '5':
+      - MiniGames,47,130,48
+      '6':
+      - MiniGames,55,151,32
+      '7':
+      - MiniGames,49,139,14
+      '8':
+      - MiniGames,69,137,12
+      '9':
+      - MiniGames,82,103,16
+    type: FreeForAll
+    params: {}
+  1v1:
+    locations:
+      '0':
+      - HUB,79,57,562
+      '1':
+      - HUB,87,57,518
+    type: Arena
+    waitRoomLocations:
+      '0':
+      - HUB,-22,54,537
+      '1':
+      - HUB,-22,54,541
+    params:
+      gameSize:
+        teamSize: '1'
+brokenArenas: {}

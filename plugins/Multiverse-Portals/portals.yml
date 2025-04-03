@@ -1,0 +1,337 @@
+portals:
+  ArtGalleryLeave:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -1165.0,50.0,799.0:-1163.0,52.0,799.0
+    world: HUB
+    destination: p:ArtGalleryEntry
+  ArtGalleryEntry:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -1158.0,50.0,569.0:-1158.0,52.0,571.0
+    world: HUB
+    destination: p:ArtGalleryLeave
+  ShopLeave:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -1165.0,59.0,-170.0:-1163.0,61.0,-170.0
+    world: HUB
+    destination: p:ShopEntry
+  ShopEntry:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -1165.0,50.0,576.0:-1163.0,52.0,576.0
+    world: HUB
+    destination: p:ShopLeave
+  VIPLobbyEntry:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -1134.0,50.0,528.0:-1134.0,53.0,534.0
+    world: HUB
+    destination: p:VIPLobbyLeave
+  D/MLeave:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -1165.0,62.0,-498.0:-1163.0,64.0,-498.0
+    world: HUB
+    destination: p:D/MEntry
+  D/MEntry:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -1170.0,50.0,569.0:-1170.0,52.0,571.0
+    world: HUB
+    destination: p:D/MLeave
+  VIPLobbyLeave:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -74.0,59.0,506.0:-74.0,61.0,508.0
+    world: HUB
+    destination: p:VIPLobbyEntry
+  KillGodEntry:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -62.0,57.0,468.0:-58.0,57.0,472.0
+    world: HUB
+    destination: p:KillGodLeave
+  KillGodLeave:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -1675.0,61.0,545.0:-1675.0,63.0,547.0
+    world: HUB
+    destination: p:KillGodLeave2
+  KillGodLeave2:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -61.0,57.0,478.0:-59.0,60.0,480.0
+    world: HUB
+  EventsEntry:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -72.0,63.0,540.0:-68.0,63.0,540.0
+    world: HUB
+    destination: p:EventsLeave
+  EventsLeave:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -1683.0,61.0,545.0:-1683.0,63.0,547.0
+    world: HUB
+    destination: p:EventsLeave2
+  EventsLeave2:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -72.0,63.0,538.0:-68.0,63.0,538.0
+    world: HUB
+  EventsJoin:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -1701.0,60.0,544.0:-1697.0,60.0,548.0
+    world: HUB
+    destination: VIPworld
+  PvPEntry:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -1168.0,50.0,502.0:-1160.0,57.0,502.0
+    world: HUB
+    destination: PvP
+  FlyPaintEntry:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -2006.0,58.0,540.0:-2004.0,60.0,540.0
+    world: HUB
+    destination: p:FlyPaintLeave
+  FlyPaintLeave:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -155.0,77.0,36.0:-155.0,79.0,38.0
+    world: MiniGames
+    destination: p:FlyPaintEntry
+  SpleefEntry:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -2006.0,58.0,560.0:-2004.0,60.0,560.0
+    world: HUB
+    destination: p:SpleefLeave
+  SpleefLeave:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -235.0,84.0,204.0:-235.0,86.0,206.0
+    world: MiniGames
+    destination: p:SpleefEntry
+  IcePvPFall:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -235.0,71.0,195.0:-215.0,72.0,215.0
+    world: MiniGames
+    destination: p:SpleefLeave
+  ParkourFall:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -120.0,62.0,0.0:-82.0,63.0,61.0
+    world: MiniGames
+    destination: p:FlyPaintLeave
+  ParkourWinner:
+    entryfee:
+      currency: -1
+      amount: -100.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -110.0,76.0,23.0:-108.0,77.0,25.0
+    world: MiniGames
+    destination: p:FlyPaintLeave
+  PropHuntEntry:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -1990.0,58.0,540.0:-1988.0,60.0,540.0
+    world: HUB
+    destination: p:PropHuntLeave
+  PropHuntLeave:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -351.0,59.0,-64.0:-335.0,91.0,-49.0
+    world: MiniGames
+    destination: p:PropHuntEntry
+  HungerGamesLeave:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -425.0,63.0,172.0:-423.0,65.0,172.0
+    world: MiniGames
+    destination: p:HungerGamesEntry
+  KOFHFall:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -435.0,58.0,146.0:-412.0,58.0,168.0
+    world: MiniGames
+    destination: p:HungerGamesLeave
+  HungerGamesEntry:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -1990.0,58.0,560.0:-1988.0,60.0,560.0
+    world: HUB
+    destination: p:HungerGamesLeave
+  ParkourLeave:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -269.0,1.0,-169.0:-269.0,3.0,-167.0
+    world: MiniGames
+    destination: p:MiniGamesLeave
+  ParkourEntry:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -2001.0,19.0,546.0:-1993.0,20.0,554.0
+    world: HUB
+    destination: p:ParkourLeave
+  HPW:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -274.0,0.0,-234.0:-273.0,0.0,-234.0
+    world: MiniGames
+    destination: p:HPC
+  MiniGamesEntrance:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: 73.0,59.0,245.0:75.0,62.0,247.0
+    world: MiniGames
+  MiniGamesEntry:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: -1194.0,50.0,528.0:-1194.0,54.0,534.0
+    world: HUB
+    destination: p:MiniGamesEntrance
+  GuildWorldEntry:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: come219
+    location: 84.0,59.0,235.0:85.0,60.0,236.0
+    world: MiniGames

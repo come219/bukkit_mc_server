@@ -1,0 +1,564 @@
+WorldGuard Configuration Report
+Generated 2013-08-21 21:08 -0400
+
+Version: 5.8
+
+------------------
+Server Information
+------------------
+
+Java                : Oracle Corporation 1.7.0_21 (http://java.oracle.com/)
+Operating system    : Windows 7 6.1 (amd64)
+Available processors: 8
+Free memory         : 385 MB
+Max memory          : 972 MB
+Total memory        : 972 MB
+Server ID           : unnamed
+Server name         : Unknown Server
+Implementation      : git-Bukkit-1.6.2-R0.1-b2838jnks (MC: 1.6.2)
+Player count        : 3/10
+
+------------
+Plugins (20)
+------------
+
+ChestRestock       : 2.3-b70
+WorldEdit          : 5.5.7
+DisguiseCraft      : 4.9
+SimpleCommandSigns : 0.8
+RankDisplayNames   : 0.1
+Vault              : 1.2.25-b320
+PlayerHeads        : 3.3-jenkins-PlayerHeads-1-23-g85a3601
+Multiverse-Core    : 2.4-b527
+CookieMonster      : 1.8
+WorldGuard         : 5.8
+BiomeEdit          : 1.0.1
+Essentials         : 2.11.1
+Citizens           : 2.0.9-SNAPSHOT (build 966)
+EssentialsProtect  : 2.11.1
+EssentialsSpawn    : 2.11.1
+Multiverse-Portals : 2.4-b548
+SignShop           : 2.7.1
+EssentialsChat     : 2.11.1
+SafeCreeper        : 1.5.1.1
+EssentialsAntiBuild: 2.11.1
+
+------
+Worlds
+------
+
+world (0)        :
+    Information:
+        Seed              : -6292887910474932190
+        Environment       : NORMAL
+        Player count      : 0
+        Entity count      : 30
+        Loaded chunk count: 256
+        Spawn location    : Location{world=CraftWorld{name=world},x=1375.0,y=64.0,z=-372.0,pitch=0.0,yaw=0.0}
+        Raw time          : 1920186
+    Entities   :
+        CraftMinecartChest: 30 [0.117188]
+world_nether (1) :
+    Information:
+        Seed              : -6292887910474932190
+        Environment       : NETHER
+        Player count      : 0
+        Entity count      : 0
+        Loaded chunk count: 0
+        Spawn location    : Location{world=CraftWorld{name=world_nether},x=-3.0,y=64.0,z=3.0,pitch=0.0,yaw=0.0}
+        Raw time          : 3210397
+    Entities   :
+world_the_end (2):
+    Information:
+        Seed              : -6292887910474932190
+        Environment       : THE_END
+        Player count      : 0
+        Entity count      : 0
+        Loaded chunk count: 0
+        Spawn location    : Location{world=CraftWorld{name=world_the_end},x=0.0,y=62.0,z=0.0,pitch=0.0,yaw=0.0}
+        Raw time          : 3210397
+    Entities   :
+KillGod (3)      :
+    Information:
+        Seed              : 5545128808117866254
+        Environment       : NORMAL
+        Player count      : 3
+        Entity count      : 6
+        Loaded chunk count: 643
+        Spawn location    : Location{world=CraftWorld{name=KillGod},x=-2440.0,y=11.0,z=-312.0,pitch=0.0,yaw=0.0}
+        Raw time          : 722892
+    Entities   :
+        CraftItem  : 3 [0.004666]
+        CraftPlayer: 3 [0.004666]
+
+--------------------
+Global Configuration
+--------------------
+
+Configuration:
+    useRegionsScheduler         : true
+    useRegionsCreatureSpawnEvent: true
+    activityHaltToggle          : false
+    autoGodMode                 : false
+    usePlayerMove               : true
+    usePlayerTeleports          : true
+    deopOnJoin                  : false
+    blockInGameOp               : false
+    hostKeys                    : {}
+    useSqlDatabase              : false
+    sqlDsn                      : jdbc:mysql://localhost/worldguard
+    sqlUsername                 : worldguard
+    sqlPassword                 : worldguard
+
+--------------------
+World Configurations
+--------------------
+
+world (0)        :
+    Information   :
+        Configuration file: C:\Users\come219\Desktop\Folder\Servers\Secret Server\plugins\WorldGuard\worlds\world\config.yml
+        Blacklist file    : C:\Users\come219\Desktop\Folder\Servers\Secret Server\plugins\WorldGuard\worlds\world\blacklist.txt
+        Regions file      : C:\Users\come219\Desktop\Folder\Servers\Secret Server\plugins\WorldGuard\worlds\world\regions.yml
+    Configuration :
+        CONFIG_HEADER                  : #
+# WorldGuard's world configuration file
+#
+# This is a world configuration file. Anything placed into here will only
+# affect this world. If you don't put anything in this file, then the
+# settings will be inherited from the main configuration file.
+#
+# If you see {} below, that means that there are NO entries in this file.
+# Remove the {} and add your own entries.
+#
+
+        summaryOnStart                 : true
+        opPermissions                  : true
+        fireSpreadDisableToggle        : false
+        itemDurability                 : true
+        simulateSponge                 : true
+        spongeRadius                   : 2
+        disableExpDrops                : false
+        blockPotions                   : []
+        blockPotionsAlways             : false
+        pumpkinScuba                   : false
+        redstoneSponges                : false
+        noPhysicsGravel                : false
+        noPhysicsSand                  : false
+        ropeLadders                    : false
+        allowPortalAnywhere            : false
+        preventWaterDamage             : []
+        blockLighter                   : false
+        disableFireSpread              : false
+        disableFireSpreadBlocks        : []
+        preventLavaFire                : true
+        allowedLavaSpreadOver          : []
+        blockTNTExplosions             : false
+        blockTNTBlockDamage            : false
+        blockCreeperExplosions         : false
+        blockCreeperBlockDamage        : false
+        blockWitherExplosions          : false
+        blockWitherBlockDamage         : false
+        blockWitherSkullExplosions     : false
+        blockWitherSkullBlockDamage    : false
+        blockEnderDragonBlockDamage    : false
+        blockEnderDragonPortalCreation : false
+        blockFireballExplosions        : false
+        blockFireballBlockDamage       : false
+        blockOtherExplosions           : false
+        blockEntityPaintingDestroy     : false
+        blockEntityItemFrameDestroy    : false
+        blockPluginSpawning            : true
+        blockGroundSlimes              : false
+        blockZombieDoorDestruction     : false
+        disableContactDamage           : false
+        disableFallDamage              : false
+        disableLavaDamage              : false
+        disableFireDamage              : false
+        disableLightningDamage         : false
+        disableDrowningDamage          : false
+        disableSuffocationDamage       : false
+        teleportOnSuffocation          : false
+        disableVoidDamage              : false
+        teleportOnVoid                 : false
+        disableExplosionDamage         : false
+        disableMobDamage               : false
+        useRegions                     : true
+        highFreqFlags                  : false
+        regionWand                     : 334
+        blockCreatureSpawn             : []
+        maxClaimVolume                 : 30000
+        claimOnlyInsideExistingRegions : false
+        maxRegionCountPerPlayer        : 7
+        antiWolfDumbness               : false
+        signChestProtection            : false
+        disableSignChestProtectionCheck: false
+        removeInfiniteStacks           : false
+        disableCreatureCropTrampling   : false
+        disablePlayerCropTrampling     : false
+        preventLightningFire           : false
+        disallowedLightningBlocks      : []
+        disableThunder                 : false
+        disableWeather                 : false
+        alwaysRaining                  : false
+        alwaysThundering               : false
+        disablePigZap                  : false
+        disableCreeperPower            : false
+        disableHealthRegain            : false
+        disableMushroomSpread          : false
+        disableIceMelting              : false
+        disableSnowMelting             : false
+        disableSnowFormation           : false
+        disableIceFormation            : false
+        disableLeafDecay               : false
+        disableGrassGrowth             : false
+        disableMyceliumSpread          : false
+        disableVineGrowth              : false
+        disableEndermanGriefing        : false
+        disableSnowmanTrails           : false
+        regionInvinciblityRemovesMobs  : false
+        disableDeathMessages           : false
+        disableObsidianGenerators      : false
+    Blacklist     :
+        State: DISABLED
+    Region manager:
+        Type             : com.sk89q.worldguard.protection.managers.PRTreeRegionManager
+        Number of regions: 0
+        Global region    :
+            Status: UNDEFINED
+world_nether (0) :
+    Information   :
+        Configuration file: C:\Users\come219\Desktop\Folder\Servers\Secret Server\plugins\WorldGuard\worlds\world_nether\config.yml
+        Blacklist file    : C:\Users\come219\Desktop\Folder\Servers\Secret Server\plugins\WorldGuard\worlds\world_nether\blacklist.txt
+        Regions file      : C:\Users\come219\Desktop\Folder\Servers\Secret Server\plugins\WorldGuard\worlds\world_nether\regions.yml
+    Configuration :
+        CONFIG_HEADER                  : #
+# WorldGuard's world configuration file
+#
+# This is a world configuration file. Anything placed into here will only
+# affect this world. If you don't put anything in this file, then the
+# settings will be inherited from the main configuration file.
+#
+# If you see {} below, that means that there are NO entries in this file.
+# Remove the {} and add your own entries.
+#
+
+        summaryOnStart                 : true
+        opPermissions                  : true
+        fireSpreadDisableToggle        : false
+        itemDurability                 : true
+        simulateSponge                 : true
+        spongeRadius                   : 2
+        disableExpDrops                : false
+        blockPotions                   : []
+        blockPotionsAlways             : false
+        pumpkinScuba                   : false
+        redstoneSponges                : false
+        noPhysicsGravel                : false
+        noPhysicsSand                  : false
+        ropeLadders                    : false
+        allowPortalAnywhere            : false
+        preventWaterDamage             : []
+        blockLighter                   : false
+        disableFireSpread              : false
+        disableFireSpreadBlocks        : []
+        preventLavaFire                : true
+        allowedLavaSpreadOver          : []
+        blockTNTExplosions             : false
+        blockTNTBlockDamage            : false
+        blockCreeperExplosions         : false
+        blockCreeperBlockDamage        : false
+        blockWitherExplosions          : false
+        blockWitherBlockDamage         : false
+        blockWitherSkullExplosions     : false
+        blockWitherSkullBlockDamage    : false
+        blockEnderDragonBlockDamage    : false
+        blockEnderDragonPortalCreation : false
+        blockFireballExplosions        : false
+        blockFireballBlockDamage       : false
+        blockOtherExplosions           : false
+        blockEntityPaintingDestroy     : false
+        blockEntityItemFrameDestroy    : false
+        blockPluginSpawning            : true
+        blockGroundSlimes              : false
+        blockZombieDoorDestruction     : false
+        disableContactDamage           : false
+        disableFallDamage              : false
+        disableLavaDamage              : false
+        disableFireDamage              : false
+        disableLightningDamage         : false
+        disableDrowningDamage          : false
+        disableSuffocationDamage       : false
+        teleportOnSuffocation          : false
+        disableVoidDamage              : false
+        teleportOnVoid                 : false
+        disableExplosionDamage         : false
+        disableMobDamage               : false
+        useRegions                     : true
+        highFreqFlags                  : false
+        regionWand                     : 334
+        blockCreatureSpawn             : []
+        maxClaimVolume                 : 30000
+        claimOnlyInsideExistingRegions : false
+        maxRegionCountPerPlayer        : 7
+        antiWolfDumbness               : false
+        signChestProtection            : false
+        disableSignChestProtectionCheck: false
+        removeInfiniteStacks           : false
+        disableCreatureCropTrampling   : false
+        disablePlayerCropTrampling     : false
+        preventLightningFire           : false
+        disallowedLightningBlocks      : []
+        disableThunder                 : false
+        disableWeather                 : false
+        alwaysRaining                  : false
+        alwaysThundering               : false
+        disablePigZap                  : false
+        disableCreeperPower            : false
+        disableHealthRegain            : false
+        disableMushroomSpread          : false
+        disableIceMelting              : false
+        disableSnowMelting             : false
+        disableSnowFormation           : false
+        disableIceFormation            : false
+        disableLeafDecay               : false
+        disableGrassGrowth             : false
+        disableMyceliumSpread          : false
+        disableVineGrowth              : false
+        disableEndermanGriefing        : false
+        disableSnowmanTrails           : false
+        regionInvinciblityRemovesMobs  : false
+        disableDeathMessages           : false
+        disableObsidianGenerators      : false
+    Blacklist     :
+        State: DISABLED
+    Region manager:
+        Type             : com.sk89q.worldguard.protection.managers.PRTreeRegionManager
+        Number of regions: 0
+        Global region    :
+            Status: UNDEFINED
+world_the_end (0):
+    Information   :
+        Configuration file: C:\Users\come219\Desktop\Folder\Servers\Secret Server\plugins\WorldGuard\worlds\world_the_end\config.yml
+        Blacklist file    : C:\Users\come219\Desktop\Folder\Servers\Secret Server\plugins\WorldGuard\worlds\world_the_end\blacklist.txt
+        Regions file      : C:\Users\come219\Desktop\Folder\Servers\Secret Server\plugins\WorldGuard\worlds\world_the_end\regions.yml
+    Configuration :
+        CONFIG_HEADER                  : #
+# WorldGuard's world configuration file
+#
+# This is a world configuration file. Anything placed into here will only
+# affect this world. If you don't put anything in this file, then the
+# settings will be inherited from the main configuration file.
+#
+# If you see {} below, that means that there are NO entries in this file.
+# Remove the {} and add your own entries.
+#
+
+        summaryOnStart                 : true
+        opPermissions                  : true
+        fireSpreadDisableToggle        : false
+        itemDurability                 : true
+        simulateSponge                 : true
+        spongeRadius                   : 2
+        disableExpDrops                : false
+        blockPotions                   : []
+        blockPotionsAlways             : false
+        pumpkinScuba                   : false
+        redstoneSponges                : false
+        noPhysicsGravel                : false
+        noPhysicsSand                  : false
+        ropeLadders                    : false
+        allowPortalAnywhere            : false
+        preventWaterDamage             : []
+        blockLighter                   : false
+        disableFireSpread              : false
+        disableFireSpreadBlocks        : []
+        preventLavaFire                : true
+        allowedLavaSpreadOver          : []
+        blockTNTExplosions             : false
+        blockTNTBlockDamage            : false
+        blockCreeperExplosions         : false
+        blockCreeperBlockDamage        : false
+        blockWitherExplosions          : false
+        blockWitherBlockDamage         : false
+        blockWitherSkullExplosions     : false
+        blockWitherSkullBlockDamage    : false
+        blockEnderDragonBlockDamage    : false
+        blockEnderDragonPortalCreation : false
+        blockFireballExplosions        : false
+        blockFireballBlockDamage       : false
+        blockOtherExplosions           : false
+        blockEntityPaintingDestroy     : false
+        blockEntityItemFrameDestroy    : false
+        blockPluginSpawning            : true
+        blockGroundSlimes              : false
+        blockZombieDoorDestruction     : false
+        disableContactDamage           : false
+        disableFallDamage              : false
+        disableLavaDamage              : false
+        disableFireDamage              : false
+        disableLightningDamage         : false
+        disableDrowningDamage          : false
+        disableSuffocationDamage       : false
+        teleportOnSuffocation          : false
+        disableVoidDamage              : false
+        teleportOnVoid                 : false
+        disableExplosionDamage         : false
+        disableMobDamage               : false
+        useRegions                     : true
+        highFreqFlags                  : false
+        regionWand                     : 334
+        blockCreatureSpawn             : []
+        maxClaimVolume                 : 30000
+        claimOnlyInsideExistingRegions : false
+        maxRegionCountPerPlayer        : 7
+        antiWolfDumbness               : false
+        signChestProtection            : false
+        disableSignChestProtectionCheck: false
+        removeInfiniteStacks           : false
+        disableCreatureCropTrampling   : false
+        disablePlayerCropTrampling     : false
+        preventLightningFire           : false
+        disallowedLightningBlocks      : []
+        disableThunder                 : false
+        disableWeather                 : false
+        alwaysRaining                  : false
+        alwaysThundering               : false
+        disablePigZap                  : false
+        disableCreeperPower            : false
+        disableHealthRegain            : false
+        disableMushroomSpread          : false
+        disableIceMelting              : false
+        disableSnowMelting             : false
+        disableSnowFormation           : false
+        disableIceFormation            : false
+        disableLeafDecay               : false
+        disableGrassGrowth             : false
+        disableMyceliumSpread          : false
+        disableVineGrowth              : false
+        disableEndermanGriefing        : false
+        disableSnowmanTrails           : false
+        regionInvinciblityRemovesMobs  : false
+        disableDeathMessages           : false
+        disableObsidianGenerators      : false
+    Blacklist     :
+        State: DISABLED
+    Region manager:
+        Type             : com.sk89q.worldguard.protection.managers.PRTreeRegionManager
+        Number of regions: 0
+        Global region    :
+            Status: UNDEFINED
+KillGod (0)      :
+    Information   :
+        Configuration file: C:\Users\come219\Desktop\Folder\Servers\Secret Server\plugins\WorldGuard\worlds\KillGod\config.yml
+        Blacklist file    : C:\Users\come219\Desktop\Folder\Servers\Secret Server\plugins\WorldGuard\worlds\KillGod\blacklist.txt
+        Regions file      : C:\Users\come219\Desktop\Folder\Servers\Secret Server\plugins\WorldGuard\worlds\KillGod\regions.yml
+    Configuration :
+        CONFIG_HEADER                  : #
+# WorldGuard's world configuration file
+#
+# This is a world configuration file. Anything placed into here will only
+# affect this world. If you don't put anything in this file, then the
+# settings will be inherited from the main configuration file.
+#
+# If you see {} below, that means that there are NO entries in this file.
+# Remove the {} and add your own entries.
+#
+
+        summaryOnStart                 : true
+        opPermissions                  : true
+        fireSpreadDisableToggle        : false
+        itemDurability                 : true
+        simulateSponge                 : true
+        spongeRadius                   : 2
+        disableExpDrops                : false
+        blockPotions                   : []
+        blockPotionsAlways             : false
+        pumpkinScuba                   : false
+        redstoneSponges                : false
+        noPhysicsGravel                : false
+        noPhysicsSand                  : false
+        ropeLadders                    : false
+        allowPortalAnywhere            : false
+        preventWaterDamage             : []
+        blockLighter                   : false
+        disableFireSpread              : false
+        disableFireSpreadBlocks        : []
+        preventLavaFire                : true
+        allowedLavaSpreadOver          : []
+        blockTNTExplosions             : false
+        blockTNTBlockDamage            : false
+        blockCreeperExplosions         : false
+        blockCreeperBlockDamage        : false
+        blockWitherExplosions          : false
+        blockWitherBlockDamage         : false
+        blockWitherSkullExplosions     : false
+        blockWitherSkullBlockDamage    : false
+        blockEnderDragonBlockDamage    : false
+        blockEnderDragonPortalCreation : false
+        blockFireballExplosions        : false
+        blockFireballBlockDamage       : false
+        blockOtherExplosions           : false
+        blockEntityPaintingDestroy     : false
+        blockEntityItemFrameDestroy    : false
+        blockPluginSpawning            : true
+        blockGroundSlimes              : false
+        blockZombieDoorDestruction     : false
+        disableContactDamage           : false
+        disableFallDamage              : false
+        disableLavaDamage              : false
+        disableFireDamage              : false
+        disableLightningDamage         : false
+        disableDrowningDamage          : false
+        disableSuffocationDamage       : false
+        teleportOnSuffocation          : false
+        disableVoidDamage              : false
+        teleportOnVoid                 : false
+        disableExplosionDamage         : false
+        disableMobDamage               : false
+        useRegions                     : true
+        highFreqFlags                  : false
+        regionWand                     : 334
+        blockCreatureSpawn             : []
+        maxClaimVolume                 : 30000
+        claimOnlyInsideExistingRegions : false
+        maxRegionCountPerPlayer        : 7
+        antiWolfDumbness               : false
+        signChestProtection            : false
+        disableSignChestProtectionCheck: false
+        removeInfiniteStacks           : false
+        disableCreatureCropTrampling   : false
+        disablePlayerCropTrampling     : false
+        preventLightningFire           : false
+        disallowedLightningBlocks      : []
+        disableThunder                 : false
+        disableWeather                 : false
+        alwaysRaining                  : false
+        alwaysThundering               : false
+        disablePigZap                  : false
+        disableCreeperPower            : false
+        disableHealthRegain            : false
+        disableMushroomSpread          : false
+        disableIceMelting              : false
+        disableSnowMelting             : false
+        disableSnowFormation           : false
+        disableIceFormation            : false
+        disableLeafDecay               : false
+        disableGrassGrowth             : false
+        disableMyceliumSpread          : false
+        disableVineGrowth              : false
+        disableEndermanGriefing        : false
+        disableSnowmanTrails           : false
+        regionInvinciblityRemovesMobs  : false
+        disableDeathMessages           : false
+        disableObsidianGenerators      : false
+    Blacklist     :
+        State: DISABLED
+    Region manager:
+        Type             : com.sk89q.worldguard.protection.managers.PRTreeRegionManager
+        Number of regions: 0
+        Global region    :
+            Status: UNDEFINED
+
+-------------
+END OF REPORT
+

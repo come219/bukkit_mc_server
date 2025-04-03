@@ -1,0 +1,2368 @@
+# This is the global settings for all the worlds, if a world have his own settings file it will overwrite these settings for the world.
+
+# Creepers (mob)
+CreeperControl:
+    Enabled: true
+    DestroyWorld: false
+    EnableExplosionSound: true
+    EnableExplosionSmoke: true
+    CostumExplosionStrength:
+        Enabled: false
+        ExplosionStrength: 3
+    CustomExplosions:
+        Enabled: false
+        Throw:
+            Enabled: false
+            ThrowPlayers: true
+            ThrowMobs: true
+            ThrowSpeedMultiplier: 1
+        FlyingBlocks:
+            Enabled: false
+            Chance: 80
+    ExplosionRebuild:
+        Enabled: false
+        RebuildDelay: 60
+        RebuildBlockInterval: 1
+    Spawning:
+        CanSpawnByBreeding: true
+        CanSpawnWithWorldGeneration: true
+        CanSpawnCustom: true
+        CanSpawnNaturally: true
+        CanSpawnFromSpawner: true
+        CanSpawnFromSpawnerEgg: true
+        CanSpawnFromOther: true
+    SpawningPotionEffects:
+        Enabled: false
+        Effects: {}
+    CustomHealth:
+        Enabled: false
+        MinHealth: 20
+        MaxHealth: 20
+    CustomEquipment:
+        Enabled: false
+        EquipmentSets: {}
+    CustomDrops:
+        Enabled: false
+        OverwriteDefaultDrops: false
+        XP:
+            Enabled: false
+            DropXP: true
+            DropChance: 100
+            Multiplier: 1
+        Skull:
+            Enabled: false
+            AddToInventory: true
+            Chance: 1
+            Amount: 1
+    Reviving:
+        Enabled: false
+        Chance: 25
+        Radius: 0
+        MinDelay: 0
+        MaxDelay: 1.5
+        RememberTarget: true
+        Reviver:
+            Enabled: false
+            MaxDistance: 16
+            BroadcastRevive: true
+            BroadcastRadius: 25
+    Despawning:
+        Enabled: false
+        DespawnWhenFarAway: true
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    CanDrown: true
+    AlwaysPowered: false
+    ExplodeOnDeath: false
+    CanPickupItems: false
+    CanTargetPlayer: true
+    CanTargetMob: true
+    DamagePlayers: true
+    DamageMobs: true
+    PoweredByLightning: true
+    Effects:
+        Enabled: false
+        Triggers: {}
+    Locations: {}
+    States: {}
+
+# Bat (mob)
+BatControl:
+    Enabled: false
+    Spawning:
+        CanSpawnByBreeding: true
+        CanSpawnWithWorldGeneration: true
+        CanSpawnCustom: true
+        CanSpawnNaturally: true
+        CanSpawnFromSpawner: true
+        CanSpawnFromSpawnerEgg: true
+        CanSpawnFromOther: true
+    SpawningPotionEffects:
+        Enabled: false
+        Effects: {}
+    CustomHealth:
+        Enabled: false
+        MinHealth: 6
+        MaxHealth: 6
+    CustomEquipment:
+        Enabled: false
+        EquipmentSets: {}
+    CustomDrops:
+        Enabled: false
+        OverwriteDefaultDrops: false
+        XP:
+            Enabled: false
+            DropXP: true
+            DropChance: 100
+            Multiplier: 1
+    Reviving:
+        Enabled: false
+        Chance: 25
+        Radius: 0
+        MinDelay: 0
+        MaxDelay: 1.5
+        RememberTarget: true
+        Reviver:
+            Enabled: false
+            MaxDistance: 16
+            BroadcastRevive: true
+            BroadcastRadius: 25
+    Despawning:
+        Enabled: false
+        DespawnWhenFarAway: true
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    CanDrown: true
+    CanPickupItems: false
+    CanTargetPlayer: true
+    CanTargetMob: true
+    Effects:
+        Enabled: false
+        Triggers: {}
+    Locations: {}
+
+# Blazes (mob)
+BlazeControl:
+    Enabled: false
+    Spawning:
+        CanSpawnByBreeding: true
+        CanSpawnWithWorldGeneration: true
+        CanSpawnCustom: true
+        CanSpawnNaturally: true
+        CanSpawnFromSpawner: true
+        CanSpawnFromSpawnerEgg: true
+        CanSpawnFromOther: true
+    SpawningPotionEffects:
+        Enabled: false
+        Effects: {}
+    CustomHealth:
+        Enabled: false
+        MinHealth: 20
+        MaxHealth: 20
+    CustomEquipment:
+        Enabled: false
+        EquipmentSets: {}
+    CustomDrops:
+        Enabled: false
+        OverwriteDefaultDrops: false
+        XP:
+            Enabled: false
+            DropXP: true
+            DropChance: 100
+            Multiplier: 1
+    Reviving:
+        Enabled: false
+        Chance: 25
+        Radius: 0
+        MinDelay: 0
+        MaxDelay: 1.5
+        RememberTarget: true
+        Reviver:
+            Enabled: false
+            MaxDistance: 16
+            BroadcastRevive: true
+            BroadcastRadius: 25
+    Despawning:
+        Enabled: false
+        DespawnWhenFarAway: true
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    CanDrown: true
+    CanLaunchProjectile: true
+    CanPickupItems: false
+    CanTargetPlayer: true
+    CanTargetMob: true
+    DamagePlayers: true
+    DamageMobs: true
+    Effects:
+        Enabled: false
+        Triggers: {}
+    Locations: {}
+
+# Cave Spiders (mob)
+CaveSpiderControl:
+    Enabled: false
+    Spawning:
+        CanSpawnByBreeding: true
+        CanSpawnWithWorldGeneration: true
+        CanSpawnCustom: true
+        CanSpawnNaturally: true
+        CanSpawnFromSpawner: true
+        CanSpawnFromSpawnerEgg: true
+        CanSpawnFromOther: true
+    SpawningPotionEffects:
+        Enabled: false
+        Effects: {}
+    CustomHealth:
+        Enabled: false
+        MinHealth: 12
+        MaxHealth: 12
+    CustomEquipment:
+        Enabled: false
+        EquipmentSets: {}
+    CustomDrops:
+        Enabled: false
+        OverwriteDefaultDrops: false
+        XP:
+            Enabled: false
+            DropXP: true
+            DropChance: 100
+            Multiplier: 1
+    Reviving:
+        Enabled: false
+        Chance: 25
+        Radius: 0
+        MinDelay: 0
+        MaxDelay: 1.5
+        RememberTarget: true
+        Reviver:
+            Enabled: false
+            MaxDistance: 16
+            BroadcastRevive: true
+            BroadcastRadius: 25
+    Despawning:
+        Enabled: false
+        DespawnWhenFarAway: true
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    CanDrown: true
+    CanPickupItems: false
+    CanTargetPlayer: true
+    CanTargetMob: true
+    DamagePlayers: true
+    DamageMobs: true
+    Effects:
+        Enabled: false
+        Triggers: {}
+    Locations: {}
+
+# Chickens (mob)
+ChickenControl:
+    Enabled: false
+    Spawning:
+        CanSpawnByBreeding: true
+        CanSpawnWithWorldGeneration: true
+        CanSpawnCustom: true
+        CanSpawnFromEgg: true
+        CanSpawnNaturally: true
+        CanSpawnFromSpawner: true
+        CanSpawnFromSpawnerEgg: true
+        CanSpawnFromOther: true
+    SpawningPotionEffects:
+        Enabled: false
+        Effects: {}
+    CustomAge:
+        Enabled: false
+        Age:
+            Enabled: false
+            MinAge: 1
+            MaxAge: 1
+            AgeLock: false
+        Baby:
+            Enabled: true
+            SpawnAsBaby: true
+            SpawnAsBabyChance: 50
+    CustomHealth:
+        Enabled: false
+        MinHealth: 4
+        MaxHealth: 4
+    CustomEquipment:
+        Enabled: false
+        EquipmentSets: {}
+    CustomDrops:
+        Enabled: false
+        OverwriteDefaultDrops: false
+        XP:
+            Enabled: false
+            DropXP: true
+            DropChance: 100
+            Multiplier: 1
+    Reviving:
+        Enabled: false
+        Chance: 25
+        Radius: 0
+        MinDelay: 0
+        MaxDelay: 1.5
+        RememberTarget: true
+        Reviver:
+            Enabled: false
+            MaxDistance: 16
+            BroadcastRevive: true
+            BroadcastRadius: 25
+    Despawning:
+        Enabled: false
+        DespawnWhenFarAway: true
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    CanDrown: true
+    CanPickupItems: false
+    CanTargetPlayer: true
+    CanTargetMob: true
+    Effects:
+        Enabled: false
+        Triggers: {}
+    Locations: {}
+
+# Cows (mob)
+CowControl:
+    Enabled: false
+    Spawning:
+        CanSpawnByBreeding: true
+        CanSpawnWithWorldGeneration: true
+        CanSpawnCustom: true
+        CanSpawnNaturally: true
+        CanSpawnFromSpawner: true
+        CanSpawnFromSpawnerEgg: true
+        CanSpawnFromOther: true
+    SpawningPotionEffects:
+        Enabled: false
+        Effects: {}
+    CustomAge:
+        Enabled: false
+        Age:
+            Enabled: false
+            MinAge: 1
+            MaxAge: 1
+            AgeLock: false
+        Baby:
+            Enabled: true
+            SpawnAsBaby: true
+            SpawnAsBabyChance: 50
+    CustomHealth:
+        Enabled: false
+        MinHealth: 10
+        MaxHealth: 10
+    CustomEquipment:
+        Enabled: false
+        EquipmentSets: {}
+    CustomDrops:
+        Enabled: false
+        OverwriteDefaultDrops: false
+        XP:
+            Enabled: false
+            DropXP: true
+            DropChance: 100
+            Multiplier: 1
+    Reviving:
+        Enabled: false
+        Chance: 25
+        Radius: 0
+        MinDelay: 0
+        MaxDelay: 1.5
+        RememberTarget: true
+        Reviver:
+            Enabled: false
+            MaxDistance: 16
+            BroadcastRevive: true
+            BroadcastRadius: 25
+    Despawning:
+        Enabled: false
+        DespawnWhenFarAway: true
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    CanDrown: true
+    CanPickupItems: false
+    CanTargetPlayer: true
+    CanTargetMob: true
+    Effects:
+        Enabled: false
+        Triggers: {}
+    Locations: {}
+
+# Ender Crystal (entity)
+EnderCrystalControl:
+    Enabled: false
+    DestroyWorld: true
+    EnableExplosionSound: true
+    EnableExplosionSmoke: true
+    CostumExplosionStrength:
+        Enabled: false
+        ExplosionStrength: 3
+    CustomExplosions:
+        Enabled: false
+        Throw:
+            Enabled: false
+            ThrowPlayers: true
+            ThrowMobs: true
+            ThrowSpeedMultiplier: 1
+        FlyingBlocks:
+            Enabled: false
+            Chance: 80
+    ExplosionRebuild:
+        Enabled: false
+        RebuildDelay: 60
+        RebuildBlockInterval: 1
+    DamagePlayers: true
+    DamageMobs: true
+    Effects:
+        Enabled: false
+        Triggers: {}
+    Locations: {}
+    States: {}
+
+# EnderDragon (mob)
+EnderDragonControl:
+    Enabled: true
+    DestroyWorld: false
+    EnableExplosionSound: true
+    EnableExplosionSmoke: true
+    CostumExplosionStrength:
+        Enabled: false
+        ExplosionStrength: 2
+    CustomExplosions:
+        Enabled: false
+        Throw:
+            Enabled: false
+            ThrowPlayers: true
+            ThrowMobs: true
+            ThrowSpeedMultiplier: 1
+        FlyingBlocks:
+            Enabled: false
+            Chance: 80
+    ExplosionRebuild:
+        Enabled: false
+        RebuildDelay: 60
+        RebuildBlockInterval: 1
+    Spawning:
+        CanSpawnByBreeding: true
+        CanSpawnWithWorldGeneration: true
+        CanSpawnCustom: true
+        CanSpawnNaturally: true
+        CanSpawnFromSpawner: true
+        CanSpawnFromSpawnerEgg: true
+        CanSpawnFromOther: true
+    SpawningPotionEffects:
+        Enabled: false
+        Effects: {}
+    CustomHealth:
+        Enabled: false
+        MinHealth: 200
+        MaxHealth: 200
+    CustomEquipment:
+        Enabled: false
+        EquipmentSets: {}
+    CustomDrops:
+        Enabled: false
+        OverwriteDefaultDrops: false
+        XP:
+            Enabled: false
+            DropXP: true
+            DropChance: 100
+            Multiplier: 1
+    Reviving:
+        Enabled: false
+        Chance: 25
+        Radius: 0
+        MinDelay: 0
+        MaxDelay: 1.5
+        RememberTarget: true
+        Reviver:
+            Enabled: false
+            MaxDistance: 16
+            BroadcastRevive: true
+            BroadcastRadius: 25
+    Despawning:
+        Enabled: false
+        DespawnWhenFarAway: false
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    CanDrown: true
+    CanPickupItems: false
+    CanTargetPlayer: true
+    CanTargetMob: true
+    DamagePlayers: true
+    DamageMobs: true
+    Effects:
+        Enabled: false
+        Triggers: {}
+    Locations: {}
+
+# Enderman (mob)
+EndermanControl:
+    Enabled: false
+    CanPlaceBlock: false
+    CanPickupBlock: false
+    # If an endermen wants to pickup a block, and he can't, don't break the block but the endermen get a clone of that block in his hands
+    CanCloneBlock: true
+    # If an endermen wants to place a block, and he can't, don't place anything but remove the holding block out of his hands
+    ClearHandsOnPlace: true
+    DestructionRebuild:
+        Enabled: false
+        RebuildDelay: 60
+    Spawning:
+        CanSpawnByBreeding: true
+        CanSpawnWithWorldGeneration: true
+        CanSpawnCustom: true
+        CanSpawnNaturally: true
+        CanSpawnFromSpawner: true
+        CanSpawnFromSpawnerEgg: true
+        CanSpawnFromOther: true
+    SpawningPotionEffects:
+        Enabled: false
+        Effects: {}
+    CustomHealth:
+        Enabled: false
+        MinHealth: 40
+        MaxHealth: 40
+    CustomEquipment:
+        Enabled: false
+        EquipmentSets: {}
+    CustomDrops:
+        Enabled: false
+        OverwriteDefaultDrops: false
+        DropItemOnDeath: false
+        XP:
+            Enabled: false
+            DropXP: true
+            DropChance: 100
+            Multiplier: 1
+    Reviving:
+        Enabled: false
+        Chance: 25
+        Radius: 0
+        MinDelay: 0
+        MaxDelay: 1.5
+        RememberTarget: true
+        Reviver:
+            Enabled: false
+            MaxDistance: 16
+            BroadcastRevive: true
+            BroadcastRadius: 25
+    Despawning:
+        Enabled: false
+        DespawnWhenFarAway: true
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    CanDrown: true
+    CanTeleport: true
+    CanPickupItems: false
+    CanTargetPlayer: true
+    CanTargetMob: true
+    DamagePlayers: true
+    DamageMobs: true
+    Effects:
+        Enabled: false
+        Triggers: {}
+    Locations: {}
+
+# Ghasts (mob)
+GhastControl:
+    Enabled: false
+    Spawning:
+        CanSpawnByBreeding: true
+        CanSpawnWithWorldGeneration: true
+        CanSpawnCustom: true
+        CanSpawnNaturally: true
+        CanSpawnFromSpawner: true
+        CanSpawnFromSpawnerEgg: true
+        CanSpawnFromOther: true
+    SpawningPotionEffects:
+        Enabled: false
+        Effects: {}
+    CustomHealth:
+        Enabled: false
+        MinHealth: 10
+        MaxHealth: 10
+    CustomEquipment:
+        Enabled: false
+        EquipmentSets: {}
+    CustomDrops:
+        Enabled: false
+        OverwriteDefaultDrops: false
+        XP:
+            Enabled: false
+            DropXP: true
+            DropChance: 100
+            Multiplier: 1
+    Reviving:
+        Enabled: false
+        Chance: 25
+        Radius: 0
+        MinDelay: 0
+        MaxDelay: 1.5
+        RememberTarget: true
+        Reviver:
+            Enabled: false
+            MaxDistance: 16
+            BroadcastRevive: true
+            BroadcastRadius: 25
+    Despawning:
+        Enabled: false
+        DespawnWhenFarAway: true
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    CanDrown: true
+    CanLaunchProjectile: true
+    CanPickupItems: false
+    CanTargetPlayer: true
+    CanTargetMob: true
+    DamagePlayers: true
+    DamageMobs: true
+    Effects:
+        Enabled: false
+        Triggers: {}
+    Locations: {}
+
+# Giants (mob)
+GiantControl:
+    Enabled: false
+    Spawning:
+        CanSpawnByBreeding: true
+        CanSpawnWithWorldGeneration: true
+    !   KanSpa{nCustom: true	
+       0Ce~SpawnNavurally: tbue
+   $   !CanSpaw~GbomSpcwfer: true
+ $(     CanSpAwn∆romCpawnarGgÁ:!true
+®       CanS`awnfpomOtheÚ: true
+    Wpa7nÈnfPotionEdÊects>J †   "  ≈hcbled: false
+ † "    EfÊects: {}*    √ıs|omHea|th:
+        Enabled> faLse
+  $     MinHealth: ±00
+  "     MaxHealth: 110
+  `!CustomEquapiÂnt:â
+0 ! %   Enabne`:$f`lse
+ $     $EquipmentSeps: {}ç
+    AustkmDropÛ?	
+ (   !  Enablad: false
+ †      OverwriteDÂfaultDrops: valse
+0 "     XP;
+  Ä  †     †EnabLed: f!Ïse
+  † $ !  0  DropXP: tÚue   (      " DropCh!n#e* 100
+          "Multi`lier 1
+    eviving:	
+        Eneb|ed:!falcd  $     Bhance: 2=
+      ! radius> 0
+`  b    MinDela{8 0
+        Ma|dmlAy: 1.5
+!   †   Rmm%mberTarÁev* True"       Re~yver2
+`0 !    †   Enablmd:(fa,ru* !  !    !  EA|DiStance: 16$ !   !     BroadcastRevive: tzue.      †     BroadcastVadius: 2uM
+  ($DEspavnkng:     !  EnableD: false
+        Desp!wfWhejFarAway: prue
+ †  Port`lk:
+$       En·bled: falsm
+  $ "   CanTeLEpn2tThbt%hNetherPost!|: pbueJ       !CanTeleportThrowghUndPortalz trud
+   0   (RelmmbeRVelociTy: true
+    CanDrÔwn8†|rue
+    CanPickppIttis:(&e|se
+ (  CanTyrgetPlayer: true
+    CanTargltMob> true
+    D!magePlay%rs: true
+    damcgmEobs; true"  †E&fects:Ç       "Elabled2 $alse
+  " !   Trigeer{: {}
+    Locationw; {}
+
+# Iron0Glolems (mob)
+IronGolemCnvrol:
+    Enafled: galse
+  ! Spawning:   "    CanSpawnByBsuedkne; trud
+   †    CafSpawnWhunCuild: trueJ    !  "CanSp`wnWith_rldGeleatkon: tree
+    "   CanStawfcustoe: 4zue
+        CanSpawnNavural|y* true
+        C·nSpawnFrgmSpawner: tree
+  "     c!nSqawnFrmSqawngrmgg: tr}a  †     √a~SqawnForvkllageDeˆence; urue
+       (CanSq`wJFrmOth'r: true
+    Spa˜ninwRot)onEffeats:
+  !` `  En`bled: f!lse
+        EffacTs; ;}
+  " Cu{tmm@Ealdh:
+  $     En!cled: falsa
+$`    0 MinHealth: 100
+        MaxHealtj:‡100
+    CUstomEquipmEnt:
+        En„bled: fadse        GquipmÁotSetsz ?˝
+    CısÙomdrÏpw∫
+        Enable‰> false  `   "†Overwzite@efau|tDbops: faLse °!    †xP:  (      $  Enabled: faÏse
+      "  $  DbopXP: true            DroqChaoae: 100
+            Mul4ipLier:"1
+$   RaviV)ne:
+  !     Ena‚lg`: falseä        ChaJcd:(≤5
+` †     RadiUs: 0
+ †      MinLdmay: 0
+‡      MaxDelay: 1>5
+ (      ReimmbarT!rget: true
+ †  "   Zeviver:
+         `  Enabled:(f`lseJ            MaxDistc.cE: 96
+     (  ¢   BroadcactVevi6e8 true
+    "      RroacasdRaeius825
+  " De˚tawning:
+ "    " Enabled: da|sa*$ $     Desp`w,WËenFi2Aw`9: true
+ !  Pkrtals:
+        Gnafled: &Alsa
+ !      CaNTel%`ortThrmugiNepheÚ@or|kl: tred
+   $†   CanTeleportThpouÁhElfrt·l: true
+  0    !RemembgrVe,Ocity: true*    CanErowj: t2u%ä    CanPic;upItemc∫ falseç
+    CaÓ‘argEtPliyer: trqe
+    CinTerwetMob: truu   (DamAgePlayers8$drue
+    DamaceIobr: |rue
+ `  Effects:
+   8   0Gnablef: fulse
+      † Triggersz {}	
+"0  Locations: k}
+
+# Macma Cubes†(mob)
+LagmaAqbe√ontr/l: (" EnAbled: false
+    SpAwnkng:
+     8! BtstÔmS-ze:
+  !         EncÊl%d: false*            MijSi˙e:01     ( 0    MczSyze∫ 4
+   0    CanS0anByFred‰ijg: drue
+( 4 (   CanRpawnWithWorldFenaration: prue	
+      0 CanSpcwjCustom: trueä        CanSpawnJatur`lly: true
+        CanS¯awnNroeRlimaSp‰it: trud*        Cc~Spaw^FromSpcw.er trte-  `     CanSpawnFrgmSqawner≈gd:0urue
+    "  "CanSpawnFrmOther: t2ue
+ $  SpawningPotionEffects:   0 0  Enabled: false	
+        EffegtS: {}
+(  CustoMHe!lth
+(`!   ( ENabÏed: fclÛe
+† †     Mmn»%alth 16
+   "  † M·xPe·lth: 16ç
+    customEquiQment:       !Enabled: Va|se
+        UquipientSets:!{}
+    CustmmDropr:
+  ( $   Efebled: false
+        OferwritaDefaulÙDbops: fdlge
+    !   XP:
+    "    ` !En„blmd: fanre     !  "($!DsopXP:"trÂe-
+ 0        ! DrˇpChancm∫ 100;†   "   Ä""0Mul4iplier: 19
+  !$avkvkn':
+  ` $   Enablud: faLse
+  !    0Chanc%: 35
+d  2(  $Radiusz 0M
+  (   ( Mindelay: 0
+      ` MaxDelay: 1.5
+!       Rem%mberTarget: trua
+      " Reviwez:
+        h0  Enabled; Êalse
+       "   !MaxDistanae: 16        0 " BroadcastReVave: true   `        Brmaecaqt” ‰iu3∫ 25
+    Despa7ling
+        E~Ab<ed: fahsq        DewpawnWhenFarAway:†tr5e
+    Portals:
+0 `     Enabled: fqÏs%!$     $C·nel%pmRtThrOu'hNmtherPortal: tRue
+† "  "  C!.a,epOvpT@ro}ghEntPostal: |rue
+"       ReaemberVelnbivy2 trte
+  `$Cus4om@xplÔsions:
+        Enablee8 f!lse
+  (     Flyincb,Ôcks:
+  $   !!  ( Enabled: velse
+    8     ` CËance: 88
+    C!nDrown{ tr5ej   !SqlitIntoqtqmAmounÙ:   `  " nabled: false
+†    ¢  Spdit≈ntoMmn: 3
+     $  SxlitIntoMax:†4    CanSp,id: 2ue
+ !  CanPhc{upipems8 falsE*    AajT!rgetPlaier: trugJ    CanTasgetMoc2 tpue
+    DamagePmiyers: true
+   Da}!geMobs> trueä    Effects:
+        Enabled:(balse
+    `0  ‘r…ggmRs: }-ä   !locaTio|s: {}+ MoosHRogms (mob)
+MushromÌCo7ContrOL:
+   "Ejabled: l°hse
+    SpawninG:
+     (  Cc.spaWnByBreedang: true	
+     a  CenSpauÓWhthWorldEeneratÈkn: truaM
+        CanpawnGustom: true
+  `     CanCpawnNaturally: true
+†       CanStawlFroi”pawn%r: true
+ $   †$ CanSpawnFrolSpawnErEgg: tbte
+(       GanSpawnFsomOthe22 twteç    SpawninfPotionEFfek|s:
+    *   Anabled8 fal˚e
+$       Effecs:({=
+  † Cusv/mAge∫
+0       Enable`2"falsÂ
+        Age:
+(†  `   †   GÓabled8 falseJ§  ($       M)nge2!3
+0  "  ! " " MAxAge: 1
+     0  $  !AgeLÔck: false
+        Jabyz    `    $ Enabled: True*            spawnAsBaby: tÚueM
+    $   $   sAwnA1CabyChance:†58
+    GustmmHEalti:J    !†$ M.abled:`fqhse
+    $   MIjHee|th:‡10    †   MaxlealtH:$54
+    CıstomEqeiPmeÓv8J( 0 l   enarlef* falseJ    "   CpuitmmntSets: ;}â
+    CtstmDrops:	
+     `  En·bÏed: false
+        OverwviteDef`ultDPops: fanse
+  0 (   XP:
+    `!      Mnabled: f·lse
+       $   ÇDpoxXP: ~bue
+ ""      ( 0DropC(ance:†104
+$† °        MultipjiÂr: 1 !  revi~ang:
+ $"    §Efabmed2 nanse
+     `  ChCnse: 25
+        Radius: 0
+     ` †EinDel·y: p
+        MaxDelax: 1.5 "(   ( PememÍesTar'et:`|rue
+ ` `@   Peviter>
+    20      Ej„bluD8 Fclse
+ ! †        MaxDyÛtcnce> 16*        "(  CpoadCcstRewive: trtÂ   ""   †   BradcaÛ4Radius: 25
+$   DÂsqawning*	
+      ` Enqbled: falseJ        DespawnGhenFarAsqy> true
+  ` Po2talq:
+        EnAbled; false
+        CaoTgleporvTËroughNet`ecXortAn true	
+$       CanTeleportThpougjmndP/Rtal: true	
+  $   ( Renemb%vvelocity: Ùsue
+!  (C·nDrown: 4r5e
+   !C`nPiaktpItemq: &al3e
+ "  CanTqsgeÙPhayep: Ùrue
+   "CanDergotMkb∏"tsug≠
+    effects:*    !   EnqblÂl:0felse
+     (  Triggers:!{}
+†   \ocatioNs: {}
+
+# Ncelo|s0and catÛ((mob9
+Ocelct√ontrol:
+0   EnableD:†falÛ% "  SPawninw:
+`†" 0   C!nCpawnBqBreedang: tÚue     ((‡CcnSpa7nWithWOrndGe~eratÈon: truE
+   $(  (CAnSpawnCuqTom: $rue
+ 0 (  0 ¡anStagnNAturadly: urue
+        CanSpawnFromSpaWner:(true        CAlSpawnFromSpa˜neregg: true
+† 0     C·nCpawnF2cmOther> tbue∞   SxawoingPmpionEffe#vs:
+        Enabled: felre
+ "      ffects:0{}    CustooAge:
+      ! Gnabled: va,se
+        Age(
+  8     (`  Enabldd: false
+   0 †*  †# IinAge∏ 1
+   †  !     OaxAge 1
+!†    0"    aceLock: false
+¢    h  Babx:
+      ` (! Enabled: true
+         "  SpawnAsBaby: t25e
+      †(    SawNAsFabYChance; 50
+ %  CustoÈHealÙ`:
+ ` $    Enabled: falce
+*       MinHÂalth: 1p
+        ]axHeqÏth: 10
+ $  Cucto}EQuipmmNt8
+    0   Efab|ed: fa|se
+   (  ! EquÈqmentSets2!{}
+   !custgMDrops:
+ 0" $`  Enibled: vahseJ        OverwriteDefaultFsops:0falSe
+        PP:ç
+            Enabhed: fqlce
+!       ((  TqopYP: truÂ
+ †          DropChance: 10 
+    0  "    Multiplier: 1ä b$ VevIvi~g:
+      0 Enabl%d: &alse
+      ` √haoce∫ 05
+  †"   †Radius: 0
+        MinDelay: 0
+        MaxDelay: 1.5
+        RememberTarget: true
+        Reviver:
+            Enabled: false
+            MaxDistance: 16
+            BroadcastRevive: true
+            BroadcastRadius: 25
+    Despawning:
+        Enabled: false
+        DespawnWhenFarAway: true
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    CanDrown: true
+    CanBeTamed: true
+    CanPickupItems: false
+    CanTargetPlayer: true
+    CanTargetMob: true
+    DamagePlayers: true
+    DamageMobs: true
+    Effects:
+        Enabled: false
+        Triggers: {}
+    Locations: {}
+
+# Pigs (mob)
+PigControl:
+    Enabled: false
+    Spawning:
+        CanSpawnByBreeding: true
+        CanSpawnWithWorldGeneration: true
+        CanSpawnCustom: true
+        CanSpawnNaturally: true
+        CanSpawnFromSpawner: true
+        CanSpawnFromSpawnerEgg: true
+        CanSpawnFromOther: true
+    SpawningPouionEbfects:
+        EÓabld‰∫ falseè
+Ä       Ebfectr∫ {}*    CuÛtomAge:
+@(   °  Eneblef2 falÛg
+       !¡gE:-
+     &      Enablud: &alsa
+"      0  $ MifEge:01
+            axAge:!±
+       `    AbmMoco: f`lse
+  ( !0  ¬aby:  $         En·bÏed: t`ue
+    $  !p   [pawnAsJabi: vrue
+†!     0    SpawnQsBabYAha>ae8°50
+    Customhealth:ù
+$    (  n!blÂd: fclse
+        ManHealdh: 10
+    `   MaxHgalTh: 10
+    CustoeEquipmelt:  `    $Enable‰* false
+   "0 † quipmqnvSets: ˚}
+    CUsTomDRops:
+  0"    EnableD: falseM
+`   $!  M~e2wr·teDefaultDrops2 Falqg        XP:
+  !!  $     E~aBled: fa,se "(         DropYP: true
+            DropCËance: 1(0*      $     Õ}ltiplier: 1	
+    eviv!ng:* "$  "" En·blme: falwgä        Chan„ez "5
+  $   ° Radius:†0
+    (!" MinEelcy∫ 0
+  00"   MaxDelay: 1.5  †   " RemembgrTapGet:$vrue      ! Revkv%r*
+           (EnabÏdf: falwe
+   0  !     MayDistanca: 16
+        $   Bro·dcAstRerive: true
+  !      $( Brgadca{tadius: 2w
+  ( DespanifÁz
+  !     EÓabldd: f`lse
+   !    @%spawnWhe,FarAWay:04rue
+ 0  PoRtals:
+        E.abled: falwe
+    †  ChkTemeportthroughNmÙherPoFtal: true
+   `    Aa,TelepÔz4ThrtghEjdPortal: t2ue	
+ !    ° RememberVelocit˘2 true
+ "  CaÓDrowN: True
+  " CanPÈckqpItems: dalsh  ` CaÓTarG%tPla}ep:`true
+    CanT·rgevMob: Ùrue    Turn…ntoPIeZombieOnLightning: tr5Eç
+    Dgfects:*     †  Eoa‚leD: fal{e
+        Triggers: {}    LOcitions: {y
+
+# Zombie Pigmans (mobi
+XigZombiecgntrol:
+    Ena"led:0false
+  ` Sp%wning:
+        PigZombieType:
+ (!  ( `    Anabled: felse       0    VillagarPigZombÈeCxange:(2
+    0   CinSpawnByBreedang: 4rue
+`     †$CaoSÚawfWip(WnrldGeneratio&: tsua	
+ 0      SanSpavnCustol: true
+   0 0  CanSpawnro}LighÙning : trug
+  "! 0 `CansdawnNieur`lly: True
+  "     CenSpaw.Fr/m[0·wJep: trıÂ        CaoSpcwnFrkmSpawnurEgg" tzue
+   `!   CanS`awnrooKther: tbue
+    SpawnilcPtionEffects:
+"       Enabled: dalse
+0    $  DfectS8 }    √˜rto}Age:    `   EnabLed: falsa
+        Baby:
+        ¢   Enabled: trUe
+$ "  ! $ 0  Spa˜nAsBab˘:(tzu`*           †SpgwnASBabyChance:(50
+  ∞ CustooHealph∫
+ "      Enabled8 false
+  "     Ii~Healph* 20ä        M!xHe°lth: 20
+    CuwvomEquipmmnt:        anablad: false
+  (†    EauipmGotSets:°;}    Cq3tomDrops:ç
+        gnabled: felseM
+   † $  Ov}rwvitmDefaultDzops: false
+ (      XP:
+           "Enablee: false
+"" 0    "   DropXD: True
+    "     ! DropCh`n+e: 100
+            EultitliGr> 1
+    Rmviving2M    !   EnabLed: falsa
+        C(ance; 25"   $    RaLius: 0
+     "  MijDe,ey: p    $   Mc|Delay: 1*5
+     ` pRememburTar'et true
+ 0 0    Revivdr:
+   0       En·bled∫ ÊaLse
+      " $   MaxDiat·Óce: µ6
+      ( "( (BroadcaqtRevi6e: tRue            ¬roadcast–adius: 25
+    DeqpiwniNg:      ( Enabled:"faÏse
+(  (§"  EespawnWheÓFarA7ay: t2ue
+    p/rtals2
+        En·bled: Êalse !   `  CanTelepﬂrtThroughNeuierRor|al: t2ue
+        Can\eheportThÚoughWndPoRtax: tzue
+     ! 0emembdpVelocitY: true
+  ((CcnDrwn: trwe    CanPiccupItems: tpue
+    AlwaysAogry: false
+ $  BanargetPla9er: Ùrua
+    CemTargetMob: tbue
+    DamagePlayerq: tÛue*   )DamageMobs:$vr5eK0   Effe#ts:
+      $ EnAbled2 false        Tpiggeps:"y}J †  Lo„ations: {}
+
+#0–layer ®tl·9eZ)PlaserCo.trol:
+ $  EnCbled> nalse
+    DamAgePlayers:$tRue
+`0 !LadageEob{: urueà   0C`nCreateNetherPortal: urqe  0"CanCreeteEndPoÚtal: tÚu%
+†   CanCreapEOtherPorta,: true
+ 0  CaoDrow~: trueM
+  (†San@icoupITmMs:!true
+    CanStrhntz"trUe
+    CanSneaj: tRue
+   !Foo‰Meterz
+0       CanAncredse:0tpUe
+        CanD%crease: true
+ i  S}s\omLealth:
+      4$Enabdef(0dalsu
+†    †  MinHealtl: 20
+        MaxHealtH:(30
+    CtqdomDrops:        Enabled: f`lse
+      `†Ovdr˜yiteDefauntLrops: false `     8XP: †   †      En·fle$; falSe
+      $ 4   √eepLeve|: false
+           KeapXP: false
+        $   DroPXP: true     † 0!   ƒropCh·nce: 100  !`†     " Multiplier8†1(   `   Siull:*    $  $    Enab|ee: dalse
+       `$   AddToIÓv%ntsy: tpue
+   "        Chancd> 4Ö
+       †  † AEount: 1
+0           Play%rHe`d: true
+  ® Portals:
+        Enablet: fqlse
+     ! !CanTelepmrtThroughNetherPoz4al: tRue
+ 0  (†  CalDeLePortThroughEn ortal: true    "   RemembeRVelÔcity: 4rue*    Effe#ts>
+ 0      Gn·bled: false	
+   (0 ( Tricgers:${}    LocavionS {}
+
+# Shee`s (iob+
+ShgepSontrol:
+  † Enajlad: falqe
+  † Spiwning∫
+   0    CanS`awnByBReedine* ÙZue
+      " CanSpAUnWithWorldWeneration: tSue
+ 0      CanSpawnCustoÌ: trte	
+  !†    CanSpegNOaturally: tÚue
+      " CanSpawlDfompawneR: true     †  CanS0awnFrom”cSnerEgg;"true	
+   t    CanSpaen∆r/mOtËer: tsuÂ
+  ` RpcwningPotionEdfecds2â
+       (Enabled: faL3e
+        EffeCts: {|   †CustomAge:
+  !  (  Enabletz falÛeç
+        Age:
+`†    (   `(Enabled: False
+ †         mmmAge: 1
+ `   !      ÕaxAge: 1     $      AÁeLock: falrÂ
+    †   Baby:0 $      0 En!bmed: urue
+            SqewnAsBaby:†true
+`         ( StawnAsB!byChance( =0
+    CustomHeal4h:
+ p (    enabled:ÄfAl3eJ0 ! !  0]inHealth: :
+    !  !axHualth: 8
+    Cus|omEqtipmeft:
+ `      EnablMd∫ fadse    ` !"A1uipmeÓtSets: {}!"  CustmmDrops:
+        Enabled: FadseJ        OveRwriteEefaeltDropr:!f·lse
+  $  (  XP:
+            n!ble`: fahse	
+    0       DropXP> tr˝e	
+     (      DrorChcnce: 1∞0
+ " `        MTh4)phier:"1
+  $( $  DbopWOolOnHit:
+    $  †   †Gnablee: false*        " 0 DropChance:(100
+     $$     inWoÔl: 1
+ ††    "    MaxWool: 1
+  !    0   `RandomCol/c: falSe
+   0Reviving:	
+    `   Enabled∫ valse
+ `      Chance: 25
+"" `    Rsdius: 0p       Minƒelay: 0
+     !$ MaxLelay801&5 ` $  ( “ememjerTarget: true
+†  0    Zeviverä           "Enablad: falsd	
+      (  !  MaxD+stance: 1v
+            BroadcastRevive8 trte
+(   $  0   !BrOadcastRadius: 25
+  $ DerpawNiÓg2
+ 0      Enabled8 fahre
+   00   DuspawnWhenFarAwy: true
+   †Q/rtals:
+!       Ensbled: fahse
+ "†  !  C·nTelEpoÚtVhrougHNetler@rval:!true
+  $     KaoTeleportThrough≈ndPoRtil: vrue
+0"   $  RemempurVeloci4}: true
+    CanDrowl: trueM
+    RegvowWool: tr’e
+    CanEatGRass: |Swe
+  ! FanBeDieD trUe
+    CanT-ckupItemw felse
+   `CanTargetPla˘er: true
+ 00 CanTarge|Mo" trug
+    EffMgts:
+   †    ENabled: felse
+!       Tr)ggmrq [}
+   0DocauIoNs: {u
+
++`SilveÚfishes (mob)
+SilvernislContr/l:
+    EN`ble‰:$filse
+$ ` Spawning:
+        CanSafn¬yBree`ing: truE
+  `     CejSpawjWiThWor,dGdneration: trua
+     0! CanSpawnCustol: true
+        CanSqawnLa|urally: true
+     `  CAnQpawnFromRpAner: rrue
+        CenSp·wnFromSxawjevEgg: trwe
+   (    CqnSpav~∆roÌOther: t2ue
+    Sp·w.ing–otÈonEffdc¸s:
+        Mnablef>`false
+   $`   effecdsz {}
+0   C}sTomHe°lth:  @     Enabludz nalsÂ
+        MÈnHe·,tÍ: 8
+ †    ! MaxHealth: 8
+   †Cus|omDÒuipmenp:  $($   En1bldd: dalse
+ !      UquipmentSetW: {}
+"   CuwtomDrmPs:
+ " †®   Enablel: falsg
+        _vergriteDefaultDrors∫ falceç !      XP:
+       0   En`@le`: false
+     ` `    DropXP:(ppue
+            DbopGhance: 100ç
+         2  ]ultiplier> 
+    Zeviwi~g:   †    Enabled: false
+  °     Cha.ce 5
+     "  RaDius: 
+ (      M)ÔDela}:!0  0     IaxDelay: 1.5
+        RememberTarget: true
+        Reviver:
+            Enabled: false
+            MaxDistance: 16
+            BroadcastRevive: true
+            BroadcastRadius: 25
+    Despawning:
+        Enabled: false
+        DespawnWhenFarAway: true
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    CanDrown: true
+    CanPickupItems: false
+    CanTargetPlayer: true
+    CanTargetMob: true
+    DamagePlayers: true
+    DamageMobs: true
+    Effects:
+        Enabled: false
+        Triggers: {}
+    Locations: {}
+
+# Skeletons (mob)
+SkeletonControl:
+    Enabled: false
+    Spawning:
+        SkeletonType:
+            Enabled: false
+            WitherSkeletonChance: 20
+        CanSpawnByBreeding: true
+        CanSpawnWithWorldGeneration: true
+        CanSpawnCustom: true
+        CanSpawnAsJockey : true
+        CanSpawnNaturally: true
+        CanSpawnFromSpawner: true
+        CanSpawnFromSpawnerEgg: true
+        CanSpawnFromOther: true
+    SpawningPotionEffects:
+        Enabled: false
+        Effects: {}
+    CustomHealth:
+        Enabled: false
+        MinHealth: 20
+        MaxHealth: 20
+    CustomEquipment:
+        Enabled: false
+        EquipmentSets: {}
+    CustomDrops:
+        Enabled: false
+        OverwriteDefaultDrops: false
+        XP:
+            Enabled: false
+            DropXP: true
+            DropChance: 100
+            Multiplier: 1
+        Skull:
+            Enabled: false
+            AddToInventory: true
+            Chance: 2.5
+            Amount: 1
+    Reviving:
+        Enabled: false
+        Chance: 25
+        Radius: 0
+        MinDelay: 0
+        MaxDelay: 1.5
+        RememberTarget: true
+        Reviver:
+            Enabled: false
+            MaxDistance: 16
+            BroadcastRevive: true
+            BroadcastRadius: 25
+    Despawning:
+        Enabled: false
+        DespawnWhenFarAway: true
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    CanDrown: true
+    CanLaunchProjectile: true
+    CanPickupItems: true
+    CanTargetPlayer: true
+    CanTargetMob: true
+    DamagePlayers: true
+    DamageMobs: true
+    Effects:
+        Enabled: false
+        Triggers: {}
+    Locations: {}
+
+# Slimes (mob)
+SlimeControl:
+    Enabled: false
+    Spawning:
+        CustomSize:
+            Enabled: false
+            MinSize: 1
+            MaxSize: 4
+        CanSpawnByBreeding: true
+        CanSpawnWithWorldGeneration: true
+        CanSpawnCustom: true
+        CanSpawnNaturally: true
+        CanSpawnFromSlimeSplit: true
+        CanSpawnFromSpawner: true
+        CanSpawnFromSpawnerEgg: true
+        CanSpawnFromOther: true
+    SpawningPotionEffects:
+        Enabled: false
+        Effects: {}
+    CustomHealth:
+        Enabled: false
+        MinHealth: 16
+        MaxHealth: 16
+    CustomEquipment:
+        Enabled: false
+        EquipmentSets: {}
+    CustomDrops:
+        Enabled: false
+        OverwriteDefaultDrops: false
+        XP:
+            Enabled: false
+            DropXP: true
+            DropChance: 100
+            Multiplier: 1
+    Reviving:
+        Enabled: false
+        Chance: 25
+        Radius: 0
+        MinDelay: 0
+        MaxDelay: 1.5
+        RememberTarget: true
+        Reviver:
+            Enabled: false
+            MaxDistance: 16
+            BroadcastRevive: true
+            BroadcastRadius: 25
+    Despawning:
+        Enabled: false
+        DespawnWhenFarAway: true
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    CanDrown: true
+    CanSplit: true
+    SplitIntoCostumAmount:
+        Enabled: false
+        SplitIntoMin: 2
+        SplitIntoMax: 4
+    CanPickupItems: false
+    CanTargetPlayer: true
+    CanTargetMob: true
+    DamagePlayers: true
+    DamageMobs: true
+    Effects:
+        Enabled: false
+        Triggers: {}
+    Locations: {}
+
+# Snow Golems (mob)
+SnowmanControl:
+    Enabled: false
+    Spawning:
+        CanSpawnByBreeding: true
+        CanSpawnWhenBuild: true
+        CanSpawnWithWorldGeneration: true
+        CanSpawnCustom: true
+        CanSpawnNaturally: true
+        CanSpawnFromSpawner: true
+        CanSpawnFromSpawnerEgg: true
+        CanSpawnFromOther: true
+    SpawningPotionEffects:
+        Enabled: false
+        Effects: {}
+    CustomHealth:
+        Enabled: false
+        MinHealth: 6
+        MaxHealth: 6
+    CustomEquipment:
+        Enabled: false
+        EquipmentSets: {}
+    CustomDrops:
+        Enabled: false
+        OverwriteDefaultDrops: false
+        XP:
+            Enabled: false
+            DropXP: true
+            DropChance: 100
+            Multiplier: 1
+    Reviving:
+        Enabled: false
+        Chance: 25
+        Radius: 0
+        MinDelay: 0
+        MaxDelay: 1.5
+        RememberTarget: true
+        Reviver:
+            Enabled: false
+            MaxDistance: 16
+            BroadcastRevive: true
+            BroadcastRadius: 25
+    Despawning:
+        Enabled: false
+        DespawnWhenFarAway: true
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    CanDrown: true
+    CanPickupItems: false
+    CanLaunchProjectile: true
+    CanCreateSnow: true
+    CanTargetPlayer: true
+    CanTargetMob: true
+    Effects:
+        Enabled: false
+        Triggers: {}
+    Locations: {}
+
+# Spiders (mob)
+SpiderControl:
+    Enabled: false
+    Spawning:
+        CanSpawnByBreeding: true
+        CanSpawnWithWorldGeneration: true
+        CanSpawnCustom: true
+        CanSpawnNaturally: true
+        CanSpawnFromSpawner: true
+        CanSpawnFromSpawnerEgg: true
+        CanSpawnFromOther: true
+    SpawningPotionEffects:
+        Enabled: false
+        Effects: {}
+    CustomHealth:
+        Enabled: false
+        MinHealth: 16
+        MaxHealth: 16
+    CustomEquipment:
+        Enabled: false
+        EquipmentSets: {}
+    CustomDrops:
+        Enabled: false
+        OverwriteDefaultDrops: false
+        XP:
+            Enabled: false
+            DropXP: true
+            DropChance: 100
+            Multiplier: 1
+    Reviving:
+        Enabled: false
+        Chance: 25
+        Radius: 0
+        MinDelay: 0
+        MaxDelay: 1.5
+        RememberTarget: true
+        Reviver:
+            Enabled: false
+            MaxDistance: 16
+            BroadcastRevive: true
+            BroadcastRadius: 25
+    Despawning:
+        Enabled: false
+        DespawnWhenFarAway: true
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    CanDrown: true
+    CanPickupItems: false
+    CanTargetPlayer: true
+    CanTargetMob: true
+    DamagePlayers: true
+    DamageMobs: true
+    Effects:
+        Enabled: false
+        Triggers: {}
+    Locations: {}
+
+# Squids (mob)
+SquidControl:
+    Enabled: false
+    Spawning:
+        CanSpawnByBreeding: true
+        CanSpawnWithWorldGeneration: true
+        CanSpawnCustom: true
+        CanSpawnNaturally: true
+        CanSpawnFromSpawner: true
+        CanSpawnFromSpawnerEgg: true
+        CanSpawnFromOther: true
+    SpawningPotionEffects:
+        Enabled: false
+        Effects: {}
+    CustomHealth:
+        Enabled: false
+        MinHealth: 10
+        MaxHealth: 10
+    CustomEquipment:
+        Enabled: false
+        EquipmentSets: {}
+    CustomDrops:
+        Enabled: false
+        OverwriteDefaultDrops: false
+        XP:
+            Enabled: false
+            DropXP: true
+            DropChance: 100
+            Multiplier: 1
+    Reviving:
+        Enabled: false
+        Chance: 25
+        Radius: 0
+        MinDelay: 0
+        MaxDelay: 1.5
+        RememberTarget: true
+        Reviver:
+            Enabled: false
+            MaxDistance: 16
+            BroadcastRevive: true
+            BroadcastRadius: 25
+    Despawning:
+        Enabled: false
+        DespawnWhenFarAway: true
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    CanPickupItems: false
+    CanTargetPlayer: true
+    CanTargetMob: true
+    Effects:
+        Enabled: false
+        Triggers: {}
+    Locations: {}
+
+# Villagers (mob)
+VillagerControl:
+    Enabled: false
+    Spawning:
+        CanSpawnByBreeding: true
+        CanSpawnWithWorldGeneration: true
+        CanSpawnCustom: true
+        CanSpawnNaturally: true
+        CanSpawnFromSpawner: true
+        CanSpawnFromSpawnerEgg: true
+        CanSpawnFromOther: true
+    SpawningPotionEffects:
+        Enabled: false
+        Effects: {}
+    CustomHealth:
+        Enabled: false
+        MinHealth: 20
+        MaxHealth: 20
+    CustomEquipment:
+        Enabled: false
+        EquipmentSets: {}
+    CustomDrops:
+        Enabled: false
+        OverwriteDefaultDrops: false
+        XP:
+            Enabled: false
+            DropXP: true
+            DropChance: 100
+            Multiplier: 1
+    Reviving:
+        Enabled: false
+        Chance: 25
+        Radius: 0
+        MinDelay: 0
+        MaxDelay: 1.5
+        RememberTarget: true
+        Reviver:
+            Enabled: false
+            MaxDistance: 16
+            BroadcastRevive: true
+            BroadcastRadius: 25
+    Despawning:
+        Enabled: false
+        DespawnWhenFarAway: false
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    CanDrown: true
+    CanPickupItems: false
+    CanTargetPlayer: true
+    CanTargetMob: true
+    CanTrade: true
+    Effects:
+        Enabled: false
+        Triggers: {}
+    Locations: {}
+
+# Witch (mob)
+WitchControl:
+    Enabled: false
+    Spawning:
+        CanSpawnByBreeding: true
+        CanSpawnWithWorldGeneration: true
+        CanSpawnCustom: true
+        CanSpawnNaturally: true
+        CanSpawnFromSpawner: true
+        CanSpawnFromSpawnerEgg: true
+        CanSpawnFromOther: true
+    SpawningPotionEffects:
+        Enabled: false
+        Effects: {}
+    CustomHealth:
+        Enabled: false
+        MinHealth: 26
+        MaxHealth: 26
+    CustomEquipment:
+        Enabled: false
+        EquipmentSets: {}
+    CustomDrops:
+        Enabled: false
+        OverwriteDefaultDrops: false
+        XP:
+            Enabled: false
+            DropXP: true
+            DropChance: 100
+            Multiplier: 1
+    Reviving:
+        Enabled: false
+        Chance: 25
+        Radius: 0
+        MinDelay: 0
+        MaxDelay: 1.5
+        RememberTarget: true
+        Reviver:
+            Enabled: false
+            MaxDistance: 16
+            BroadcastRevive: true
+            BroadcastRadius: 25
+    Despawning:
+        Enabled: false
+        DespawnWhenFarAway: true
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    CanDrown: true
+    CanLaunchProjectile: true
+    CanPickupItems: false
+    CanTargetPlayer: true
+    CanTargetMob: true
+    DamagePlayers: true
+    DamageMobs: true
+    Effects:
+        Enabled: false
+        Triggers: {}
+    Locations: {}
+
+# Wither (mob)
+WitherControl:
+    Enabled: false
+    DestroyWorld: true
+    EnableExplosionSound: true
+    EnableExplosionSmoke: true
+    CostumExplosionStrength:
+        Enabled: false
+        ExplosionStrength: 3
+    ExplosionRebuild:
+        Enabled: false
+        RebuildDelay: 60
+        RebuildBlockInterval: 1
+    Spawning:
+        CanSpawnByBreeding: true
+        CanSpawnWhenBuild: true
+        CanSpawnWithWorldGeneration: true
+        CanSpawnCustom: true
+        CanSpawnNaturally: true
+        CanSpawnFromSpawner: true
+        CanSpawnFromSpawnerEgg: true
+        CanSpawnFromOther: true
+    SpawningPotionEffects:
+        Enabled: false
+        Effects: {}
+    CustomHealth:
+        Enabled: false
+        MinHealth: 300
+        MaxHealth: 300
+    CustomEquipment:
+        Enabled: false
+        EquipmentSets: {}
+    CustomDrops:
+        Enabled: false
+        OverwriteDefaultDrops: false
+        XP:
+            Enabled: false
+            DropXP: true
+            DropChance: 100
+            Multiplier: 1
+    Reviving:
+        Enabled: false
+        Chance: 25
+        Radius: 0
+        MinDelay: 0
+        MaxDelay: 1.5
+        RememberTarget: true
+        Reviver:
+            Enabled: false
+            MaxDistance: 16
+            BroadcastRevive: true
+            BroadcastRadius: 25
+    Despawning:
+        Enabled: false
+        DespawnWhenFarAway: false
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    CanDrown: true
+    CanLaunchProjectile: true
+    CanPickupItems: false
+    CanTargetPlayer: true
+    CanTargetMob: true
+    DamagePlayers: true
+    DamageMobs: true
+    Effects:
+        Enabled: true
+        Triggers: {}
+    Locations: {}
+
+# Wither Skeletons (mob)
+WitherSkeletonControl:
+    Enabled: false
+    Spawning:
+        CanSpawnByBreeding: true
+        CanSpawnWithWorldGeneration: true
+        CanSpawnCustom: true
+        CanSpawnAsJockey : true
+        CanSpawnNaturally: true
+        CanSpawnFromSpawner: true
+        CanSpawnFromSpawnerEgg: true
+        CanSpawnFromOther: true
+    SpawningPotionEffects:
+        Enabled: false
+        Effects: {}
+    CustomHealth:
+        Enabled: false
+        MinHealth: 20
+        MaxHealth: 20
+    CustomEquipment:
+        Enabled: false
+        EquipmentSets: {}
+    CustomDrops:
+        Enabled: false
+        OverwriteDefaultDrops: false
+        XP:
+            Enabled: false
+            DropXP: true
+            DropChance: 100
+            Multiplier: 1
+        Skull:
+            Enabled: false
+            AddToInventory: true
+            Chance: 2.5
+            Amount: 1
+    Reviving:
+        Enabled: false
+        Chance: 25
+        Radius: 0
+        MinDelay: 0
+        MaxDelay: 1.5
+        RememberTarget: true
+        Reviver:
+            Enabled: false
+            MaxDistance: 16
+            BroadcastRevive: true
+            BroadcastRadius: 25
+    Despawning:
+        Enabled: false
+        DespawnWhenFarAway: true
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    CanDrown: true
+    CanLaunchProjectile: true
+    CanPickupItems: true
+    CanTargetPlayer: true
+    CanTargetMob: true
+    DamagePlayers: true
+    DamageMobs: true
+    Effects:
+        Enabled: false
+        Triggers: {}
+    Locations: {}
+
+# Wolves (mob)
+WolfControl:
+    Enabled: false
+    Spawning:
+        SpawnAngry:
+            Enabled: false
+            AngryChance: 0
+        SpawnSitting:
+            Enabled: false
+            SittingChance: 0
+        CanSpawnByBreeding: true
+        CanSpawnWithWorldGeneration: true
+        CanSpawnCustom: true
+        CanSpawnNaturally: true
+        CanSpawnFromSpawner: true
+        CanSpawnFromSpawnerEgg: true
+        CanSpawnFromOther: true
+    SpawningPotionEffects:
+        Enabled: false
+        Effects: {}
+    CustomAge:
+        Enabled: false
+        Age:
+            Enabled: false
+            MinAge: 1
+            MaxAge: 1
+            AgeLock: false
+        Baby:
+            Enabled: true
+            SpawnAsBaby: true
+            SpawnAsBabyChance: 50
+    CustomHealth:
+        Enabled: false
+        MinHealth: 8
+        MaxHealth: 8
+    CustomEquipment:
+        Enabled: false
+        EquipmentSets: {}
+    CustomDrops:
+        Enabled: false
+        OverwriteDefaultDrops: false
+        XP:
+            Enabled: false
+            DropXP: true
+            DropChance: 100
+            Multiplier: 1
+    CollarColors:
+        Enabled: false
+        RandomColor: false
+    Reviving:
+        Enabled: false
+        Chance: 25
+        Radius: 0
+        MinDelay: 0
+        MaxDelay: 1.5
+        RememberTarget: true
+        Reviver:
+            Enabled: false
+            MaxDistance: 16
+            BroadcastRevive: true
+            BroadcastRadius: 25
+    Despawning:
+        Enabled: false
+        DespawnWhenFarAway: true
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    CanDrown: true
+    CanBeTamed: true
+    CanPickupItems: false
+    CanTargetPlayer: true
+    CanTargetMob: true
+    DamagePlayers: true
+    DamageMobs: true
+    Effects:
+        Enabled: false
+        Triggers: {}
+    Locations: {}
+
+# Zombies (mob)
+ZombieControl:
+    Enabled: false
+    Spawning:
+        ZombieType:
+            Enabled: false
+            VillagerZombieChance: 10
+            GiantZombieChance: 0
+        CanSpawnByBreeding: true
+        CanSpawnWithWorldGeneration: true
+        CanSpawnCustom: true
+        CanSpawnNaturally: true
+        CanSpawnFromSpawner: true
+        CanSpawnFromSpawnerEgg: true
+        CanSpawnForVillageInvasion: true
+        CanSpawnFromOther: true
+    SpawningPotionEffects:
+        Enabled: false
+        Effects: {}
+    CustomAge:
+        Enabled: false
+        Baby:
+            Enabled: true
+            SpawnAsBaby: true
+            SpawnAsBabyChance: 50
+    CustomHealth:
+        Enabled: false
+        MinHealth: 20
+        MaxHealth: 20
+    CustomEquipment:
+        Enabled: false
+        EquipmentSets: {}
+    CustomDrops:
+        Enabled: false
+        OverwriteDefaultDrops: false
+        XP:
+            Enabled: false
+            DropXP: true
+            DropChance: 100
+            Multiplier: 1
+        Skull:
+            Enabled: false
+            AddToInventory: true
+            Chance: 1
+            Amount: 1
+    Reviving:
+        Enabled: false
+        Chance: 25
+        Radius: 0
+        MinDelay: 0
+        MaxDelay: 1.5
+        RememberTarget: true
+        Reviver:
+            Enabled: false
+            MaxDistance: 16
+            BroadcastRevive: true
+            BroadcastRadius: 25
+    Despawning:
+        Enabled: false
+        DespawnWhenFarAway: true
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    CanDrown: true
+    CanPickupItems: true
+    CanTargetPlayer: true
+    CanTargetMob: true
+    DamagePlayers: true
+    DamageMobs: true
+    CanBreakDoor: true
+    Effects:
+        Enabled: false
+        Triggers: {}
+    Locations: {}
+
+# Other Mobs (unknown mobs, with no control)
+OtherMobControl:
+    Enabled: false
+    Spawning:
+        CanSpawnByBreeding: true
+        CanSpawnWhenBuild: true
+        CanSpawnWithWorldGeneration: true
+        CanSpawnCustom: true
+        CanSpawnFromEgg: true
+        CanSpawnAsJockey: true
+        CanSpawnFromLightning: true
+        CanSpawnNaturally: true
+        CanSpawnFromSlimeSplit: true
+        CanSpawnFromSpawner: true
+        CanSpawnFromSpawnerEgg: true
+        CanSpawnFromLightning: true
+        CanSpawnForVillageDefence: true
+        CanSpawnForVillageInvasion: true
+        CanSpawnFromOther: true
+    SpawningPotionEffects:
+        Enabled: false
+        Effects: {}
+    CustomAge:
+        Enabled: false
+        Age:
+            Enabled: false
+            MinAge: 1
+            MaxAge: 1
+            AgeLock: false
+        Baby:
+            Enabled: true
+            SpawnAsBaby: true
+            SpawnAsBabyChance: 50
+    CostumExplosionStrength:
+        Enabled: false
+        ExplosionStrength: 3
+    CustomExplosions:
+        Enabled: false
+        Throw:
+            Enabled: false
+            ThrowPlayers: true
+            ThrowMobs: true
+            ThrowSpeedMultiplier: 1
+        FlyingBlocks:
+            Enabled: false
+            Chance: 80
+    ExplosionRebuild:
+        Enabled: false
+        RebuildDelay: 60
+        RebuildBlockInterval: 1
+    CustomHealth:
+        Enabled: false
+        MinHealth: 20
+        MaxHealth: 20
+    CustomEquipment:
+        Enabled: false
+        EquipmentSets: {}
+    CustomDrops:
+        Enabled: false
+        OverwriteDefaultDrops: false
+        XP:
+            Enabled: false
+            DropXP: true
+            DropChance: 100
+            Multiplier: 1
+    Reviving:
+        Enabled: false
+        Chance: 25
+        Radius: 0
+        MinDelay: 0
+        MaxDelay: 1.5
+        RememberTarget: true
+        Reviver:
+            Enabled: false
+            MaxDistance: 16
+            BroadcastRevive: true
+            BroadcastRadius: 25
+    Despawning:
+        Enabled: false
+        DespawnWhenFarAway: true
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    CanDrown: true
+    CanPickupItems: false
+    CanTargetPlayer: true
+    CanTargetMob: true
+    DamagePlayers: true
+    DamageMobs: true
+    Effects:
+        Enabled: false
+        Triggers: {}
+    Locations: {}
+
+# Fireballs (projectile from Ghast)
+FireballControl:
+    Enabled: false
+    DestroyWorld: true
+    EnableExplosionSound: true
+    EnableExplosionSmoke: true
+    DamagePlayers: true
+    DamageMobs: true
+    CostumExplosionStrength:
+        Enabled: false
+        ExplosionStrength: 1
+    CostumExplosionStrength:
+        Enabled: false
+        Throw:
+            Enabled: false
+            ThrowPlayers: true
+            ThrowMobs: true
+            ThrowSpeedMultiplier: 1
+        FlyingBlocks:
+            Enabled: false
+            Chance: 80
+    ExplosionRebuild:
+        Enabled: false
+        RebuildDelay: 60
+        RebuildBlockInterval: 1
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    Effects:
+        Enabled: true
+        Triggers: {}
+    Locations: {}
+
+# Wither Skulls (projectile from Wither)
+WitherSkullControl:
+    Enabled: false
+    DestroyWorld: true
+    CostumExplosionStrength:
+        Enabled: false
+        ExplosionStrength: 1
+    CostumExplosionStrength:
+        Enabled: false
+        Throw:
+            Enabled: false
+            ThrowPlayers: true
+            ThrowMobs: true
+            ThrowSpeedMultiplier: 1
+        FlyingBlocks:
+            Enabled: false
+            Chance: 80
+        ExplosionRebuild:
+            Enabled: false
+            RebuildDelay: 60
+            RebuildBlockInterval: 1
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    EnableExplosionSound: true
+    EnableExplosionSmoke: true
+    CanPickupItems: true
+    DamagePlayers: true
+    DamageMobs: true
+    Effects:
+        Enabled: true
+        Triggers: {}
+    Locations: {}
+
+# TNT blocks (block)
+TNTControl:
+    Enabled: false
+    DestroyWorld: true
+    EnableExplosionSound: true
+    EnableExplosionSmoke: true
+    CostumExplosionStrength:
+        Enabled: false
+        ExplosionStrength: 4
+    CustomExplosions:
+        Enabled: false
+        Throw:
+            Enabled: false
+            ThrowPlayers: true
+            ThrowMobs: true
+            ThrowSpeedMultiplier: 1
+        FlyingBlocks:
+            Enabled: false
+            Chance: 80
+    ExplosionRebuild:
+        Enabled: false
+        RebuildDelay: 60
+        RebuildBlockInterval: 1
+    TNTPriming:
+        CanBePrimedByFire: true
+        CanBePrimedByOther: true
+    PrimedTNTLimit:
+        Enabled: false
+        Radius: 32
+        MaxPrimedInRadius: 48
+        MaxPrimedInWorld: -1
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    CanPlaceTNT: true
+    CanBreakTNT: true
+    DamagePlayers: true
+    DamageMobs: true
+    Effects:
+        Enabled: true
+        Triggers: {}
+    Locations: {}
+
+# TNT minecart blocks (minecart)
+TNTMinecartControl:
+    Enabled: false
+    DestroyWorld: true
+    EnableExplosionSound: true
+    EnableExplosionSmoke: true
+    CostumExplosionStrength:
+        Enabled: false
+        ExplosionStrength: 4
+    CustomExplosions:
+        Enabled: false
+        Throw:
+            Enabled: false
+            ThrowPlayers: true
+            ThrowMobs: true
+            ThrowSpeedMultiplier: 1
+        FlyingBlocks:
+            Enabled: false
+            Chance: 80
+    ExplosionRebuild:
+        Enabled: false
+        RebuildDelay: 60
+        RebuildBlockInterval: 1
+    TNTPriming:
+        CanBePrimed: true
+    Portals:
+        Enabled: false
+        CanTeleportThroughNetherPortal: true
+        CanTeleportThroughEndPortal: true
+        RememberVelocity: true
+    DamagePlayers: true
+    DamageMobs: true
+    Effects:
+        Enabled: true
+        Triggers: {}
+    Locations: {}
+
+# Fire
+FireControl:
+    Enabled: false
+    EnableBlockFire: true
+    DestructionRebuild:
+        Enabled: false
+        RebuildDelay: 60
+    FireSpread: true
+    DamagePlayers: true
+    DamageMobs: true
+    Effects:
+        Enabled: true
+        Triggers: {}
+    Locations: {}
+
+# Flint and Steel (player tool)
+FlintAndSteelControl:
+    Enabled: false
+    EnableFlintAndSteel: true
+    Effects:
+        Enabled: true
+        Triggers: {}
+    Locations: {}
+
+# Lightning (weather)
+LightningControl:
+    Enabled: false
+    IgniteBlocks: true
+    DamagePlayers: true
+    DamageMobs: true
+    Effects:
+        Enabled: true
+        Triggers: {}
+    Locations: {}
+
+# Water (liquid)
+WaterControl:
+    Enabled: false
+    CanPlaceWater: true
+    WaterSpread: true
+    SpreadUpwards: false
+    SpreadThroughPortals: false
+    InfiniteWater: false
+    PlayerDrowinng: true
+    MobDowning: true
+    Effects:
+        Enabled: true
+        Triggers: {}
+    Locations: {}
+
+# Lava (liquid)
+LavaControl:
+    Enabled: false
+    LavaFire: true
+    CanPlaceLava: true
+    LavaSpread: true
+    SpreadUpwards: false
+    SpreadThroughPortals: false
+    InfiniteLava: false
+    DamagePlayers: true
+    DamageMobs: true
+    Effects:
+        Enabled: true
+        Triggers: {}
+    Locations: {}
+
+# Bed (block)
+BedControl:
+    Enabled: false
+    PlayerCanSleep: true
+    CanExplode: true
+    Effects:
+        Enabled: true
+        Triggers: {}
+    Locations: {}
+
+# Weather (environment)
+WeatherControl:
+    Enabled: false
+    CustomWeatherTypes:
+        Enabled: false
+        Clear:
+            Allowed: true
+        Rain:
+            Allowed: true
+        ThunderStorm:
+            Allowed: true
+    AlwaysRain: false
+    AlwaysThunderStorm: false
+    LightningInThunderStorm: true
+    CustomDurations:
+        Enabled: false
+        Weather:
+            Enabled: false
+            MinDuration: 720
+            MaxDuration: 1080
+        ThunderStorm:
+            Enabled: false
+            MinDuration: 240
+            MaxDuration: 360
+    Effects:
+        Enabled: true
+        Triggers: {}
+
+# World (world)
+WorldControl:
+    Enabled: false
+    KeepSpawnInMemory: true
+    AutoSave: true
+    PVP: true
+    CustomSpawning:
+        Enabled: false
+        AllowAnimals: true
+        AllowMonsters: true
+        AnimalSpawnLimit: 15
+        MonsterSpawnLimit: 70
+        AmbientSpawnLimit: 15
+        WaterAnimalSpawnLimit: 5
+        TicksPerAnimalSpawns: 400
+        TicksPerMonsterSpawns: 1
+    CustomDifficulty:
+        Enabled: false
+        WorldDifficulty: 2
+    CustomGameRules:
+        Enabled: false
+        Rules:
+            commandBlockOutput: 'true'
+            doFireTick: 'true'
+            doMobLoot: 'true'
+            doMobSpawning: 'true'
+            doTileDrops: 'true'
+            keepInventory: 'false'
+            mobGriefing: 'true'
+
+# Other (unknown) explosions (explosion)
+OtherExplosions:
+    Enabled: false
+    DestroyWorld: true
+    EnableExplosionSound: true
+    EnableExplosionSmoke: true
+    CostumExplosionStrength:
+        Enabled: false
+        ExplosionStrength: 3
+    CustomExplosions:
+        Enabled: false
+        Throw:
+            Enabled: false
+            ThrowPlayers: true
+            ThrowMobs: true
+            ThrowSpeedMultiplier: 1
+        FlyingBlocks:
+            Enabled: false
+            Chance: 80
+    ExplosionRebuild:
+        Enabled: false
+        RebuildDelay: 60
+        RebuildBlockInterval: 1
+    Effects:
+        Enabled: true
+        Triggers: {}
+    Locations: {}
+
+# Other, for unknown entities
+OtherControl:
+    Enabled: false
+    Spawning:
+        CanSpawnByBreeding: true
+        CanSpawnWhenBuild: true
+        CanSpawnWithWorldGeneration: true
+        CanSpawnCustom: true
+        CanSpawnFromEgg: true
+        CanSpawnAsJocke) t:ueä( (     CanStdWn¬rk}L©gltning: t2wÂ "   `" CanSpc˜nBaT5radl{Z prwE
+  Ä0"  †CanSpanŒroÌSliÂeSlÈt: trug
+ " – :0 Bcn[pesnFrkmSpawNex: true    '0!,C!nSpQnFnmWpawoevEÁG:(trud 0 $ !  anShawnFrooLi'htning: true:   @   canSpAwn∆opVillagÂDufence:(Ùrue
+      ` CAnSpaˇnForViÏmagEKntasim." true
+0    00 KAnSpawnFromOtheÚ: truk
+    AostumEXplosi/nqtzenorh:
+  `     UnaÊLed: fQlseM
+$ `  0  Dx`losion”treN'tH; 3
+"   Customƒxpl/{ion˚:-
+      ƒ En≈flmd: f·ls`       Dhrow:    !   !  0EfabNed: fqlse
+ $   (      ThRowPluyers;$t2ue
+     !    ( Vhr/wMgbS: trte	     †    ` ThrwSpeedmultipÏiez: 1
+ 0$     JliingBhgcÎs:
+  $   †    E|ablee: falsg/
+  ‡   !$ ,  sh@ncE: 8q
+   $GxplgsionRebui|l:
+  ! †a`†Mni‚led:$falsm
+      ‡ Re`u	lddelay:$:0
+       Rerıa`dNlMckIntettal: 1
+  $ Cu{tomhealÙlz
+ !      EnqBleD: fa,se
+  !!  † Mi~Meahth:020
+` ` ¢   MaxHeclth: 20    CanDrownz \rue
+    BanTergetPlayer: truE
+!   CanUargetMoo*b%Úqe
+ $!(DamgePlayÂrw: |ruE
+"  (DamageÕ>bs:†true
+    Effect3:
+   B  (Enablad: trwe  $    \riggeÚs: {}	
+  0!Locatio.s {}
+
+vErsyn:$ß!.5*2.5/

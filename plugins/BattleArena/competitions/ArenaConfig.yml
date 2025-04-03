@@ -1,0 +1,52 @@
+Arena:
+  name: Arena
+  command: Arena
+  prefix: '&6[Arena]&e'
+  gameSize:
+    nTeams: '2'
+    teamSize: '2+'
+  nLives: '1'
+  victoryCondition: LASTMANSTANDING
+  tracking:
+    database: arena
+    rated: true
+    useTrackerMessages: false
+  arenaType: Arena
+  arenaClass: Arena
+  joinType: joinPhase
+  defaults:
+    options:
+    - woolTeams
+  onEnter:
+    options:
+    - STOREALL
+  onLeave:
+    options:
+    - RESTOREALL
+  onPreStart:
+    options:
+    - teleportWaitRoom
+  onStart:
+    options:
+    - teleportIn
+    - pvpOn
+    - blockBreakOff
+  onComplete:
+    options:
+    - teleportOut
+    - clearInventory
+  onSpawn:
+    giveClass:
+      default: 
+    options:
+    - health=20.0
+    - hunger=20
+    - respawnWithClass
+  onDeath:
+    options:
+    - clearInventory
+  winners:
+    options:
+    - health=20.0
+    - hunger=20
+    - money=100

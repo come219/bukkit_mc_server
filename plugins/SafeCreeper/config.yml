@@ -1,0 +1,64 @@
+# Config file
+# Permissions settings
+permissions:
+    usePermissions: true
+    enableBypassPermissions: true
+    permissionsSystems:
+        PermissionsEx:
+            enabled: true
+        PermissionsBukkit:
+            enabled: true
+        bPermissions:
+            enabled: true
+        EssentialsGroupManager:
+            enabled: true
+        zPermissions:
+            enabled: true
+        Vault:
+            enabled: true
+        Permissions:
+            enabled: true
+
+# Tasks settings
+tasks:
+    updateChecker:
+        enabled: true
+        interval: 600
+        showStatusInConsole: false
+    statisticsPost:
+        enabled: true
+        interval: 300
+        showStatusInConsole: false
+    destructionRepairRepair:
+        enabled: true
+        interval: 1
+    destructionRepairSave:
+        enabled: true
+        interval: 300
+        showSaveStatus: true
+
+# Safe Creeper API settings
+api:
+    enabled: true
+
+# Update checker
+updateChecker:
+    enabled: true
+    notifyForUpdatesInConsole: true
+    notifyForUpdatesInGame: true
+    autoInstallUpdates: true
+
+# Statistics
+statistics:
+    enabled: true
+    showStatusInConsole: true
+    postServerAddress: false
+
+# Settings for TVNLib
+autoDownloadTVNLib: false
+
+# This are the file/folder paths where files are saved
+GlobalConfigFilePath: 'plugins/SafeCreeper/global.yml'
+WorldConfigsFolderPath: 'plugins/SafeCreeper/worlds'
+
+version: '1.5.2.5'

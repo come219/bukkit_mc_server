@@ -1,0 +1,421 @@
+# Citizens NPC Storage
+
+
+
+
+
+last-created-npc-id: 85
+npc:
+  '17':
+    name: Frostbite16
+    traits:
+      owner: come219
+      location:
+        world: HUB
+        x: '-1160.3002536936838'
+        y: '62.0'
+        z: '-589.5053838540726'
+        yaw: '140.84091186523438'
+        pitch: '-32.81974792480469'
+      spawned: true
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: location,owner,type,lookclose,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '16':
+    name: Fluffy_Waffle
+    traits:
+      owner: come219
+      location:
+        world: HUB
+        x: '-1160.300000011921'
+        y: '62.0'
+        z: '-585.4946183163615'
+        yaw: '54.981781005859375'
+        pitch: '0.0'
+      spawned: true
+      equipment:
+        hand:
+          type: GOLD_SWORD
+          amount: 1
+          durability: 0
+          mdata: 0
+      speech: chat
+      text:
+        talk-close: true
+        random-talker: true
+        realistic-looking: false
+        range: '2.0'
+        talkitem: default
+        text:
+          '0': The Waffles Will Not Take Kindly To Pancake Lovers...
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: location,equipment,owner,type,lookclose,speech,text,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '15':
+    name: baase3
+    traits:
+      owner: come219
+      location:
+        world: HUB
+        x: '-1166.6419050920174'
+        y: '62.0'
+        z: '-585.4483293991285'
+        yaw: '-62.6680793762207'
+        pitch: '0.0'
+      spawned: true
+      equipment:
+        hand:
+          type: COOKIE
+          amount: 1
+          durability: 0
+          mdata: 0
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: location,equipment,owner,type,lookclose,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '13':
+    name: shadowdion
+    traits:
+      owner: come219
+      location:
+        world: HUB
+        x: '-1166.595413978896'
+        y: '62.0'
+        z: '-581.4946216578933'
+        yaw: '239.65621948242188'
+        pitch: '0.0'
+      spawned: true
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: location,owner,type,lookclose,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '11':
+    name: fergon1441
+    traits:
+      speech: chat
+      text:
+        talk-close: true
+        random-talker: true
+        realistic-looking: false
+        range: '2.0'
+        talkitem: default
+        text:
+          '0': All will fear the Crimson Reapers torch of death
+      owner: come219
+      location:
+        world: HUB
+        x: '-1166.699999988079'
+        y: '62.0'
+        z: '-577.4955795063945'
+        yaw: '216.71133422851562'
+        pitch: '0.0'
+      spawned: true
+      equipment:
+        hand:
+          type: REDSTONE_TORCH_ON
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            displayname: fergon1441's powerfull dick of
+          enchantments:
+            ARROW_INFINITE: 1
+            DURABILITY: 3
+            DAMAGE_ALL: 5
+            LOOT_BONUS_BLOCKS: 3
+            DIG_SPEED: 5
+            KNOCKBACK: 2
+            LOOT_BONUS_MOBS: 3
+            FIRE_ASPECT: 2
+            LURE: 3
+            LUCK: 3
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: location,equipment,owner,type,lookclose,speech,text,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '10':
+    name: come219
+    traits:
+      speech: chat
+      text:
+        talk-close: true
+        random-talker: true
+        realistic-looking: false
+        range: '2.0'
+        talkitem: default
+        text:
+          '0': Welcome to My Server, Have FUN!!!
+      owner: come219
+      location:
+        world: HUB
+        x: '-1166.6739060797322'
+        y: '62.0'
+        z: '-573.5053845411165'
+        yaw: '213.24008178710938'
+        pitch: '0.0'
+      spawned: true
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: location,owner,type,lookclose,speech,text,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '21':
+    name: lololazar
+    traits:
+      location:
+        world: HUB
+        x: '-1166.6313136464505'
+        y: '62.0'
+        z: '-589.4646143741415'
+        yaw: '-91.5001220703125'
+        pitch: '5.849986553192139'
+      equipment:
+        hand:
+          type: WATER_BUCKET
+          amount: 1
+          durability: 0
+          mdata: 0
+      owner: come219
+      spawned: true
+    traitnames: equipment,location,owner,type,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '46':
+    name: PropHunt
+    traits:
+      equipment:
+        hand:
+          type: GRASS
+          amount: 1
+          durability: 0
+          mdata: 0
+      spawned: true
+      location:
+        world: HUB
+        x: '-1987.4927667401112'
+        y: '63.0'
+        z: '534.6838822828722'
+        yaw: '5.100830078125'
+        pitch: '25.65001106262207'
+      owner: come219
+    traitnames: location,equipment,owner,type,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '53':
+    name: zakriboss
+    traits:
+      speech: chat
+      equipment:
+        hand:
+          type: APPLE
+          amount: 1
+          durability: 0
+          mdata: 0
+      spawned: true
+      text:
+        talk-close: true
+        random-talker: true
+        realistic-looking: false
+        range: '3.0'
+        talkitem: default
+        text:
+          '0': '&bhappyandfunny101 on Youtube!!!'
+      location:
+        world: HUB
+        x: '-1160.5'
+        y: '62.0'
+        z: '-581.5'
+        yaw: '129.44480895996094'
+        pitch: '0.0'
+      owner: come219
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: location,equipment,owner,type,lookclose,speech,text,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '51':
+    name: wesmellbad123
+    traits:
+      speech: chat
+      spawned: true
+      text:
+        talk-close: true
+        random-talker: true
+        realistic-looking: false
+        range: '3.0'
+        talkitem: default
+        text:
+          '0': '"Never lost a fair game... or played one."'
+      location:
+        world: HUB
+        x: '-1160.3014572001412'
+        y: '62.0'
+        z: '-577.5251902195004'
+        yaw: '154.73187255859375'
+        pitch: '0.0'
+      owner: come219
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: location,owner,type,lookclose,speech,text,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '76':
+    name: EvilNotch
+    traits:
+      trader:
+        type: server
+        owner: no owner
+        patterns: []
+        sell:
+        - potion:8227 p:100.00 a:1 n:Potion of Fatness pt:JUMP/19980/-24/true s:0 .sp
+        - potion:8227 p:100.00 a:1 n:Stoner Beer pt:CONFUSION/19980/100/true s:1
+        - potion:8193 p:100.00 a:1 n:Eagle Eye Juice pt:SPEED/80/-24/true s:2
+        buy:
+        - potion:8227 p:100.00 a:1 n:Potion of Fatness pt:JUMP/19980/-24/true s:0 .sp
+        - potion:8227 p:100.00 a:1 n:Stoner Beer pt:CONFUSION/19980/100/true s:1
+        - potion:8193 p:100.00 a:1 n:Eagle Eye Juice pt:SPEED/80/-24/true s:2
+      owner: server
+      spawned: true
+      location:
+        world: HUB
+        x: '-48.64392354803666'
+        y: '59.0'
+        z: '507.32935404302066'
+        yaw: '-26.605323791503906'
+        pitch: '0.0'
+      wallet:
+        type: infinite
+        money: 0.0
+      text:
+        talk-close: true
+        random-talker: true
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': What can I get you sir?
+          '1': Have a drink!
+      speech: chat
+      equipment:
+        hand:
+          type: GLASS_BOTTLE
+          amount: 1
+          durability: 0
+          mdata: 0
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: equipment,location,owner,wallet,type,lookclose,trader,speech,text,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '83':
+    name: Witch
+    traits:
+      location:
+        world: PvP
+        x: '206.51252654241173'
+        y: '67.0'
+        z: '-184.68292038328428'
+        yaw: '128.3931884765625'
+        pitch: '0.0'
+      type: Witch
+      text:
+        talk-close: true
+        random-talker: true
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': Will you be buying anything today?
+          '1': Heeheheeehehhheheehehehe!
+      owner: server
+      wallet:
+        type: infinite
+        money: 0.0
+      trader:
+        type: server
+        owner: no owner
+        patterns: []
+        sell: []
+        buy: []
+      spawned: true
+      speech: chat
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: location,owner,wallet,type,lookclose,trader,speech,text,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

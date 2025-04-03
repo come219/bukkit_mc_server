@@ -1,0 +1,70 @@
+[08:26:38] [Server thread/INFO]: Starting minecraft server version 1.7.2
+[08:26:38] [Server thread/INFO]: Loading properties
+[08:26:38] [Server thread/INFO]: Default game type: SURVIVAL
+[08:26:38] [Server thread/INFO]: Generating keypair
+[08:26:38] [Server thread/INFO]: Starting Minecraft server on 192.168.1.11:25565
+[08:26:38] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.2-R0.2-b2974jnks (MC: 1.7.2) (Implementing API version 1.7.2-R0.2)
+[08:26:39] [Server thread/ERROR]: Could not load 'plugins\DisguiseCraft.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/minecraft/server/v1_6_R3/Packet
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:184) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:308) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:231) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugins(CraftServer.java:255) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.<init>(CraftServer.java:233) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.PlayerList.<init>(PlayerList.java:63) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedPlayerList.<init>(SourceFile:14) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:424) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/server/v1_6_R3/Packet
+	at java.lang.Class.forName0(Native Method) ~[?:1.7.0_21]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.7.0_21]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:173) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: net.minecraft.server.v1_6_R3.Packet
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.7.0_21]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.7.0_21]
+	at java.lang.Class.forName0(Native Method) ~[?:1.7.0_21]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.7.0_21]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:173) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	... 9 more
+[08:26:39] [Thread-7/INFO]: ----- Bukkit Auto Updater -----
+[08:26:39] [Thread-7/INFO]: It appears that you're running a Beta Build, when you've specified in bukkit.yml that you prefer to run Recommended Builds.
+[08:26:39] [Thread-7/INFO]: If you would like to be kept informed about new Beta Build releases, it is recommended that you change 'preferred-channel' in your bukkit.yml to 'beta'.
+[08:26:39] [Thread-7/INFO]: With that set, you will be told whenever a new version is available for download, so that you can always keep up to date and secure with the latest fixes.
+[08:26:39] [Thread-7/INFO]: If you would like to disable this warning, simply set 'suggest-channels' to false in bukkit.yml.
+[08:26:39] [Thread-7/INFO]: ----- ------------------- -----
+[08:26:39] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v5.5.8
+[08:26:39] [Server thread/INFO]: [SimpleCommandSigns] Loading SimpleCommandSigns v0.9
+[08:26:39] [Server thread/INFO]: [Vault] Loading Vault v1.2.27-b349
+[08:26:39] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+[08:26:39] [Server thread/INFO]: [PlayerHeads] Loading PlayerHeads v3.5-jenkins-PlayerHeads-1-36-g5d2930b
+[08:26:39] [Server thread/INFO]: [CookieMonster] Loading CookieMonster v1.8
+[08:26:39] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v5.8
+[08:26:39] [Server thread/INFO]: [Essentials] Loading Essentials v2.12.2
+[08:26:39] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.11-SNAPSHOT (build 1027)
+[08:26:39] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.12.2
+[08:26:39] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.12.2
+[08:26:39] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v2.4-b548
+[08:26:39] [Server thread/INFO]: [SignShop] Loading SignShop v2.8.2
+[08:26:39] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.12.2
+[08:26:39] [Server thread/INFO]: [SafeCreeper] Loading SafeCreeper v1.5.2.5
+[08:26:39] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.12.2
+[08:26:39] [Server thread/INFO]: [Vault] Enabling Vault v1.2.27-b349
+[08:26:39] [Server thread/INFO]: [Vault][Economy] Essentials Economy found: Waiting
+[08:26:39] [Server thread/INFO]: [Vault][Permission] SuperPermissions loaded as backup permission system.
+[08:26:39] [Server thread/INFO]: [Vault] Enabled Version 1.2.27-b349
+[08:26:39] [Server thread/INFO]: [SafeCreeper] Enabling SafeCreeper v1.5.2.5
+[08:26:39] [Server thread/INFO]: [SafeCreeper] Safe Creeper API started!
+[08:26:39] [Server thread/INFO]: [SafeCreeper] Safe Creeper API enabled!
+[08:26:39] [Server thread/INFO]: [SafeCreeper] Loading global config...
+[08:26:39] [Server thread/INFO]: [SafeCreeper] Global config loaded, took 37 ms!
+[08:26:39] [Server thread/INFO]: [SafeCreeper] Loading world configs...
+[08:26:39] [Server thread/INFO]: [SafeCreeper] 2 world configs loaded, took 2 ms!
+[08:26:39] [Server thread/INFO]: [SafeCreeper] Loading global config...
+[08:26:39] [Server thread/INFO]: [SafeCreeper] Global config loaded, took 66 ms!
+[08:26:39] [Server thread/INFO]: [SafeCreeper] Loading world configs...
+[08:26:39] [Server thread/INFO]: [SafeCreeper] 2 world configs loaded, took 2 ms!
+[08:26:39] [Server thread/INFO]: §e[SafeCreeper] Checking for updates...

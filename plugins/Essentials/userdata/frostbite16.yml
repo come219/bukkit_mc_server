@@ -1,0 +1,33 @@
+timestamps:
+  login: 1394236070722
+  logout: 1394240983957
+  lastteleport: 1394240025910
+ipAddress: 71.163.46.161
+lastlocation:
+  world: Guildworld
+  x: -14.20470695472969
+  y: 30.957070025886292
+  z: 24.61852885818398
+  yaw: -343.77664
+  pitch: 17.999668
+money: '1146.8873210978207062'
+logoutlocation:
+  world: Guildworld
+  x: 100.41535097578485
+  y: 76.26021195937503
+  z: 218.57661622175476
+  yaw: 180.61371
+  pitch: 3.0000849
+afk: false
+powertools:
+  '277':
+  - /smite
+nickname: §9F§7rost§9B§7ite
+homes:
+  guild:
+    world: Guildworld
+    x: 97.97337215371242
+    y: 67.0
+    z: 197.07741390524365
+    yaw: 171.62354
+    pitch: 23.250076

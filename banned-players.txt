@@ -1,0 +1,4 @@
+# Updated 02/04/2025, 17:24 by Minecraft 1.7.2
+# victim name | ban date | banned by | banned until | reason
+
+lololazar|2014-03-10 17:04:13 -0700|(Unknown)|Forever|Banned by an operator.

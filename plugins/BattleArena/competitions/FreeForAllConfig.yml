@@ -1,0 +1,39 @@
+FreeForAll:
+    enabled: true
+    database: ffa
+    rated: true
+    prefix: "&c[FFA]&e"
+    victoryCondition: PlayerKills
+    nTeams: 2-20
+    teamSize: 1
+    nLives: 1
+    joinType: joinPhase
+    preReqs:
+        options: [clearInventory]
+    onEnter:
+        options: [storeAll]
+    onLeave:
+        options: [restoreAll]
+    onJoin:
+    onOpen:
+        options: [pvpOff]
+    onPrestart:
+        options: [pvpOff]
+    onStart:
+        options: [pvpOn, teleportIn, blockBreakOff, pvpOn]
+        giveClass:
+            default: Angel
+        doCommands:
+            - player fly on
+    onComplete:
+        options: [teleportOut]
+        doCommands:
+            - player fly stop
+    onDeath:
+        options: [randomRespawn, keepInventory]
+    onSpawn:
+        options: [enchants, health=20, hunger=20]
+    winner:
+        options: [health=20, hunger=20, money=100]
+    loser:
+        options: [money=10]

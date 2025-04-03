@@ -1,0 +1,53 @@
+timestamps:
+  login: 1397181179286
+  lastteleport: 1397089692788
+  logout: 1397182156536
+  kits:
+    plus: 1395879468340
+ipAddress: 71.163.58.101
+lastlocation:
+  world: MiniGames
+  x: -4.48899260996089
+  y: 70.07722858912595
+  z: 184.0327551837787
+  yaw: 46.511993
+  pitch: 38.767475
+money: '3052.918832213658996581'
+logoutlocation:
+  world: PvP
+  x: -289.77502361565473
+  y: 73.25668213706749
+  z: -180.18821506844614
+  yaw: -76.86682
+  pitch: 46.790974
+afk: false
+ban:
+  reason: Temporarily banned from server for 10 seconds.
+  timeout: 0
+powertools:
+  '269':
+  - bigtree tree
+  '51':
+  - spawnmob blaze 1
+  '288':
+  - spawnmob ghast 1
+  '388':
+  - spawnmob slime 10
+  '367':
+  - spawnmob zombie 3
+  '289':
+  - spawnmob creeper 2
+  '352':
+  - spawnmob skeleton 2
+  '396':
+  - time set night
+  '30':
+  - spawnmob spider 2
+  '351':
+  - cactus
+  '89':
+  - time set day
+  '50':
+  - fireball
+godmode: false
+nickname: redwind

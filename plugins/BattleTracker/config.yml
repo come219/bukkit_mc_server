@@ -1,0 +1,37 @@
+# 
+# Updates will be retrieved from the latest plugin on the bukkit site. Valid Options : none, release, beta, all
+# none (don't auto update)
+# release (only get release versions, ignore beta and alpha)
+# beta (get release and beta versions, ignore alpha)
+# all (get all new updates)
+version: 1.0.4
+autoUpdate: release
+announceUpdate: console
+showBukkitPVPMessages: false
+showBukkitPVEMessages: false
+sendPVPDeathMessages: true
+sendPVEDeathMessages: true
+sendInvolvedPvPMessages: false
+sendInvolvedPvEMessages: false
+trackPvP: true
+trackPvE: false
+topHeaderMsg: '&4Top &6{interfaceName}&4 {stat} TeamSize:{teamSize}'
+topBodyMsg: '&e#{rank}&4 {name} - {wins}:{losses}&6[{rating}]'
+ignoreEntities: []
+ignoreWorlds: []
+useSigns: true
+useHeroChat: false
+chatChannel: Global
+msgRadius: 0
+rampageTime: 7
+streakMessagesEvery: 15
+SQLOptions:
+  type: sqlite
+  db: tracker
+  url: localhost
+  port: '3306'
+  username: root
+  password: ''
+elo:
+  default: 1500
+  spread: 400

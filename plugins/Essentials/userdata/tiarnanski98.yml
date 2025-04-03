@@ -1,0 +1,20 @@
+money: '1033.3388456347653015'
+timestamps:
+  login: 1393710700628
+  lastteleport: 1393710302184
+  logout: 1393710803728
+ipAddress: 69.140.64.86
+lastlocation:
+  world: MiniGames
+  x: 65.85443549159027
+  y: 63.0
+  z: 271.73547670450745
+  yaw: 300.90137
+  pitch: 58.6501
+logoutlocation:
+  world: HUB
+  x: -1163.5
+  y: 49.0
+  z: 531.5
+  yaw: -190.05034
+  pitch: 6.4499817

@@ -1,0 +1,118 @@
+arenas:
+  1v1Spleef:
+    locations:
+      '0':
+      - MiniGames,-166,66,231
+      '1':
+      - MiniGames,-177,66,212
+    type: Spleef
+    params: {}
+  classic:
+    persistable:
+      worldName: MiniGames
+      layerNames:
+      - ba-spleef-classic-0
+    locations:
+      '0':
+      - MiniGames,-199,64,332
+      '1':
+      - MiniGames,-206,64,331
+      '10':
+      - MiniGames,-185,64,298
+      '11':
+      - MiniGames,-180,64,305
+      '12':
+      - MiniGames,-179,64,312
+      '13':
+      - MiniGames,-180,64,319
+      '14':
+      - MiniGames,-185,64,326
+      '15':
+      - MiniGames,-192,64,331
+      '2':
+      - MiniGames,-213,64,326
+      '3':
+      - MiniGames,-218,64,319
+      '4':
+      - MiniGames,-219,64,312
+      '5':
+      - MiniGames,-218,64,305
+      '6':
+      - MiniGames,-212,64,298
+      '7':
+      - MiniGames,-206,64,294
+      '8':
+      - MiniGames,-199,64,292
+      '9':
+      - MiniGames,-192,64,293
+    type: Spleef
+    params: {}
+  moreblocksdown:
+    persistable:
+      worldName: MiniGames
+      layerNames:
+      - ba-spleef-moreblocksdown-0
+    locations:
+      '0':
+      - MiniGames,-58,83,268
+      '1':
+      - MiniGames,-58,83,268
+      '10':
+      - MiniGames,-58,83,268
+      '11':
+      - MiniGames,-58,83,268
+      '12':
+      - MiniGames,-58,83,268
+      '13':
+      - MiniGames,-58,83,268
+      '14':
+      - MiniGames,-58,83,268
+      '15':
+      - MiniGames,-58,83,268
+      '16':
+      - MiniGames,-58,83,268
+      '17':
+      - MiniGames,-58,83,268
+      '18':
+      - MiniGames,-58,83,268
+      '19':
+      - MiniGames,-58,83,268
+      '2':
+      - MiniGames,-58,83,268
+      '20':
+      - MiniGames,-58,83,268
+      '21':
+      - MiniGames,-58,83,268
+      '22':
+      - MiniGames,-58,83,268
+      '23':
+      - MiniGames,-58,83,268
+      '24':
+      - MiniGames,-58,83,268
+      '25':
+      - MiniGames,-58,83,268
+      '26':
+      - MiniGames,-58,83,268
+      '27':
+      - MiniGames,-58,83,268
+      '28':
+      - MiniGames,-58,83,268
+      '29':
+      - MiniGames,-58,83,268
+      '3':
+      - MiniGames,-58,83,268
+      '4':
+      - MiniGames,-58,83,268
+      '5':
+      - MiniGames,-58,83,268
+      '6':
+      - MiniGames,-58,83,268
+      '7':
+      - MiniGames,-58,83,268
+      '8':
+      - MiniGames,-58,83,268
+      '9':
+      - MiniGames,-58,83,268
+    type: Spleef
+    params: {}
+brokenArenas: {}

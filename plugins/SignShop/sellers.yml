@@ -1,0 +1,102 @@
+sellers:
+  -282/248/-248/MiniGames:
+    owner: come219
+    activatables: []
+    containables: []
+    shopworld: MiniGames
+    sign: -282/248/-248/MiniGames
+    items: []
+  -25/55/542/HUB:
+    owner: come219
+    activatables: []
+    containables: []
+    shopworld: HUB
+    sign: -25/55/542/HUB
+    items: []
+  -1166/60/530/HUB:
+    owner: come219
+    activatables: []
+    containables: []
+    shopworld: HUB
+    sign: -1166/60/530/HUB
+    items: []
+  -296/248/-248/MiniGames:
+    owner: come219
+    activatables: []
+    containables: []
+    shopworld: MiniGames
+    sign: -296/248/-248/MiniGames
+    items: []
+  -1143/59/-196/HUB:
+    owner: come219
+    activatables: []
+    containables:
+    - -1143/59/-197/HUB
+    shopworld: HUB
+    sign: -1143/59/-196/HUB
+    items:
+    - 1&373&8238&46&&&1
+  -1166/59/530/HUB:
+    owner: come219
+    activatables: []
+    containables: []
+    shopworld: HUB
+    sign: -1166/59/530/HUB
+    items: []
+  -1166/60/528/HUB:
+    owner: come219
+    activatables: []
+    containables: []
+    shopworld: HUB
+    sign: -1166/60/528/HUB
+    items: []
+  -1143/59/-200/HUB:
+    owner: come219
+    activatables: []
+    containables:
+    - -1143/59/-199/HUB
+    shopworld: HUB
+    sign: -1143/59/-200/HUB
+    items:
+    - 1&382&0&0&&&1
+    - 1&376&0&0&&&1
+    - 1&377&0&0&&&1
+    - 1&378&0&0&&&1
+    - 1&370&0&0&&&1
+    - 1&374&0&0&&&1
+  -1166/59/529/HUB:
+    owner: come219
+    activatables: []
+    containables: []
+    shopworld: HUB
+    sign: -1166/59/529/HUB
+    items: []
+  -1186/60/-199/HUB:
+    owner: come219
+    activatables: []
+    containables: []
+    shopworld: HUB
+    sign: -1186/60/-199/HUB
+    items: []
+  -21/55/536/HUB:
+    owner: come219
+    activatables: []
+    containables: []
+    shopworld: HUB
+    sign: -21/55/536/HUB
+    items: []
+  -1166/60/529/HUB:
+    owner: come219
+    activatables: []
+    containables: []
+    shopworld: HUB
+    sign: -1166/60/529/HUB
+    items: []
+  -1186/60/-197/HUB:
+    owner: come219
+    activatables: []
+    containables:
+    - -1186/59/-197/HUB
+    shopworld: HUB
+    sign: -1186/60/-197/HUB
+    items: []

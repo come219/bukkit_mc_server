@@ -1,0 +1,29 @@
+users:
+  come219:
+    group: Owner
+    subgroups: []
+    permissions: []
+  fergon1441:
+    group: Vice-Owner
+    subgroups: []
+    permissions: []
+  Fluffy_Waffle:
+    group: VIP
+    subgroups: []
+    permissions: []
+  SeaFrank:
+    group: VIP
+    subgroups: []
+    permissions: []
+  shadowdion:
+    group: Administrator
+    subgroups: []
+    permissions: []
+  wesmellbad123:
+    group: Administrator
+    subgroups: []
+    permissions: []
+  zakriboss:
+    group: Vice-Owner
+    subgroups: []
+    permissions: []

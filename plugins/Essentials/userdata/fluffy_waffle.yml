@@ -1,0 +1,32 @@
+timestamps:
+  login: 1394924715044
+  logout: 1394924751156
+  lastteleport: 1394239313366
+  kits:
+    plus: 1393875601548
+ipAddress: 108.45.19.55
+lastlocation:
+  world: Test
+  x: -234.22745992104953
+  y: 84.0
+  z: 205.66968748240475
+  yaw: -36.45
+  pitch: 15.599999
+money: '1001715.31223278646847610'
+logoutlocation:
+  world: MiniGames
+  x: -234.5
+  y: 84.0
+  z: 205.5
+  yaw: 0.0
+  pitch: 0.0
+afk: false
+nickname: §5CrimsonReaper§6TheHeadWaffle
+homes:
+  home:
+    world: Guildworld
+    x: 287.46806778813686
+    y: 77.0
+    z: -182.52071947060026
+    yaw: 0.44647217
+    pitch: 44.96267

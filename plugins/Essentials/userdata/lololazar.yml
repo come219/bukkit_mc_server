@@ -1,0 +1,24 @@
+timestamps:
+  login: 1394495322733
+  logout: 1394496251766
+  lastteleport: 1392944121161
+ipAddress: 71.163.21.10
+lastlocation:
+  world: MiniGames
+  x: -441.3682505614293
+  y: 59.315872815573506
+  z: 334.73561175083927
+  yaw: -192.60332
+  pitch: -6.450088
+logoutlocation:
+  world: Guildworld
+  x: 328.44019442332814
+  y: 73.0
+  z: 24.464026638801897
+  yaw: -188.85175
+  pitch: 46.95
+money: '1000.0'
+afk: false
+ban:
+  reason: Temporarily banned from server for 1 minute 39 seconds.
+  timeout: 1394496353169

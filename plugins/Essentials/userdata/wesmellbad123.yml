@@ -1,0 +1,52 @@
+timestamps:
+  login: 1395187184098
+  lastteleport: 1395187196054
+  logout: 1395088741690
+  mute: 0
+ipAddress: 108.48.8.253
+lastlocation:
+  world: MiniGames
+  x: -228.30008399980568
+  y: 86.77785495950353
+  z: 205.68297106260434
+  yaw: -90.74997
+  pitch: 23.400003
+money: '10001666.80793056819627473'
+logoutlocation:
+  world: Guildworld
+  x: -11.699999988079062
+  y: 112.0
+  z: -26.378112222349532
+  yaw: -12.80307
+  pitch: 32.550037
+powertools:
+  '159':
+  - smite
+  '341':
+  - antioch
+  '173':
+  - kill balckout
+  '399':
+  - repl 1
+  '261':
+  - smite
+  '351':
+  - tree
+  '266':
+  - bigtree tree
+  '6':
+  - undo
+  '264':
+  - heal fergon1441
+  '339':
+  - kill balckout
+godmode: false
+afk: false
+ban:
+  reason: '§4Banned:
+
+    §rThe Ban Hammer has spoken!'
+  timeout: 0
+muted: false
+nickname: Ascended
+powertoolsenabled: true

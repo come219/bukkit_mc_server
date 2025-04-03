@@ -1,0 +1,27 @@
+money: '1077.6686786944365823'
+timestamps:
+  login: 1396571721982
+  logout: 1396571833907
+  lastteleport: 1394926578859
+  kits:
+    plus: 1393794415905
+ipAddress: 69.140.170.17
+lastlocation:
+  world: MiniGames
+  x: -92.13780209110458
+  y: 88.2297583553475
+  z: -170.82941435264956
+  yaw: 323.8401
+  pitch: 48.299965
+logoutlocation:
+  world: MiniGames
+  x: 80.35714229173458
+  y: 59.0
+  z: 250.4525777625281
+  yaw: -171.44788
+  pitch: 0.4500164
+afk: false
+powertools:
+  '279':
+  - cyl 22 1 1
+teleportenabled: true

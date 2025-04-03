@@ -1,0 +1,19 @@
+money: '1001.4065444970414829'
+timestamps:
+  login: 1396912924618
+  logout: 1396912926592
+ipAddress: 216.164.61.202
+lastlocation:
+  world: HUB
+  x: -1163.4104815992814
+  y: 49.0
+  z: 531.1615715363266
+  yaw: 179.70142
+  pitch: -5.0999923
+logoutlocation:
+  world: PvP
+  x: 521.6999999880791
+  y: 4.0
+  z: -480.4490038049132
+  yaw: 298.77722
+  pitch: 30.197517

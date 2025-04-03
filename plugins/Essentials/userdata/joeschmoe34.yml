@@ -1,0 +1,20 @@
+timestamps:
+  login: 1393978680668
+  lastteleport: 1392943833685
+  logout: 1393978807418
+ipAddress: 108.48.35.117
+lastlocation:
+  world: MiniGames
+  x: -20.554442906610593
+  y: 121.0
+  z: 382.9574283575986
+  yaw: -83.85003
+  pitch: -4.9499903
+money: '1000.0'
+logoutlocation:
+  world: MiniGames
+  x: -13.52520379744982
+  y: 122.0
+  z: 382.95955977238356
+  yaw: 269.8494
+  pitch: 13.950009

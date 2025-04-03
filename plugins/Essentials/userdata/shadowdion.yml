@@ -1,0 +1,35 @@
+ban:
+  reason: '§4Banned:
+
+    §rThe Ban Hammer has spoken!'
+  timeout: 0
+timestamps:
+  login: 1397088867663
+  logout: 1397090046786
+  lastteleport: 1397089700939
+  kits:
+    plus: 1394314008093
+ipAddress: 72.83.136.210
+money: '1113.327097910983873934'
+lastlocation:
+  world: MiniGames
+  x: -15.283436690618458
+  y: 77.71303630940535
+  z: 161.05689409535728
+  yaw: 137.68185
+  pitch: 27.599998
+nickname: Bobracha
+logoutlocation:
+  world: PvP
+  x: -287.3005811406489
+  y: 73.36016588094911
+  z: -170.34388369961346
+  yaw: -177.62592
+  pitch: 31.499983
+godmode: false
+powertools:
+  '359':
+  - gm 1
+  '154':
+  - toggle
+afk: false

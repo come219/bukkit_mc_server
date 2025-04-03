@@ -1,0 +1,52 @@
+curSection: 1
+'0':
+  storedDate: March 16, 2014 9:25:11 PM EDT
+  armor: []
+  contents:
+  - FIREWORK 63
+  - FIREWORK 33
+  - PAPER 49
+  - SULPHUR 48
+  - QUARTZ_BLOCK 1
+  - INK_SACK:10 63
+  - GLOWSTONE_DUST 59
+  - INK_SACK:13 63
+  - INK_SACK:12 62
+  - INK_SACK:9 63
+  - FIREWORK 1
+  - INK_SACK:14 63
+  - FIREWORK_CHARGE 64
+'1':
+  storedDate: March 4, 2014 12:52:30 PM EST
+  armor: []
+  contents:
+  - BOW 1
+'2':
+  storedDate: March 4, 2014 7:11:18 PM EST
+  armor: []
+  contents:
+  - BOW 1
+  - STONE 1
+  - SNOW_BALL 1
+'3':
+  storedDate: March 4, 2014 8:28:27 PM EST
+  armor: []
+  contents:
+  - SMOOTH_BRICK 1
+  - STONE 1
+  - REDSTONE_TORCH_ON 1
+  - REDSTONE_LAMP_OFF 1
+  - TORCH 2
+  - IRON_FENCE 1
+  - WOOD_BUTTON 1
+'4':
+  storedDate: March 4, 2014 8:31:50 PM EST
+  armor: []
+  contents:
+  - SMOOTH_BRICK 1
+  - STONE 1
+  - REDSTONE_TORCH_ON 1
+  - REDSTONE_LAMP_OFF 1
+  - TORCH 2
+  - IRON_FENCE 1
+  - WOOD_BUTTON 1

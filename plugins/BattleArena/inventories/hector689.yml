@@ -1,0 +1,31 @@
+curSection: 2
+'0':
+  storedDate: March 1, 2014 4:41:13 PM EST
+  armor: []
+  contents:
+  - SNOW_BALL 16
+  - SNOW_BALL 16
+  - STONE_SWORD 1
+  - STONE_AXE:5 1
+  - SNOW_BALL 16
+  - SNOW_BALL 5
+'1':
+  storedDate: March 1, 2014 4:46:40 PM EST
+  armor: []
+  contents: []
+'2':
+  storedDate: March 1, 2014 4:32:53 PM EST
+  armor: []
+  contents:
+  - STONE_SWORD 1
+  - STONE_SPADE 1
+  - STONE_PICKAXE 1
+  - STONE_AXE 1
+'3':
+  storedDate: March 1, 2014 4:34:24 PM EST
+  armor: []
+  contents: []
+'4':
+  storedDate: March 1, 2014 4:38:17 PM EST
+  armor: []
+  contents: []

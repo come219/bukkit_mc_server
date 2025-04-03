@@ -1,0 +1,32 @@
+timestamps:
+  login: 1743639877973
+  lastteleport: 1397438329740
+  logout: 1743639625770
+  kits:
+    plus: 1394392123253
+    firework: 1393690933470
+    notch: 1393690918620
+ipAddress: 127.0.0.1
+lastlocation:
+  world: MiniGames
+  x: 74.33568918795217
+  y: 61.86512829970259
+  z: 265.1802879937701
+  yaw: -45.60028
+  pitch: 18.149984
+money: '2618.5753936534225922'
+afk: false
+logoutlocation:
+  world: HUB
+  x: -1167.0920699689595
+  y: 50.0
+  z: 521.6201117681625
+  yaw: 147.1532
+  pitch: 26.850002
+ban:
+  timeout: 0
+powertools:
+  '15':
+  - tp fer
+nickname: MrSoloQueue
+godmode: false

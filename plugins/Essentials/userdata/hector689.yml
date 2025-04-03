@@ -1,0 +1,21 @@
+money: '1000.0'
+timestamps:
+  login: 1393709332728
+  logout: 1393711562719
+  lastteleport: 1393709659931
+ipAddress: 68.49.52.2
+lastlocation:
+  world: HUB
+  x: -1656.5182871494412
+  y: 70.0
+  z: 544.7737298007786
+  yaw: 266.25012
+  pitch: 34.199993
+logoutlocation:
+  world: HUB
+  x: -54.38318527116788
+  y: 54.0
+  z: 539.9517531522542
+  yaw: 93.935974
+  pitch: 22.050007
+afk: false

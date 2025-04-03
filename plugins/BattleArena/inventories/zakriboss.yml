@@ -1,0 +1,156 @@
+curSection: 2
+'0':
+  storedDate: March 4, 2014 7:20:15 PM EST
+  armor: []
+  contents:
+  - COMPASS 1
+  - WOOD_AXE 1
+  - LOG_2:1 1
+  - QUARTZ_BLOCK:2 1
+  - QUARTZ_STAIRS 2
+  - CARPET:15 28
+  - STAINED_CLAY:3 1
+  - LAPIS_BLOCK 1
+  - COMPASS 1
+  - LOG_2:1 1
+  - WOOL:3 1
+  - QUARTZ_BLOCK 1
+  - REDSTONE_TORCH_ON 1
+  - STAINED_GLASS:11 1
+  - CARPET:3 1
+  - CARPET:11 1
+  - IRON_BLOCK 1
+  - SNOW_BLOCK 1
+  - STAINED_GLASS 1
+  - STAINED_GLASS_PANE 1
+  - QUARTZ_BLOCK:2 1
+  - WEB 1
+  - RED_ROSE:1 1
+  - DIAMOND_BLOCK 1
+  - WOOL:15 1
+  - STAINED_GLASS:3 1
+'1':
+  storedDate: March 15, 2014 7:22:41 PM EDT
+  armor: []
+  contents:
+  - COMPASS 1
+  - WOOD_AXE 1
+  - ITEM_FRAME 1
+  - PACKED_ICE 1
+  - STAINED_GLASS_PANE:11 1
+  - NETHER_STAR 64
+  - QUARTZ_STAIRS 1
+  - PAPER displayName="Now how did you get here?" 1
+  - CARPET:3 1
+  - QUARTZ_BLOCK 1
+  - REDSTONE_TORCH_ON 1
+  - STAINED_GLASS:3 1
+  - STAINED_GLASS:11 1
+  - NETHER_STAR displayName="Star of the Dead" 50
+  - STAINED_CLAY:11 1
+  - SNOW_BLOCK 1
+  - STAINED_GLASS 1
+  - STAINED_GLASS_PANE 1
+  - STAINED_GLASS_PANE:10 1
+  - WEB 1
+  - WOOL:11 1
+  - NETHER_STAR displayName="Star of the Revenace" 1
+  - DIAMOND_BLOCK 1
+  - WOOL:15 1
+  - WOOL:3 1
+  - QUARTZ_BLOCK 1
+  - SMOOTH_STAIRS 1
+  - NETHER_STAR displayName="Star of the Dead" 1
+  - IRON_FENCE 1
+'2':
+  storedDate: March 4, 2014 7:13:06 PM EST
+  armor: []
+  contents:
+  - COMPASS 1
+  - WOOD_AXE 1
+  - QUARTZ_BLOCK:1 1
+  - LOG:2 1
+  - CARPET:15 28
+  - STAINED_CLAY:3 1
+  - LAPIS_BLOCK 1
+  - REDSTONE_TORCH_ON 3
+  - LOG_2:1 1
+  - WOOL:3 1
+  - QUARTZ_BLOCK 1
+  - REDSTONE_TORCH_ON 1
+  - STAINED_GLASS:3 1
+  - STAINED_GLASS:11 1
+  - QUARTZ_STAIRS 1
+  - CARPET:3 1
+  - CARPET:11 1
+  - IRON_BLOCK 1
+  - SNOW_BLOCK 1
+  - STAINED_GLASS 1
+  - STAINED_GLASS_PANE 1
+  - QUARTZ_BLOCK:2 1
+  - WEB 1
+  - RED_ROSE:1 1
+  - DIAMOND_BLOCK 1
+  - WOOL:15 1
+  - LOG_2:1 1
+'3':
+  storedDate: March 4, 2014 7:16:00 PM EST
+  armor: []
+  contents:
+  - COMPASS 1
+  - WOOD_AXE 1
+  - LOG_2:1 1
+  - QUARTZ_BLOCK:2 1
+  - LOG:2 1
+  - CARPET:15 28
+  - STAINED_CLAY:3 1
+  - LAPIS_BLOCK 1
+  - REDSTONE_TORCH_ON 3
+  - LOG_2:1 1
+  - WOOL:3 1
+  - QUARTZ_BLOCK 1
+  - REDSTONE_TORCH_ON 1
+  - STAINED_GLASS:11 1
+  - QUARTZ_STAIRS 1
+  - CARPET:3 1
+  - CARPET:11 1
+  - IRON_BLOCK 1
+  - SNOW_BLOCK 1
+  - STAINED_GLASS 1
+  - STAINED_GLASS_PANE 1
+  - QUARTZ_BLOCK:2 1
+  - WEB 1
+  - RED_ROSE:1 1
+  - DIAMOND_BLOCK 1
+  - WOOL:15 1
+  - STAINED_GLASS:3 1
+'4':
+  storedDate: March 4, 2014 7:18:11 PM EST
+  armor: []
+  contents:
+  - COMPASS 1
+  - WOOD_AXE 1
+  - LOG_2:1 1
+  - QUARTZ_BLOCK:2 1
+  - CARPET:15 28
+  - STAINED_CLAY:3 1
+  - LAPIS_BLOCK 1
+  - COMPASS 1
+  - LOG_2:1 1
+  - WOOL:3 1
+  - QUARTZ_BLOCK 1
+  - REDSTONE_TORCH_ON 1
+  - STAINED_GLASS:11 1
+  - QUARTZ_STAIRS 1
+  - CARPET:3 1
+  - CARPET:11 1
+  - IRON_BLOCK 1
+  - SNOW_BLOCK 1
+  - STAINED_GLASS 1
+  - STAINED_GLASS_PANE 1
+  - QUARTZ_BLOCK:2 1
+  - WEB 1
+  - RED_ROSE:1 1
+  - DIAMOND_BLOCK 1
+  - WOOL:15 1
+  - STAINED_GLASS:3 1

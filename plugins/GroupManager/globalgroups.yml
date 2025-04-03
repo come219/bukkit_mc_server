@@ -1,0 +1,138 @@
+# Group inheritance
+#
+# Any inherited groups prefixed with a g: are global groups
+# and are inherited from the GlobalGroups.yml.
+#
+# Groups without the g: prefix are groups local to this world
+# and are defined in the this groups.yml file.
+#
+# Local group inheritances define your promotion tree when using 'manpromote/mandemote'
+
+groups:
+  Default:
+    default: true
+    permissions:
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.afk.auto
+    - essentials.help
+    - multiverse.access.*
+    - -multiverse.access.KillGod
+    - -multiverse.access.VIPworld
+    - multiverse.portal.access.*
+    - -multiverse.portal.access.KillGodEntry
+    - -multiverse.portal.access.KillGodLeave
+    - -multiverse.portal.access.EventsEntry
+    - -multiverse.portal.access.EventsLeave
+    - -multiverse.portal.access.VIPlobbyEntry
+    - -multiverse.portal.access.VIPlobbyLeave
+    - essentials.pay
+    - essentials.sell
+    - essentials.list
+    - essentials.seen
+    - essentials.suicide
+    - essentials.spawn
+    - essentials.tpa
+    - essentials.tpaaccept
+    - essentials.tpdeny
+    - arena.join.*
+    - arena.leave
+    - arena.class.use.*
+    - -arena.join.1v1
+    info:
+      build: true
+      prefix: ''
+  Donator:
+    default: false
+    permissions:
+    - helpop
+    inheritance:
+    - Default
+    info:
+      build: true
+      prefix: '&e[DONATOR]&f'
+  VIP:
+    default: false
+    permissions:
+    - essentials.joinfullserver
+    - essentials.enderchest
+    - multiverse.access.*
+    - multiverse.portal.access.*
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.afk.auto
+    - essentials.help
+    - multiverse.access.*
+    - multiverse.portal.access.*
+    - essentials.pay
+    - essentials.sell
+    - essentials.list
+    - essentials.seen
+    - essentials.suicide
+    - essentials.spawn
+    - essentials.tpa
+    - essentials.tpaaccept
+    - essentials.tpdeny
+    - arena.join.*
+    - arena.leave
+    - arena.class.use.*
+    inheritance:
+    info:
+      build: true
+      prefix: '&a[V.I.P.]&f'
+  1337VIP:
+    default: false
+    permissions:
+    - essentials.fly
+    inheritance: 
+    - VIP
+    info:
+      build: true
+      prefix: '&2[1337-V.I.P.]&f'
+  Moderator:
+    default: false
+    permissions:
+    - essentials.helpop.receive
+    - essentials.warps.*
+    - essentials.tempban
+    - essentials.mute
+    - essentials.kick
+    inheritance:
+    - 1337VIP
+    info:
+      build: true
+      prefix: '&1[MOD]&f'
+  Administrator:
+    default: false
+    permissions:
+    - essentials.gamemode
+    - essentials.ban
+    - essentials.banip
+    - essentials.unban
+    - essentials.vanish
+    - essentials.weather
+    - essentials.time
+    inheritance:
+    - Moderator
+    info:
+      build: true
+      prefix: '&1[ADMIN]&f'
+  Vice-Owner:
+   default: false
+   permissions:
+    - '*'
+   inheritance:
+   - Administrator
+   info:
+     build: true
+     prefix: '&5[Vice-Owner]&f'
+  Owner:
+   default: false
+   permissions:
+   - '*'
+   inheritance:
+   info:
+     build: true
+     prefix: '&0[Owner]&f'

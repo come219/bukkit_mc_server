@@ -1,0 +1,20 @@
+money: '1000.0'
+timestamps:
+  login: 1393973110148
+  logout: 1393973475648
+  lastteleport: 1393973318698
+ipAddress: 69.143.209.138
+lastlocation:
+  world: HUB
+  x: -1997.3483725819453
+  y: 20.0
+  z: 553.119288769233
+  yaw: -275.40002
+  pitch: 57.29999
+logoutlocation:
+  world: Guildworld
+  x: 315.6682075354176
+  y: 65.0
+  z: 54.10610014162225
+  yaw: 27.149841
+  pitch: 45.300022

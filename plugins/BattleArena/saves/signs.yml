@@ -1,0 +1,49 @@
+flyingangels:
+  MiniGames,-146,88,36:
+    location: MiniGames,-146,88,36
+  MiniGames,-146,88,38:
+    location: MiniGames,-146,88,38
+moreblocksdown:
+  MiniGames,-226,84,196:
+    location: MiniGames,-226,84,196
+  MiniGames,-224,84,196:
+    location: MiniGames,-224,84,196
+1v1:
+  HUB,-50,54,538:
+    location: HUB,-50,54,538
+classic:
+  MiniGames,-226,84,214:
+    location: MiniGames,-226,84,214
+  MiniGames,-224,84,214:
+    location: MiniGames,-224,84,214
+industrial:
+  MiniGames,48,113,186:
+    location: MiniGames,48,113,186
+MoreBlocksDown:
+  Test,-226,84,196:
+    location: Test,-226,84,196
+Classic:
+  Test,-224,84,214:
+    location: Test,-224,84,214
+FlyingAngels:
+  MiniGames,-146,88,36:
+    location: MiniGames,-146,88,36
+  MiniGames,-146,88,38:
+    location: MiniGames,-146,88,38
+maze:
+  MiniGames,-423,63,145:
+    location: MiniGames,-423,63,145
+  MiniGames,-425,63,145:
+    location: MiniGames,-425,63,145
+testctf:
+  HUB,-1162,61,533:
+    location: HUB,-1162,61,533
+testpb:
+  HUB,-1162,60,533:
+    location: HUB,-1162,60,533
+testarena:
+  HUB,-1162,59,533:
+    location: HUB,-1162,59,533
+ColorFull:
+  MiniGames,-146,88,36:
+    location: MiniGames,-146,88,36

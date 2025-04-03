@@ -1,0 +1,28 @@
+timestamps:
+  login: 1392852808920
+  lastteleport: 1392727657620
+  logout: 1392727972717
+  mute: 1392952849663
+ipAddress: 69.140.179.218
+lastlocation:
+  world: HUB
+  x: -1165.5
+  y: 62.0
+  z: -503.5
+  yaw: -165.36653
+  pitch: 12.009832
+money: '1032.7419855934370760'
+logoutlocation:
+  world: HUB
+  x: -59.735218914193155
+  y: 69.0
+  z: 538.8673908185006
+  yaw: -100.75
+  pitch: 44.830814
+afk: false
+ban:
+  reason: '§4Banned:
+
+    §rnigger'
+  timeout: 0
+muted: true

@@ -1,0 +1,6 @@
+# Configuration file for BattlePluginsAPI. http://battleplugins.com
+# Allows plugins using BattlePluginsAPI to interface with the website
+# API-Key : unique id for server authentication
+# SendStatistics : set to false to not send statistics
+API-Key: ''
+SendStatistics: true

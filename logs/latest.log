@@ -1,0 +1,941 @@
+[17:24:29] [Server thread/INFO]: Starting minecraft server version 1.7.2
+[17:24:29] [Server thread/INFO]: Loading properties
+[17:24:29] [Server thread/INFO]: Default game type: SURVIVAL
+[17:24:29] [Server thread/INFO]: Generating keypair
+[17:24:30] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:24:30] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.2-R0.3-b3020jnks (MC: 1.7.2) (Implementing API version 1.7.2-R0.3)
+[17:24:30] [Server thread/ERROR]: Could not load 'plugins\ArenaSpleef.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:186) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:133) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugins(CraftServer.java:350) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.<init>(CraftServer.java:312) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.PlayerList.<init>(PlayerList.java:63) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedPlayerList.<init>(SourceFile:14) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:424) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key; could not found expected ':'
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:398) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:229) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:178) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:563) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:146) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:230) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:123) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:106) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:121) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:480) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:411) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.PluginDescriptionFile.<init>(PluginDescriptionFile.java:188) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:181) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	... 8 more
+[17:24:30] [Server thread/ERROR]: Could not load 'plugins\Citizens.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:186) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:133) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugins(CraftServer.java:350) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.<init>(CraftServer.java:312) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.PlayerList.<init>(PlayerList.java:63) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedPlayerList.<init>(SourceFile:14) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:424) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+Caused by: org.yaml.snakeyaml.error.YAMLException: java.util.zip.ZipException: invalid block type
+	at org.yaml.snakeyaml.reader.StreamReader.update(StreamReader.java:199) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.yaml.snakeyaml.reader.StreamReader.<init>(StreamReader.java:63) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:411) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.PluginDescriptionFile.<init>(PluginDescriptionFile.java:188) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:181) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	... 8 more
+Caused by: java.util.zip.ZipException: invalid block type
+	at java.base/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:182) ~[?:?]
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:119) ~[?:?]
+	at java.base/java.io.PushbackInputStream.read(PushbackInputStream.java:197) ~[?:?]
+	at org.yaml.snakeyaml.reader.UnicodeReader.init(UnicodeReader.java:84) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.yaml.snakeyaml.reader.UnicodeReader.read(UnicodeReader.java:114) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at java.base/java.io.Reader.read(Reader.java:269) ~[?:?]
+	at org.yaml.snakeyaml.reader.StreamReader.update(StreamReader.java:183) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.yaml.snakeyaml.reader.StreamReader.<init>(StreamReader.java:63) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:411) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.PluginDescriptionFile.<init>(PluginDescriptionFile.java:188) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:181) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	... 8 more
+[17:24:30] [Server thread/ERROR]: Could not load 'plugins\DisguiseCraft.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/minecraft/server/v1_6_R3/Packet
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:137) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:313) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:236) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugins(CraftServer.java:350) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.<init>(CraftServer.java:312) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.PlayerList.<init>(PlayerList.java:63) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedPlayerList.<init>(SourceFile:14) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:424) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/server/v1_6_R3/Packet
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:578) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:40) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: net.minecraft.server.v1_6_R3.Packet
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:67) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:595) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528) ~[?:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:578) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:40) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	... 9 more
+[17:24:30] [Server thread/ERROR]: Could not load 'plugins\BattleTracker.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: mc/alk/tracker/controllers/TrackerImpl$DBConnectionException
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:137) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:313) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:236) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugins(CraftServer.java:350) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.<init>(CraftServer.java:312) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.PlayerList.<init>(PlayerList.java:63) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedPlayerList.<init>(SourceFile:14) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:424) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+Caused by: java.lang.NoClassDefFoundError: mc/alk/tracker/controllers/TrackerImpl$DBConnectionException
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:578) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:40) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: mc.alk.tracker.controllers.TrackerImpl$DBConnectionException
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:429) ~[?:?]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:421) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:420) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:77) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:595) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528) ~[?:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:578) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:40) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	... 9 more
+Caused by: java.util.zip.ZipException: invalid stored block lengths
+	at java.base/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:182) ~[?:?]
+	at java.base/jdk.internal.loader.Resource.getBytes(Resource.java:126) ~[?:?]
+	at java.base/jdk.internal.loader.URLClassPath$JarLoader$2.getBytes(URLClassPath.java:851) ~[?:?]
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:519) ~[?:?]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:427) ~[?:?]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:421) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:420) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:77) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:595) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528) ~[?:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:578) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:40) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	... 9 more
+[17:24:30] [Server thread/ERROR]: Could not load 'plugins\WorldGuard.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: com/sk89q/worldguard/protection/databases/ProtectionDatabaseException
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:137) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:313) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:236) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugins(CraftServer.java:350) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.<init>(CraftServer.java:312) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.PlayerList.<init>(PlayerList.java:63) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedPlayerList.<init>(SourceFile:14) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:424) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+Caused by: java.lang.NoClassDefFoundError: com/sk89q/worldguard/protection/databases/ProtectionDatabaseException
+	at com.sk89q.worldguard.bukkit.WorldGuardPlugin.<init>(WorldGuardPlugin.java:108) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:132) ~[?:?]
+	at java.base/jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:259) ~[?:?]
+	at java.base/java.lang.Class.newInstance(Class.java:804) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:52) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: com.sk89q.worldguard.protection.databases.ProtectionDatabaseException
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:429) ~[?:?]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:421) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:420) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:77) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:595) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528) ~[?:?]
+	at com.sk89q.worldguard.bukkit.WorldGuardPlugin.<init>(WorldGuardPlugin.java:108) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:132) ~[?:?]
+	at java.base/jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:259) ~[?:?]
+	at java.base/java.lang.Class.newInstance(Class.java:804) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:52) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	... 9 more
+Caused by: java.util.zip.ZipException: invalid block type
+	at java.base/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:182) ~[?:?]
+	at java.base/jdk.internal.loader.Resource.getBytes(Resource.java:126) ~[?:?]
+	at java.base/jdk.internal.loader.URLClassPath$JarLoader$2.getBytes(URLClassPath.java:851) ~[?:?]
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:519) ~[?:?]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:427) ~[?:?]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:421) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:420) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:77) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:595) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528) ~[?:?]
+	at com.sk89q.worldguard.bukkit.WorldGuardPlugin.<init>(WorldGuardPlugin.java:108) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:132) ~[?:?]
+	at java.base/jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:259) ~[?:?]
+	at java.base/java.lang.Class.newInstance(Class.java:804) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:52) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	... 9 more
+[17:24:30] [Server thread/ERROR]: Could not load 'plugins\dtlTraders-3.0.9.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Citizens
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:201) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugins(CraftServer.java:350) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.<init>(CraftServer.java:312) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.PlayerList.<init>(PlayerList.java:63) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedPlayerList.<init>(SourceFile:14) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:424) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+[17:24:30] [Server thread/ERROR]: Could not load 'plugins\PropHunt.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: ProtocolLib
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:201) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugins(CraftServer.java:350) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.<init>(CraftServer.java:312) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.PlayerList.<init>(PlayerList.java:63) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedPlayerList.<init>(SourceFile:14) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:424) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+[17:24:30] [Server thread/ERROR]: Could not load 'plugins\BattleArena.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: mc/alk/arena/objects/GameLogic
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:137) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:313) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:236) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugins(CraftServer.java:350) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.<init>(CraftServer.java:312) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.PlayerList.<init>(PlayerList.java:63) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedPlayerList.<init>(SourceFile:14) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:424) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+Caused by: java.lang.NoClassDefFoundError: mc/alk/arena/objects/GameLogic
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1026) ~[?:?]
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:524) ~[?:?]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:427) ~[?:?]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:421) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:420) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:77) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:595) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528) ~[?:?]
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1026) ~[?:?]
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:524) ~[?:?]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:427) ~[?:?]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:421) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:420) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:77) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:595) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528) ~[?:?]
+	at mc.alk.arena.BattleArena.<clinit>(BattleArena.java:90) ~[?:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:578) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:40) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: mc.alk.arena.objects.GameLogic
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:429) ~[?:?]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:421) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:420) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:77) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:595) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528) ~[?:?]
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1026) ~[?:?]
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:524) ~[?:?]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:427) ~[?:?]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:421) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:420) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:77) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:595) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528) ~[?:?]
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1026) ~[?:?]
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:524) ~[?:?]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:427) ~[?:?]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:421) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:420) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:77) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:595) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528) ~[?:?]
+	at mc.alk.arena.BattleArena.<clinit>(BattleArena.java:90) ~[?:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:578) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:40) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	... 9 more
+Caused by: java.util.zip.ZipException: invalid code lengths set
+	at java.base/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:182) ~[?:?]
+	at java.base/jdk.internal.loader.Resource.getBytes(Resource.java:126) ~[?:?]
+	at java.base/jdk.internal.loader.URLClassPath$JarLoader$2.getBytes(URLClassPath.java:851) ~[?:?]
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:519) ~[?:?]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:427) ~[?:?]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:421) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:420) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:77) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:595) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528) ~[?:?]
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1026) ~[?:?]
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:524) ~[?:?]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:427) ~[?:?]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:421) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:420) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:77) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:595) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528) ~[?:?]
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1026) ~[?:?]
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:524) ~[?:?]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:427) ~[?:?]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:421) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:420) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:77) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:595) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528) ~[?:?]
+	at mc.alk.arena.BattleArena.<clinit>(BattleArena.java:90) ~[?:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:578) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:40) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	... 9 more
+[17:24:30] [Server thread/ERROR]: Could not load 'plugins\ArenaCTF.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: BattleArena
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:201) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugins(CraftServer.java:350) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.<init>(CraftServer.java:312) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.PlayerList.<init>(PlayerList.java:63) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedPlayerList.<init>(SourceFile:14) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:424) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+[17:24:30] [Server thread/ERROR]: Could not load 'plugins\ArenaPaintball.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: BattleArena
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:201) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugins(CraftServer.java:350) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.<init>(CraftServer.java:312) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.PlayerList.<init>(PlayerList.java:63) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedPlayerList.<init>(SourceFile:14) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:424) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+[17:24:30] [Server thread/ERROR]: Could not load 'plugins\SurvivalArena.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: BattleArena
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:201) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugins(CraftServer.java:350) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.<init>(CraftServer.java:312) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.PlayerList.<init>(PlayerList.java:63) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedPlayerList.<init>(SourceFile:14) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:424) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+[17:24:30] [Server thread/INFO]: [PlayerHeads] Loading PlayerHeads v3.5-jenkins-PlayerHeads-1-36-g5d2930b
+[17:24:30] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v5.5.8
+[17:24:30] [Server thread/INFO]: [Essentials] Loading Essentials v2.12.2
+[17:24:30] [Server thread/INFO]: [GroupManager] Loading GroupManager v2.0 (2.12.1) (Phoenix)
+[17:24:30] [Server thread/INFO]: [CustomPotions] Loading CustomPotions v3.0
+[17:24:30] [Server thread/INFO]: [Lockette] Loading Lockette v1.7.12
+[17:24:30] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+[17:24:30] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.12.2
+[17:24:30] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.12.2
+[17:24:30] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.12.2
+[17:24:30] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v2.4-b548
+[17:24:30] [Server thread/INFO]: [Vault] Loading Vault v1.2.27-b349
+[17:24:30] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.12.2
+[17:24:30] [Server thread/INFO]: [SignShop] Loading SignShop v2.8.2
+[17:24:30] [Server thread/INFO]: [SafeCreeper] Loading SafeCreeper v1.5.2.5
+[17:24:30] [Server thread/INFO]: [CookieMonster] Loading CookieMonster v1.8
+[17:24:30] [Server thread/INFO]: [Vault] Enabling Vault v1.2.27-b349
+[17:24:30] [Server thread/INFO]: [Vault][Economy] Essentials Economy found: Waiting
+[17:24:30] [Server thread/INFO]: [Vault][Permission] GroupManager found: Waiting
+[17:24:30] [Server thread/INFO]: [Vault][Permission] SuperPermissions loaded as backup permission system.
+[17:24:30] [Server thread/INFO]: [Vault][Chat] GroupManager found: Waiting
+[17:24:30] [Server thread/INFO]: [Vault] Enabled Version 1.2.27-b349
+[17:24:30] [Server thread/INFO]: [SafeCreeper] Enabling SafeCreeper v1.5.2.5
+[17:24:30] [Server thread/INFO]: [SafeCreeper] Safe Creeper API started!
+[17:24:30] [Server thread/INFO]: [SafeCreeper] Safe Creeper API enabled!
+[17:24:30] [Server thread/INFO]: [SafeCreeper] Loading global config...
+
+[17:24:30] [Server thread/ERROR]: Cannot load plugins\SafeCreeper\global.yml
+org.bukkit.configuration.InvalidConfigurationException: unacceptable character ' ' (0x0) special characters are not allowed
+in "<string>", position 16271
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:149) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:114) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:176) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at com.timvisee.safecreeper.handler.SCConfigHandler.getConfigFromPath(SCConfigHandler.java:76) [SafeCreeper.jar:?]
+	at com.timvisee.safecreeper.handler.SCConfigHandler.reloadGlobalConfig(SCConfigHandler.java:107) [SafeCreeper.jar:?]
+	at com.timvisee.safecreeper.handler.SCConfigHandler.setup(SCConfigHandler.java:62) [SafeCreeper.jar:?]
+	at com.timvisee.safecreeper.handler.SCConfigHandler.<init>(SCConfigHandler.java:54) [SafeCreeper.jar:?]
+	at com.timvisee.safecreeper.SafeCreeper.setUpConfigHandler(SafeCreeper.java:451) [SafeCreeper.jar:?]
+	at com.timvisee.safecreeper.SafeCreeper.onEnable(SafeCreeper.java:108) [SafeCreeper.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:250) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:350) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:389) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:439) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:375) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.<init>(CraftServer.java:313) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.PlayerList.<init>(PlayerList.java:63) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedPlayerList.<init>(SourceFile:14) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:424) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+Caused by: org.yaml.snakeyaml.reader.ReaderException: special characters are not allowed
+	at org.yaml.snakeyaml.reader.StreamReader.checkPrintable(StreamReader.java:70) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.yaml.snakeyaml.reader.StreamReader.<init>(StreamReader.java:50) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:399) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:53) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	... 20 more
+[17:24:30] [Server thread/INFO]: [SafeCreeper] Global config loaded, took 16 ms!
+
+[17:24:30] [Server thread/INFO]: [SafeCreeper] Loading world configs...
+[17:24:30] [Server thread/ERROR]: Error occurred while enabling SafeCreeper v1.5.2.5 (Is it up to date?)
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220) ~[?:?]
+	at java.base/java.util.Arrays$ArrayList.<init>(Arrays.java:4199) ~[?:?]
+	at java.base/java.util.Arrays.asList(Arrays.java:4184) ~[?:?]
+	at com.timvisee.safecreeper.handler.SCConfigHandler.reloadWorldConfigs(SCConfigHandler.java:224) ~[?:?]
+	at com.timvisee.safecreeper.handler.SCConfigHandler.setup(SCConfigHandler.java:65) ~[?:?]
+	at com.timvisee.safecreeper.handler.SCConfigHandler.<init>(SCConfigHandler.java:54) ~[?:?]
+	at com.timvisee.safecreeper.SafeCreeper.setUpConfigHandler(SafeCreeper.java:451) ~[?:?]
+	at com.timvisee.safecreeper.SafeCreeper.onEnable(SafeCreeper.java:108) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:250) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:350) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:389) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:439) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:375) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.<init>(CraftServer.java:313) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.PlayerList.<init>(PlayerList.java:63) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedPlayerList.<init>(SourceFile:14) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:424) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+[17:24:30] [Server thread/INFO]: Preparing level "PvP"
+[17:24:30] [Server thread/INFO]: Preparing start region for level 0 (Seed: 27594263)
+[17:24:31] [Thread-6/WARN]: Exception in thread "Thread-6" 
+[17:24:31] [Thread-6/WARN]: org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+
+[17:24:31] [Thread-6/WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:180)
+
+[17:24:31] [Thread-6/WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:755)
+
+[17:24:31] [Thread-6/WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:694)
+
+[17:24:31] [Thread-6/WARN]: 	at org.bukkit.craftbukkit.v1_7_R1.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:53)
+
+[17:24:31] [Thread-6/WARN]: 	at org.bukkit.craftbukkit.v1_7_R1.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:30)
+
+[17:24:31] [Thread-6/WARN]: 	at org.bukkit.craftbukkit.v1_7_R1.updater.AutoUpdater$1.run(AutoUpdater.java:77)
+
+[17:24:31] [Thread-6/WARN]: Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+
+[17:24:31] [Thread-6/WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
+
+[17:24:31] [Thread-6/WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
+
+[17:24:31] [Thread-6/WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:168)
+
+[17:24:31] [Thread-6/WARN]: 	... 5 more
+
+[17:24:31] [Server thread/INFO]: Preparing start region for level 1 (Seed: -6683929186114743893)
+[17:24:31] [Server thread/INFO]: Preparing start region for level 2 (Seed: -6683929186114743893)
+[17:24:31] [Server thread/INFO]: [PlayerHeads] Enabling PlayerHeads v3.5-jenkins-PlayerHeads-1-36-g5d2930b
+[17:24:31] [Server thread/ERROR]: Cannot load plugins\PlayerHeads\config.yml
+org.bukkit.configuration.InvalidConfigurationException: unacceptable character '�' (0xFFFD) special characters are not allowed
+in "<string>", position 20
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:149) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:114) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:176) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPlugin.reloadConfig(JavaPlugin.java:150) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPlugin.getConfig(JavaPlugin.java:144) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.shininet.bukkit.playerheads.PlayerHeads.onEnable(PlayerHeads.java:35) [PlayerHeads.jar:3.5-jenkins-PlayerHeads-1-36-g5d2930b]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:250) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:350) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:389) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:439) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:375) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:342) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:319) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:275) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:175) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:424) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+Caused by: org.yaml.snakeyaml.reader.ReaderException: special characters are not allowed
+	at org.yaml.snakeyaml.reader.StreamReader.checkPrintable(StreamReader.java:70) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.yaml.snakeyaml.reader.StreamReader.<init>(StreamReader.java:50) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:399) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:53) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	... 17 more
+[17:24:31] [Server thread/WARN]: [PlayerHeads] Failed to start Updater
+[17:24:32] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v5.5.8
+[17:24:32] [Server thread/ERROR]: Error occurred while enabling WorldEdit v5.5.8 (Is it up to date?)
+java.lang.NoClassDefFoundError: com/sk89q/worldedit/WorldEdit$1
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.onEnable(WorldEditPlugin.java:93) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:250) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:350) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:389) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:439) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:375) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:342) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:319) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:275) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:175) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:424) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+Caused by: java.lang.ClassNotFoundException: com.sk89q.worldedit.WorldEdit$1
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:429) ~[?:?]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:421) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:420) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:77) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:595) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528) ~[?:?]
+	... 12 more
+Caused by: java.util.zip.ZipException: ZipFile invalid LOC header (bad signature)
+	at java.base/java.util.zip.ZipFile$ZipFileInputStream.initDataOffset(ZipFile.java:955) ~[?:?]
+	at java.base/java.util.zip.ZipFile$ZipFileInputStream.read(ZipFile.java:966) ~[?:?]
+	at java.base/java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(ZipFile.java:474) ~[?:?]
+	at java.base/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:176) ~[?:?]
+	at java.base/jdk.internal.loader.Resource.getBytes(Resource.java:126) ~[?:?]
+	at java.base/jdk.internal.loader.URLClassPath$JarLoader$2.getBytes(URLClassPath.java:851) ~[?:?]
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:519) ~[?:?]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:427) ~[?:?]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:421) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:420) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:77) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:595) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528) ~[?:?]
+	... 12 more
+[17:24:32] [Server thread/INFO]: [Essentials] Enabling Essentials v2.12.2
+[17:24:32] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[17:24:32] [Server thread/INFO]: Essentials: Using config file enhanced permissions.
+[17:24:32] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
+[17:24:32] [Server thread/INFO]: [GroupManager] Enabling GroupManager v2.0 (2.12.1) (Phoenix)
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:groupmanager_moderator' not found for group Moderator. Ignoring entry in file: plugins\GroupManager\worlds\pvp\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:bukkit_moderator' not found for group Moderator. Ignoring entry in file: plugins\GroupManager\worlds\pvp\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:essentials_moderator' not found for group Moderator. Ignoring entry in file: plugins\GroupManager\worlds\pvp\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:towny_moderator' not found for group Moderator. Ignoring entry in file: plugins\GroupManager\worlds\pvp\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:vanish_moderator' not found for group Moderator. Ignoring entry in file: plugins\GroupManager\worlds\pvp\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:essentials_builder' not found for group Builder. Ignoring entry in file: plugins\GroupManager\worlds\pvp\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:towny_builder' not found for group Builder. Ignoring entry in file: plugins\GroupManager\worlds\pvp\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:groupmanager_admin' not found for group Admin. Ignoring entry in file: plugins\GroupManager\worlds\pvp\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:bukkit_admin' not found for group Admin. Ignoring entry in file: plugins\GroupManager\worlds\pvp\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:essentials_admin' not found for group Admin. Ignoring entry in file: plugins\GroupManager\worlds\pvp\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:towny_admin' not found for group Admin. Ignoring entry in file: plugins\GroupManager\worlds\pvp\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:vanish_admin' not found for group Admin. Ignoring entry in file: plugins\GroupManager\worlds\pvp\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:groupmanager_default' not found for group Default. Ignoring entry in file: plugins\GroupManager\worlds\pvp\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:bukkit_default' not found for group Default. Ignoring entry in file: plugins\GroupManager\worlds\pvp\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:essentials_default' not found for group Default. Ignoring entry in file: plugins\GroupManager\worlds\pvp\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:towny_default' not found for group Default. Ignoring entry in file: plugins\GroupManager\worlds\pvp\groups.yml
+
+[17:24:32] [Server thread/INFO]: GroupManager - INFO - World Found: hub
+
+[17:24:32] [Server thread/INFO]: GroupManager - INFO - World Found: pvp
+
+[17:24:32] [Server thread/INFO]: GroupManager - INFO - World Found: pvp_nether
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:groupmanager_moderator' not found for group Moderator. Ignoring entry in file: plugins\GroupManager\worlds\pvp_nether\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:bukkit_moderator' not found for group Moderator. Ignoring entry in file: plugins\GroupManager\worlds\pvp_nether\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:essentials_moderator' not found for group Moderator. Ignoring entry in file: plugins\GroupManager\worlds\pvp_nether\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:towny_moderator' not found for group Moderator. Ignoring entry in file: plugins\GroupManager\worlds\pvp_nether\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:vanish_moderator' not found for group Moderator. Ignoring entry in file: plugins\GroupManager\worlds\pvp_nether\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:essentials_builder' not found for group Builder. Ignoring entry in file: plugins\GroupManager\worlds\pvp_nether\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:towny_builder' not found for group Builder. Ignoring entry in file: plugins\GroupManager\worlds\pvp_nether\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:groupmanager_admin' not found for group Admin. Ignoring entry in file: plugins\GroupManager\worlds\pvp_nether\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:bukkit_admin' not found for group Admin. Ignoring entry in file: plugins\GroupManager\worlds\pvp_nether\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:essentials_admin' not found for group Admin. Ignoring entry in file: plugins\GroupManager\worlds\pvp_nether\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:towny_admin' not found for group Admin. Ignoring entry in file: plugins\GroupManager\worlds\pvp_nether\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:vanish_admin' not found for group Admin. Ignoring entry in file: plugins\GroupManager\worlds\pvp_nether\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:groupmanager_default' not found for group Default. Ignoring entry in file: plugins\GroupManager\worlds\pvp_nether\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:bukkit_default' not found for group Default. Ignoring entry in file: plugins\GroupManager\worlds\pvp_nether\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:essentials_default' not found for group Default. Ignoring entry in file: plugins\GroupManager\worlds\pvp_nether\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:towny_default' not found for group Default. Ignoring entry in file: plugins\GroupManager\worlds\pvp_nether\groups.yml
+
+[17:24:32] [Server thread/INFO]: GroupManager - INFO - World Found: pvp_the_end
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:groupmanager_moderator' not found for group Moderator. Ignoring entry in file: plugins\GroupManager\worlds\pvp_the_end\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:bukkit_moderator' not found for group Moderator. Ignoring entry in file: plugins\GroupManager\worlds\pvp_the_end\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:essentials_moderator' not found for group Moderator. Ignoring entry in file: plugins\GroupManager\worlds\pvp_the_end\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:towny_moderator' not found for group Moderator. Ignoring entry in file: plugins\GroupManager\worlds\pvp_the_end\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:vanish_moderator' not found for group Moderator. Ignoring entry in file: plugins\GroupManager\worlds\pvp_the_end\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:essentials_builder' not found for group Builder. Ignoring entry in file: plugins\GroupManager\worlds\pvp_the_end\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:towny_builder' not found for group Builder. Ignoring entry in file: plugins\GroupManager\worlds\pvp_the_end\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:groupmanager_admin' not found for group Admin. Ignoring entry in file: plugins\GroupManager\worlds\pvp_the_end\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:bukkit_admin' not found for group Admin. Ignoring entry in file: plugins\GroupManager\worlds\pvp_the_end\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:essentials_admin' not found for group Admin. Ignoring entry in file: plugins\GroupManager\worlds\pvp_the_end\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:towny_admin' not found for group Admin. Ignoring entry in file: plugins\GroupManager\worlds\pvp_the_end\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:vanish_admin' not found for group Admin. Ignoring entry in file: plugins\GroupManager\worlds\pvp_the_end\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:groupmanager_default' not found for group Default. Ignoring entry in file: plugins\GroupManager\worlds\pvp_the_end\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:bukkit_default' not found for group Default. Ignoring entry in file: plugins\GroupManager\worlds\pvp_the_end\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:essentials_default' not found for group Default. Ignoring entry in file: plugins\GroupManager\worlds\pvp_the_end\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:towny_default' not found for group Default. Ignoring entry in file: plugins\GroupManager\worlds\pvp_the_end\groups.yml
+
+[17:24:32] [Server thread/INFO]: GroupManager - INFO - World Found: test
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:groupmanager_moderator' not found for group Moderator. Ignoring entry in file: plugins\GroupManager\worlds\test\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:bukkit_moderator' not found for group Moderator. Ignoring entry in file: plugins\GroupManager\worlds\test\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:essentials_moderator' not found for group Moderator. Ignoring entry in file: plugins\GroupManager\worlds\test\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:towny_moderator' not found for group Moderator. Ignoring entry in file: plugins\GroupManager\worlds\test\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:vanish_moderator' not found for group Moderator. Ignoring entry in file: plugins\GroupManager\worlds\test\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:essentials_builder' not found for group Builder. Ignoring entry in file: plugins\GroupManager\worlds\test\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:towny_builder' not found for group Builder. Ignoring entry in file: plugins\GroupManager\worlds\test\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:groupmanager_admin' not found for group Admin. Ignoring entry in file: plugins\GroupManager\worlds\test\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:bukkit_admin' not found for group Admin. Ignoring entry in file: plugins\GroupManager\worlds\test\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:essentials_admin' not found for group Admin. Ignoring entry in file: plugins\GroupManager\worlds\test\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:towny_admin' not found for group Admin. Ignoring entry in file: plugins\GroupManager\worlds\test\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:vanish_admin' not found for group Admin. Ignoring entry in file: plugins\GroupManager\worlds\test\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:groupmanager_default' not found for group Default. Ignoring entry in file: plugins\GroupManager\worlds\test\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:bukkit_default' not found for group Default. Ignoring entry in file: plugins\GroupManager\worlds\test\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:essentials_default' not found for group Default. Ignoring entry in file: plugins\GroupManager\worlds\test\groups.yml
+
+[17:24:32] [Server thread/WARN]: GroupManager - WARNING - Inherited group 'g:towny_default' not found for group Default. Ignoring entry in file: plugins\GroupManager\worlds\test\groups.yml
+
+[17:24:32] [Server thread/INFO]: GroupManager - INFO - Superperms support enabled.
+
+[17:24:32] [Server thread/INFO]: GroupManager - INFO - Scheduled Data Saving is set for every 10 minutes!
+
+[17:24:32] [Server thread/INFO]: GroupManager - INFO - Backups will be retained for 24 hours!
+
+[17:24:32] [Server thread/INFO]: GroupManager version 2.0 (2.12.1) (Phoenix) is enabled!
+
+[17:24:32] [Server thread/INFO]: [Vault][Permission] GroupManager hooked.
+[17:24:32] [Server thread/INFO]: [Vault][Chat] GroupManager - Chat hooked.
+[17:24:32] [Server thread/INFO]: Essentials: Using GroupManager based permissions.
+[17:24:32] [Server thread/INFO]: [CustomPotions] Enabling CustomPotions v3.0
+[17:24:32] [Server thread/INFO]: [Lockette] Enabling Lockette v1.7.12
+[17:24:32] [Server thread/INFO]: [Lockette] Version 1.7.12 is being enabled!  Yay!  (Core version 1.3.7)
+[17:24:32] [Server thread/INFO]: [Lockette] Detected craftbukkit build [3020] ok.
+[17:24:32] [Server thread/INFO]: [Lockette] Custom lockable block list: [116, 84, 57, 145, 154]
+[17:24:32] [Server thread/INFO]: [Lockette] Ignoring linked plugins: [mcMMO]
+[17:24:32] [Server thread/INFO]: [Lockette] Loading strings file for English by Acru
+[17:24:32] [Server thread/INFO]: [Lockette] Enabled link to plugin GroupManager for Groups, version 2.0 (2.12.1) (Phoenix)
+[17:24:32] [Server thread/INFO]: [Lockette] Using ops file for admin permissions.
+[17:24:32] [Server thread/INFO]: [Lockette] Ready to protect your containers.
+[17:24:32] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
+[17:24:32] [Server thread/INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+[17:24:32] [Server thread/INFO]: [AllPay] - Version 10.0 - hooked into Essentials Economy for Multiverse-Core v2.4-b527
+[17:24:32] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'MiniGames' - Env: NORMAL - Type: FLAT & seed: 8944420162186356143
+[17:24:32] [Server thread/INFO]: Preparing start region for level 3 (Seed: 8944420162186356143)
+[17:24:32] [Server thread/ERROR]: [Multiverse-Core] The world 'MiniGames' could NOT be loaded because it contains errors!
+[17:24:32] [Server thread/ERROR]: [Multiverse-Core] Try using Chukster to repair your world! 'MiniGames'
+[17:24:32] [Server thread/ERROR]: [Multiverse-Core] http://forums.bukkit.org/threads/admin-chunkster.8186/
+[17:24:32] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'KillGod' - Env: NORMAL - Type: FLAT & seed: 5545128808117866254
+[17:24:32] [Server thread/INFO]: Preparing start region for level 4 (Seed: 5545128808117866254)
+[17:24:33] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'HUB' - Env: NORMAL - Type: FLAT & seed: 5140637696893756237
+[17:24:33] [Server thread/INFO]: Preparing start region for level 5 (Seed: 5140637696893756237)
+[17:24:33] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'PvP' - Env: NORMAL - Type: NORMAL & seed: 27594263
+[17:24:33] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'VIPworld' - Env: NORMAL - Type: FLAT & seed: 1615850614446281026
+[17:24:33] [Server thread/INFO]: Preparing start region for level 6 (Seed: 1615850614446281026)
+[17:24:33] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'Guildworld' - Env: NORMAL - Type: NORMAL & seed: 27594263
+[17:24:33] [Server thread/INFO]: Preparing start region for level 7 (Seed: 27594263)
+[17:24:34] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'PvP_nether' - Env: NETHER - Type: NORMAL & seed: -6683929186114743893
+[17:24:34] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'PvP_the_end' - Env: THE_END - Type: NORMAL & seed: -6683929186114743893
+[17:24:34] [Server thread/INFO]: [Multiverse-Core] 8 - World(s) loaded.
+[17:24:34] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.12.2
+[17:24:34] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.12.2
+[17:24:34] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.12.2
+[17:24:34] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v2.4-b548
+[17:24:34] [Server thread/INFO]: [Multiverse-Portals] - Version 2.4-b548 Enabled - By Rigby and fernferret
+[17:24:34] [Server thread/WARN]: [Multiverse-Portals]  Failed Parsing World for: FlyPaintLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+[17:24:34] [Server thread/WARN]: [Multiverse-Portals]  Portal FlyPaintLeave has an invalid LOCATION!
+[17:24:34] [Server thread/WARN]: [Multiverse-Portals]  Portal 'FlyPaintLeave' not loaded due to invalid location!
+[17:24:34] [Server thread/WARN]: [Multiverse-Portals]  Failed Parsing World for: SpleefLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+[17:24:34] [Server thread/WARN]: [Multiverse-Portals]  Portal SpleefLeave has an invalid LOCATION!
+[17:24:34] [Server thread/WARN]: [Multiverse-Portals]  Portal 'SpleefLeave' not loaded due to invalid location!
+[17:24:34] [Server thread/WARN]: [Multiverse-Portals]  Failed Parsing World for: IcePvPFall (World Error, World did not exist or was not imported into Multiverse-Core!)
+[17:24:34] [Server thread/WARN]: [Multiverse-Portals]  Portal IcePvPFall has an invalid LOCATION!
+[17:24:34] [Server thread/WARN]: [Multiverse-Portals]  Portal 'IcePvPFall' not loaded due to invalid location!
+[17:24:34] [Server thread/WARN]: [Multiverse-Portals]  Failed Parsing World for: ParkourFall (World Error, World did not exist or was not imported into Multiverse-Core!)
+[17:24:34] [Server thread/WARN]: [Multiverse-Portals]  Portal ParkourFall has an invalid LOCATION!
+[17:24:34] [Server thread/WARN]: [Multiverse-Portals]  Portal 'ParkourFall' not loaded due to invalid location!
+[17:24:34] [Server thread/WARN]: [Multiverse-Portals]  Failed Parsing World for: ParkourWinner (World Error, World did not exist or was not imported into Multiverse-Core!)
+[17:24:34] [Server thread/WARN]: [Multiverse-Portals]  Portal ParkourWinner has an invalid LOCATION!
+[17:24:34] [Server thread/WARN]: [Multiverse-Portals]  Portal 'ParkourWinner' not loaded due to invalid location!
+[17:24:35] [Server thread/WARN]: [Multiverse-Portals]  Failed Parsing World for: PropHuntLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+[17:24:35] [Server thread/WARN]: [Multiverse-Portals]  Portal PropHuntLeave has an invalid LOCATION!
+[17:24:35] [Server thread/WARN]: [Multiverse-Portals]  Portal 'PropHuntLeave' not loaded due to invalid location!
+[17:24:35] [Server thread/WARN]: [Multiverse-Portals]  Failed Parsing World for: HungerGamesLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+[17:24:35] [Server thread/WARN]: [Multiverse-Portals]  Portal HungerGamesLeave has an invalid LOCATION!
+[17:24:35] [Server thread/WARN]: [Multiverse-Portals]  Portal 'HungerGamesLeave' not loaded due to invalid location!
+[17:24:35] [Server thread/WARN]: [Multiverse-Portals]  Failed Parsing World for: KOFHFall (World Error, World did not exist or was not imported into Multiverse-Core!)
+[17:24:35] [Server thread/WARN]: [Multiverse-Portals]  Portal KOFHFall has an invalid LOCATION!
+[17:24:35] [Server thread/WARN]: [Multiverse-Portals]  Portal 'KOFHFall' not loaded due to invalid location!
+[17:24:35] [Server thread/WARN]: [Multiverse-Portals]  Failed Parsing World for: ParkourLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+[17:24:35] [Server thread/WARN]: [Multiverse-Portals]  Portal ParkourLeave has an invalid LOCATION!
+[17:24:35] [Server thread/WARN]: [Multiverse-Portals]  Portal 'ParkourLeave' not loaded due to invalid location!
+[17:24:35] [Server thread/WARN]: [Multiverse-Portals]  Failed Parsing World for: HPW (World Error, World did not exist or was not imported into Multiverse-Core!)
+[17:24:35] [Server thread/WARN]: [Multiverse-Portals]  Portal HPW has an invalid LOCATION!
+[17:24:35] [Server thread/WARN]: [Multiverse-Portals]  Portal 'HPW' not loaded due to invalid location!
+[17:24:35] [Server thread/WARN]: [Multiverse-Portals]  Failed Parsing World for: MiniGamesEntrance (World Error, World did not exist or was not imported into Multiverse-Core!)
+[17:24:35] [Server thread/WARN]: [Multiverse-Portals]  Portal MiniGamesEntrance has an invalid LOCATION!
+[17:24:35] [Server thread/WARN]: [Multiverse-Portals]  Portal 'MiniGamesEntrance' not loaded due to invalid location!
+[17:24:35] [Server thread/WARN]: [Multiverse-Portals]  Failed Parsing World for: GuildWorldEntry (World Error, World did not exist or was not imported into Multiverse-Core!)
+[17:24:35] [Server thread/WARN]: [Multiverse-Portals]  Portal GuildWorldEntry has an invalid LOCATION!
+[17:24:35] [Server thread/WARN]: [Multiverse-Portals]  Portal 'GuildWorldEntry' not loaded due to invalid location!
+[17:24:35] [Server thread/INFO]: [Multiverse-Portals]  34 - Portals(s) loaded
+[17:24:35] [Server thread/WARN]: [Multiverse-Core] Portal ParkourEntry has an invalid DESTINATION!
+[17:24:35] [Server thread/WARN]: [Multiverse-Core] Portal SpleefEntry has an invalid DESTINATION!
+[17:24:35] [Server thread/WARN]: [Multiverse-Core] Portal HungerGamesEntry has an invalid DESTINATION!
+[17:24:35] [Server thread/WARN]: [Multiverse-Core] Portal FlyPaintEntry has an invalid DESTINATION!
+[17:24:35] [Server thread/WARN]: [Multiverse-Core] Portal PropHuntEntry has an invalid DESTINATION!
+[17:24:35] [Server thread/WARN]: [Multiverse-Core] Portal MiniGamesEntry has an invalid DESTINATION!
+[17:24:35] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.12.2
+[17:24:35] [Server thread/INFO]: [SignShop] Enabling SignShop v2.8.2
+[17:24:35] [Server thread/INFO]: [SignShop] Succesfully started Metrics, see http://mcstats.org for more information.
+[17:24:35] [Server thread/ERROR]: [SignShop] Unable to load C:\Users\a219studios\Documents\GitHub\bukkit_mc_server\plugins\SignShop\timing.yml because: unacceptable character ' ' (0x0) special characters are not allowed
+in "<string>", position 0
+[17:24:35] [Server thread/INFO]: [SignShop] v2.8.2 Enabled
+[17:24:35] [Server thread/INFO]: [CookieMonster] Enabling CookieMonster v1.8
+[17:24:35] [Server thread/ERROR]: Cannot load plugins\CookieMonster\config.yml
+org.bukkit.configuration.InvalidConfigurationException: unacceptable character '�' (0xFFFD) special characters are not allowed
+in "<string>", position 8226
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:149) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:114) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:176) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPlugin.reloadConfig(JavaPlugin.java:150) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPlugin.getConfig(JavaPlugin.java:144) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at com.pi.coelho.CookieMonster.CMConfig.load(CMConfig.java:127) [CookieMonster.jar:?]
+	at com.pi.coelho.CookieMonster.CookieMonster.onEnable(CookieMonster.java:70) [CookieMonster.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:250) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:350) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:389) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:439) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:375) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:342) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:319) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:275) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:175) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:424) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+Caused by: org.yaml.snakeyaml.reader.ReaderException: special characters are not allowed
+	at org.yaml.snakeyaml.reader.StreamReader.checkPrintable(StreamReader.java:70) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.yaml.snakeyaml.reader.StreamReader.<init>(StreamReader.java:50) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:399) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:53) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	... 18 more
+[17:24:35] [Server thread/ERROR]: [CookieMonster] error loading configuration
+org.bukkit.configuration.InvalidConfigurationException: unacceptable character '�' (0xFFFD) special characters are not allowed
+in "<string>", position 8226
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:149) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:114) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at com.pi.coelho.CookieMonster.CMConfig.load(CMConfig.java:128) [CookieMonster.jar:?]
+	at com.pi.coelho.CookieMonster.CookieMonster.onEnable(CookieMonster.java:70) [CookieMonster.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:250) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:350) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:389) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:439) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:375) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:342) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:319) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:275) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:175) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:424) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+Caused by: org.yaml.snakeyaml.reader.ReaderException: special characters are not allowed
+	at org.yaml.snakeyaml.reader.StreamReader.checkPrintable(StreamReader.java:70) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.yaml.snakeyaml.reader.StreamReader.<init>(StreamReader.java:50) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:399) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:53) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	... 15 more
+[17:24:35] [Server thread/INFO]: [CookieMonster] Disabling CookieMonster v1.8
+[17:24:35] [Server thread/ERROR]: [CookieMonster] Failed to retrieve configuration from directory.
+[17:24:35] [Server thread/ERROR]: [CookieMonster] Please back up your current settings and let CookieMonster recreate it.
+[17:24:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:24:36] [Server thread/INFO]: Done (5.570s)! For help, type "help" or "?"
+[17:24:36] [Server thread/INFO]: Starting GS4 status listener
+[17:24:36] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[17:24:36] [Server thread/INFO]: GroupManager - INFO - Bukkit Permissions Updated!
+
+[17:24:36] [pool-3-thread-1/WARN]: [Fatal Error] :6:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+[17:24:37] [User Authenticator #1/INFO]: UUID of player come219 is d4842c2362db4ff09d651679e6cdb6f5
+[17:24:37] [Server thread/INFO]: come219[/127.0.0.1:55656] logged in with entity id 426 at ([HUB] -1164.7554878081871, 50.0, 523.2570470775499)
+[17:24:40] [Server thread/INFO]: come219 issued server command: //wand
+[17:24:45] [Server thread/INFO]: come219 issued server command: /worldedit
+[17:24:47] [Server thread/INFO]: come219 issued server command: /help
+[17:24:52] [Server thread/INFO]: come219 issued server command: /help 2
+[17:24:59] [Server thread/INFO]: come219 lost connection: Disconnected
+[17:24:59] [Server thread/INFO]: come219 left the game.
+[17:25:19] [Server thread/INFO]: CONSOLE: Stopping the server..[m
+
+[17:25:19] [Server thread/INFO]: Stopping server
+[17:25:19] [Server thread/INFO]: [SafeCreeper] Disabling SafeCreeper v1.5.2.5
+[17:25:19] [Server thread/ERROR]: Error occurred while disabling SafeCreeper v1.5.2.5 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "com.timvisee.safecreeper.manager.SCDestructionRepairManager.save()" because the return value of "com.timvisee.safecreeper.SafeCreeper.getDestructionRepairManager()" is null
+	at com.timvisee.safecreeper.SafeCreeper.onDisable(SafeCreeper.java:219) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:252) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:374) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:408) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:401) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.disablePlugins(CraftServer.java:390) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.stop(MinecraftServer.java:375) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:488) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+[17:25:19] [Server thread/INFO]: [SignShop] Disabling SignShop v2.8.2
+[17:25:19] [Server thread/INFO]: [SignShop] Disabled
+[17:25:19] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.12.2
+[17:25:19] [Server thread/INFO]: [Vault] Disabling Vault v1.2.27-b349
+[17:25:19] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v2.4-b548
+[17:25:19] [Server thread/INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.12.2
+[17:25:19] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.12.2
+[17:25:19] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.12.2
+[17:25:19] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.4-b527
+[17:25:19] [Server thread/INFO]: [Multiverse-Core] - Disabled
+[17:25:19] [Server thread/INFO]: [Lockette] Disabling Lockette v1.7.12
+[17:25:19] [Server thread/INFO]: Lockette is being disabled...  ;.;
+[17:25:19] [Server thread/INFO]: [Lockette] Closing all automatic doors.
+[17:25:19] [Server thread/INFO]: [CustomPotions] Disabling CustomPotions v3.0
+[17:25:19] [Server thread/INFO]: [GroupManager] Disabling GroupManager v2.0 (2.12.1) (Phoenix)
+[17:25:19] [Server thread/INFO]: GroupManager - INFO - Scheduled Data Saving is disabled!
+
+[17:25:19] [Server thread/INFO]: GroupManager version 2.0 (2.12.1) (Phoenix) is disabled!
+
+[17:25:19] [Server thread/INFO]: [Essentials] Disabling Essentials v2.12.2
+[17:25:19] [Server thread/INFO]: Essentials: Using config file enhanced permissions.
+[17:25:19] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
+[17:25:19] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v5.5.8
+[17:25:19] [Server thread/ERROR]: Error occurred while disabling WorldEdit v5.5.8 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "com.sk89q.worldedit.WorldEdit.clearSessions()" because "this.controller" is null
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.onDisable(WorldEditPlugin.java:162) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:252) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:374) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:408) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:401) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.disablePlugins(CraftServer.java:390) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.stop(MinecraftServer.java:375) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:488) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-b3020jnks]
+[17:25:19] [Server thread/INFO]: [PlayerHeads] Disabling PlayerHeads v3.5-jenkins-PlayerHeads-1-36-g5d2930b
+[17:25:19] [Server thread/INFO]: Saving players
+[17:25:19] [Server thread/INFO]: Saving worlds
+[17:25:19] [Server thread/INFO]: Saving chunks for level 'PvP'/Overworld
+[17:25:19] [Server thread/INFO]: Saving chunks for level 'PvP_nether'/Nether
+[17:25:19] [Server thread/INFO]: Saving chunks for level 'PvP_the_end'/The End
+[17:25:19] [Server thread/INFO]: Saving chunks for level 'MiniGames'/Overworld
+[17:25:19] [Server thread/INFO]: Saving chunks for level 'KillGod'/Overworld
+[17:25:19] [Server thread/INFO]: Saving chunks for level 'HUB'/Overworld
+[17:25:19] [Server thread/INFO]: Saving chunks for level 'VIPworld'/Overworld
+[17:25:19] [Server thread/INFO]: Saving chunks for level 'Guildworld'/Overworld
+[17:25:19] [Thread-3/INFO]: Stopping server

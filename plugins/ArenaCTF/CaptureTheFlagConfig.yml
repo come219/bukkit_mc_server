@@ -1,0 +1,63 @@
+CaptureTheFlag:
+  name: CaptureTheFlag
+  command: ctf
+  prefix: '&8[CTF]&e'
+  gameSize:
+    nTeams: '2'
+    teamSize: 1+
+  nLives: infinite
+  victoryCondition: CUSTOM
+  times:
+    matchTime: 300
+  tracking:
+    database: ctf
+    useTrackerMessages: false
+  arenaType: CaptureTheFlag
+  arenaClass: CTFArena
+  defaults:
+    options:
+    - woolTeams
+    - alwaysTeamNames
+  onEnter:
+    options:
+    - STOREALL
+  onLeave:
+    options:
+    - RESTOREALL
+  onJoin:
+    options:
+    - hunger=20
+    - pvpOff
+  onOpen:
+    options:
+    - pvpOff
+  onPreStart:
+    options:
+    - pvpOff
+    - deEnchant
+    - teleportWaitRoom
+  onStart:
+    options:
+    - teleportIn
+    - hunger=20
+    - health=20
+    - pvpOn
+  onComplete:
+    options:
+    - teleportOut
+    - clearInventory
+  onSpawn:
+    giveItems:
+    - COMPASS 1
+    options:
+    - health=20.0
+    - hunger=20
+    - respawnWithClass
+  onDeath:
+    options:
+    - clearInventory
+    - respawn
+  winners:
+    options:
+    - health=20.0
+    - hunger=20
