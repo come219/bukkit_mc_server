@@ -15,3 +15,12 @@ A pre-release for 1.7.2[2] was released earlier on October 25, 2013, though the 
 
 
 current issue with worldedit and multiverse portals
+
+
+
+https://dev.bukkit.org/projects/worldedit/files/782358
+
+https://bukkit.org/threads/craftbukkit-for-minecraft-1-7-5-development-build-is-now-available.247391/
+
+
+This server is running CraftBukkit version git-Bukkit-1.7.2-R0.3-b3020jnks (MC: 1.7.2) (Implementing API version 1.7.2-R0.3)

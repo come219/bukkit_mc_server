@@ -4233,3 +4233,191 @@ z01$-03-15 09851>570[INFO] [I5ltivuwse-Core] Lmading World 6 et|k.gs - 3My.hGam
 2025-04-02 17:24:35 [WARNING] [Multiverse-Core] Portal FlyPaintEntry has an invalid DESTINATION!
 2025-04-02 17:24:35 [WARNING] [Multiverse-Core] Portal PropHuntEntry has an invalid DESTINATION!
 2025-04-02 17:24:35 [WARNING] [Multiverse-Core] Portal MiniGamesEntry has an invalid DESTINATION!
+2025-04-11 18:12:41 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2025-04-11 18:12:41 [INFO] [Multiverse-Core] Loading World & Settings - 'MiniGames' - Env: NORMAL - Type: FLAT & seed: 8944420162186356143
+2025-04-11 18:12:41 [SEVERE] [Multiverse-Core] The world 'MiniGames' could NOT be loaded because it contains errors!
+2025-04-11 18:12:41 [SEVERE] [Multiverse-Core] Try using Chukster to repair your world! 'MiniGames'
+2025-04-11 18:12:41 [SEVERE] [Multiverse-Core] http://forums.bukkit.org/threads/admin-chunkster.8186/
+2025-04-11 18:12:41 [INFO] [Multiverse-Core] Loading World & Settings - 'KillGod' - Env: NORMAL - Type: FLAT & seed: 5545128808117866254
+2025-04-11 18:12:42 [INFO] [Multiverse-Core] Loading World & Settings - 'HUB' - Env: NORMAL - Type: FLAT & seed: 5140637696893756237
+2025-04-11 18:12:42 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP' - Env: NORMAL - Type: NORMAL & seed: 27594263
+2025-04-11 18:12:42 [INFO] [Multiverse-Core] Loading World & Settings - 'VIPworld' - Env: NORMAL - Type: FLAT & seed: 1615850614446281026
+2025-04-11 18:12:43 [INFO] [Multiverse-Core] Loading World & Settings - 'Guildworld' - Env: NORMAL - Type: NORMAL & seed: 27594263
+2025-04-11 18:12:44 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP_nether' - Env: NETHER - Type: NORMAL & seed: -6683929186114743893
+2025-04-11 18:12:44 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP_the_end' - Env: THE_END - Type: NORMAL & seed: -6683929186114743893
+2025-04-11 18:12:44 [INFO] [Multiverse-Core] 8 - World(s) loaded.
+2025-04-11 18:12:46 [WARNING] [Multiverse-Core] Portal ParkourEntry has an invalid DESTINATION!
+2025-04-11 18:12:46 [WARNING] [Multiverse-Core] Portal SpleefEntry has an invalid DESTINATION!
+2025-04-11 18:12:46 [WARNING] [Multiverse-Core] Portal HungerGamesEntry has an invalid DESTINATION!
+2025-04-11 18:12:46 [WARNING] [Multiverse-Core] Portal FlyPaintEntry has an invalid DESTINATION!
+2025-04-11 18:12:46 [WARNING] [Multiverse-Core] Portal PropHuntEntry has an invalid DESTINATION!
+2025-04-11 18:12:46 [WARNING] [Multiverse-Core] Portal MiniGamesEntry has an invalid DESTINATION!
+2025-04-11 18:20:13 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2025-04-11 18:20:13 [INFO] [Multiverse-Core] Loading World & Settings - 'MiniGames' - Env: NORMAL - Type: FLAT & seed: 8944420162186356143
+2025-04-11 18:20:13 [SEVERE] [Multiverse-Core] The world 'MiniGames' could NOT be loaded because it contains errors!
+2025-04-11 18:20:13 [SEVERE] [Multiverse-Core] Try using Chukster to repair your world! 'MiniGames'
+2025-04-11 18:20:13 [SEVERE] [Multiverse-Core] http://forums.bukkit.org/threads/admin-chunkster.8186/
+2025-04-11 18:20:13 [INFO] [Multiverse-Core] Loading World & Settings - 'KillGod' - Env: NORMAL - Type: FLAT & seed: 5545128808117866254
+2025-04-11 18:20:13 [INFO] [Multiverse-Core] Loading World & Settings - 'HUB' - Env: NORMAL - Type: FLAT & seed: 5140637696893756237
+2025-04-11 18:20:14 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP' - Env: NORMAL - Type: NORMAL & seed: 27594263
+2025-04-11 18:20:14 [INFO] [Multiverse-Core] Loading World & Settings - 'VIPworld' - Env: NORMAL - Type: FLAT & seed: 1615850614446281026
+2025-04-11 18:20:14 [INFO] [Multiverse-Core] Loading World & Settings - 'Guildworld' - Env: NORMAL - Type: NORMAL & seed: 27594263
+2025-04-11 18:20:14 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP_nether' - Env: NETHER - Type: NORMAL & seed: -6683929186114743893
+2025-04-11 18:20:14 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP_the_end' - Env: THE_END - Type: NORMAL & seed: -6683929186114743893
+2025-04-11 18:20:15 [INFO] [Multiverse-Core] 8 - World(s) loaded.
+2025-04-11 18:20:16 [WARNING] [Multiverse-Core] Portal ParkourEntry has an invalid DESTINATION!
+2025-04-11 18:20:16 [WARNING] [Multiverse-Core] Portal SpleefEntry has an invalid DESTINATION!
+2025-04-11 18:20:16 [WARNING] [Multiverse-Core] Portal HungerGamesEntry has an invalid DESTINATION!
+2025-04-11 18:20:16 [WARNING] [Multiverse-Core] Portal FlyPaintEntry has an invalid DESTINATION!
+2025-04-11 18:20:16 [WARNING] [Multiverse-Core] Portal PropHuntEntry has an invalid DESTINATION!
+2025-04-11 18:20:16 [WARNING] [Multiverse-Core] Portal MiniGamesEntry has an invalid DESTINATION!
+2025-04-11 18:25:54 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2025-04-11 18:25:54 [INFO] [Multiverse-Core] Loading World & Settings - 'MiniGames' - Env: NORMAL - Type: FLAT & seed: 8944420162186356143
+2025-04-11 18:25:54 [SEVERE] [Multiverse-Core] The world 'MiniGames' could NOT be loaded because it contains errors!
+2025-04-11 18:25:54 [SEVERE] [Multiverse-Core] Try using Chukster to repair your world! 'MiniGames'
+2025-04-11 18:25:54 [SEVERE] [Multiverse-Core] http://forums.bukkit.org/threads/admin-chunkster.8186/
+2025-04-11 18:25:54 [INFO] [Multiverse-Core] Loading World & Settings - 'KillGod' - Env: NORMAL - Type: FLAT & seed: 5545128808117866254
+2025-04-11 18:25:55 [INFO] [Multiverse-Core] Loading World & Settings - 'HUB' - Env: NORMAL - Type: FLAT & seed: 5140637696893756237
+2025-04-11 18:25:55 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP' - Env: NORMAL - Type: NORMAL & seed: 27594263
+2025-04-11 18:25:55 [INFO] [Multiverse-Core] Loading World & Settings - 'VIPworld' - Env: NORMAL - Type: FLAT & seed: 1615850614446281026
+2025-04-11 18:25:55 [INFO] [Multiverse-Core] Loading World & Settings - 'Guildworld' - Env: NORMAL - Type: NORMAL & seed: 27594263
+2025-04-11 18:25:56 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP_nether' - Env: NETHER - Type: NORMAL & seed: -6683929186114743893
+2025-04-11 18:25:56 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP_the_end' - Env: THE_END - Type: NORMAL & seed: -6683929186114743893
+2025-04-11 18:25:56 [INFO] [Multiverse-Core] 8 - World(s) loaded.
+2025-04-11 18:25:57 [WARNING] [Multiverse-Core] Portal ParkourEntry has an invalid DESTINATION!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Core] Portal SpleefEntry has an invalid DESTINATION!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Core] Portal HungerGamesEntry has an invalid DESTINATION!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Core] Portal FlyPaintEntry has an invalid DESTINATION!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Core] Portal PropHuntEntry has an invalid DESTINATION!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Core] Portal MiniGamesEntry has an invalid DESTINATION!
+2025-04-11 18:27:14 [INFO] [Multiverse-Core] Loading World & Settings - 'MiniGames' - Env: NORMAL - Type: FLAT & seed: 8944420162186356143
+2025-04-11 18:28:04 [INFO] [Multiverse-Core] Loading World & Settings - 'MiniGames' - Env: NORMAL - Type: FLAT & seed: 8944420162186356143
+2025-04-11 18:30:22 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2025-04-11 18:30:22 [INFO] [Multiverse-Core] Loading World & Settings - 'MiniGames' - Env: NORMAL - Type: FLAT & seed: 8944420162186356143
+2025-04-11 18:30:22 [SEVERE] [Multiverse-Core] The world 'MiniGames' could NOT be loaded because it contains errors!
+2025-04-11 18:30:22 [SEVERE] [Multiverse-Core] Try using Chukster to repair your world! 'MiniGames'
+2025-04-11 18:30:22 [SEVERE] [Multiverse-Core] http://forums.bukkit.org/threads/admin-chunkster.8186/
+2025-04-11 18:30:22 [INFO] [Multiverse-Core] Loading World & Settings - 'KillGod' - Env: NORMAL - Type: FLAT & seed: 5545128808117866254
+2025-04-11 18:30:23 [INFO] [Multiverse-Core] Loading World & Settings - 'HUB' - Env: NORMAL - Type: FLAT & seed: 5140637696893756237
+2025-04-11 18:30:23 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP' - Env: NORMAL - Type: NORMAL & seed: 27594263
+2025-04-11 18:30:23 [INFO] [Multiverse-Core] Loading World & Settings - 'VIPworld' - Env: NORMAL - Type: FLAT & seed: 1615850614446281026
+2025-04-11 18:30:23 [INFO] [Multiverse-Core] Loading World & Settings - 'Guildworld' - Env: NORMAL - Type: NORMAL & seed: 27594263
+2025-04-11 18:30:24 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP_nether' - Env: NETHER - Type: NORMAL & seed: -6683929186114743893
+2025-04-11 18:30:24 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP_the_end' - Env: THE_END - Type: NORMAL & seed: -6683929186114743893
+2025-04-11 18:30:24 [INFO] [Multiverse-Core] 8 - World(s) loaded.
+2025-04-11 18:30:25 [WARNING] [Multiverse-Core] Portal ParkourEntry has an invalid DESTINATION!
+2025-04-11 18:30:25 [WARNING] [Multiverse-Core] Portal SpleefEntry has an invalid DESTINATION!
+2025-04-11 18:30:25 [WARNING] [Multiverse-Core] Portal HungerGamesEntry has an invalid DESTINATION!
+2025-04-11 18:30:25 [WARNING] [Multiverse-Core] Portal FlyPaintEntry has an invalid DESTINATION!
+2025-04-11 18:30:25 [WARNING] [Multiverse-Core] Portal PropHuntEntry has an invalid DESTINATION!
+2025-04-11 18:30:25 [WARNING] [Multiverse-Core] Portal MiniGamesEntry has an invalid DESTINATION!
+2025-04-11 18:33:19 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2025-04-11 18:33:19 [INFO] [Multiverse-Core] Loading World & Settings - 'MiniGames' - Env: NORMAL - Type: FLAT & seed: 8944420162186356143
+2025-04-11 18:33:19 [SEVERE] [Multiverse-Core] The world 'MiniGames' could NOT be loaded because it contains errors!
+2025-04-11 18:33:19 [SEVERE] [Multiverse-Core] Try using Chukster to repair your world! 'MiniGames'
+2025-04-11 18:33:19 [SEVERE] [Multiverse-Core] http://forums.bukkit.org/threads/admin-chunkster.8186/
+2025-04-11 18:33:19 [INFO] [Multiverse-Core] Loading World & Settings - 'KillGod' - Env: NORMAL - Type: FLAT & seed: 5545128808117866254
+2025-04-11 18:33:20 [INFO] [Multiverse-Core] Loading World & Settings - 'HUB' - Env: NORMAL - Type: FLAT & seed: 5140637696893756237
+2025-04-11 18:33:20 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP' - Env: NORMAL - Type: NORMAL & seed: 27594263
+2025-04-11 18:33:20 [INFO] [Multiverse-Core] Loading World & Settings - 'VIPworld' - Env: NORMAL - Type: FLAT & seed: 1615850614446281026
+2025-04-11 18:33:20 [INFO] [Multiverse-Core] Loading World & Settings - 'Guildworld' - Env: NORMAL - Type: NORMAL & seed: 27594263
+2025-04-11 18:33:20 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP_nether' - Env: NETHER - Type: NORMAL & seed: -6683929186114743893
+2025-04-11 18:33:20 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP_the_end' - Env: THE_END - Type: NORMAL & seed: -6683929186114743893
+2025-04-11 18:33:20 [INFO] [Multiverse-Core] 8 - World(s) loaded.
+2025-04-11 18:33:21 [WARNING] [Multiverse-Core] Portal ParkourEntry has an invalid DESTINATION!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Core] Portal SpleefEntry has an invalid DESTINATION!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Core] Portal HungerGamesEntry has an invalid DESTINATION!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Core] Portal FlyPaintEntry has an invalid DESTINATION!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Core] Portal PropHuntEntry has an invalid DESTINATION!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Core] Portal MiniGamesEntry has an invalid DESTINATION!
+2025-04-11 18:52:04 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2025-04-11 18:52:04 [INFO] [Multiverse-Core] Loading World & Settings - 'MiniGames' - Env: NORMAL - Type: FLAT & seed: 8944420162186356143
+2025-04-11 18:52:04 [SEVERE] [Multiverse-Core] The world 'MiniGames' could NOT be loaded because it contains errors!
+2025-04-11 18:52:04 [SEVERE] [Multiverse-Core] Try using Chukster to repair your world! 'MiniGames'
+2025-04-11 18:52:04 [SEVERE] [Multiverse-Core] http://forums.bukkit.org/threads/admin-chunkster.8186/
+2025-04-11 18:52:04 [INFO] [Multiverse-Core] Loading World & Settings - 'KillGod' - Env: NORMAL - Type: FLAT & seed: 5545128808117866254
+2025-04-11 18:52:05 [INFO] [Multiverse-Core] Loading World & Settings - 'HUB' - Env: NORMAL - Type: FLAT & seed: 5140637696893756237
+2025-04-11 18:52:05 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP' - Env: NORMAL - Type: NORMAL & seed: 27594263
+2025-04-11 18:52:05 [INFO] [Multiverse-Core] Loading World & Settings - 'VIPworld' - Env: NORMAL - Type: FLAT & seed: 1615850614446281026
+2025-04-11 18:52:05 [INFO] [Multiverse-Core] Loading World & Settings - 'Guildworld' - Env: NORMAL - Type: NORMAL & seed: 27594263
+2025-04-11 18:52:06 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP_nether' - Env: NETHER - Type: NORMAL & seed: -6683929186114743893
+2025-04-11 18:52:06 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP_the_end' - Env: THE_END - Type: NORMAL & seed: -6683929186114743893
+2025-04-11 18:52:06 [INFO] [Multiverse-Core] 8 - World(s) loaded.
+2025-04-11 18:52:07 [WARNING] [Multiverse-Core] Portal ParkourEntry has an invalid DESTINATION!
+2025-04-11 18:52:07 [WARNING] [Multiverse-Core] Portal SpleefEntry has an invalid DESTINATION!
+2025-04-11 18:52:07 [WARNING] [Multiverse-Core] Portal HungerGamesEntry has an invalid DESTINATION!
+2025-04-11 18:52:07 [WARNING] [Multiverse-Core] Portal FlyPaintEntry has an invalid DESTINATION!
+2025-04-11 18:52:07 [WARNING] [Multiverse-Core] Portal PropHuntEntry has an invalid DESTINATION!
+2025-04-11 18:52:07 [WARNING] [Multiverse-Core] Portal MiniGamesEntry has an invalid DESTINATION!
+2025-04-11 19:44:22 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2025-04-11 19:44:22 [INFO] [Multiverse-Core] Loading World & Settings - 'MiniGames' - Env: NORMAL - Type: FLAT & seed: 8944420162186356143
+2025-04-11 19:44:22 [INFO] [Multiverse-Core] Loading World & Settings - 'KillGod' - Env: NORMAL - Type: FLAT & seed: 5545128808117866254
+2025-04-11 19:44:22 [INFO] [Multiverse-Core] Loading World & Settings - 'HUB' - Env: NORMAL - Type: FLAT & seed: 5140637696893756237
+2025-04-11 19:44:23 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP' - Env: NORMAL - Type: NORMAL & seed: 27594263
+2025-04-11 19:44:23 [INFO] [Multiverse-Core] Loading World & Settings - 'VIPworld' - Env: NORMAL - Type: FLAT & seed: 1615850614446281026
+2025-04-11 19:44:23 [INFO] [Multiverse-Core] Loading World & Settings - 'Guildworld' - Env: NORMAL - Type: NORMAL & seed: 27594263
+2025-04-11 19:44:24 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP_nether' - Env: NETHER - Type: NORMAL & seed: -6683929186114743893
+2025-04-11 19:44:24 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP_the_end' - Env: THE_END - Type: NORMAL & seed: -6683929186114743893
+2025-04-11 19:44:24 [INFO] [Multiverse-Core] 8 - World(s) loaded.
+2025-04-11 19:44:25 [WARNING] [Multiverse-Core] Portal HPW has an invalid DESTINATION!
+2025-04-11 19:44:25 [WARNING] [Multiverse-Core] Portal ParkourLeave has an invalid DESTINATION!
+2025-04-11 19:47:10 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2025-04-11 19:47:10 [INFO] [Multiverse-Core] Loading World & Settings - 'MiniGames' - Env: NORMAL - Type: FLAT & seed: 8944420162186356143
+2025-04-11 19:47:11 [INFO] [Multiverse-Core] Loading World & Settings - 'KillGod' - Env: NORMAL - Type: FLAT & seed: 5545128808117866254
+2025-04-11 19:47:11 [INFO] [Multiverse-Core] Loading World & Settings - 'HUB' - Env: NORMAL - Type: FLAT & seed: 5140637696893756237
+2025-04-11 19:47:11 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP' - Env: NORMAL - Type: NORMAL & seed: 27594263
+2025-04-11 19:47:11 [INFO] [Multiverse-Core] Loading World & Settings - 'VIPworld' - Env: NORMAL - Type: FLAT & seed: 1615850614446281026
+2025-04-11 19:47:11 [INFO] [Multiverse-Core] Loading World & Settings - 'Guildworld' - Env: NORMAL - Type: NORMAL & seed: 27594263
+2025-04-11 19:47:12 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP_nether' - Env: NETHER - Type: NORMAL & seed: -6683929186114743893
+2025-04-11 19:47:12 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP_the_end' - Env: THE_END - Type: NORMAL & seed: -6683929186114743893
+2025-04-11 19:47:12 [INFO] [Multiverse-Core] 8 - World(s) loaded.
+2025-04-11 19:47:13 [WARNING] [Multiverse-Core] Portal HPW has an invalid DESTINATION!
+2025-04-11 19:47:13 [WARNING] [Multiverse-Core] Portal ParkourLeave has an invalid DESTINATION!
+2025-04-11 19:52:50 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2025-04-11 19:52:50 [INFO] [Multiverse-Core] Loading World & Settings - 'MiniGames' - Env: NORMAL - Type: FLAT & seed: 8944420162186356143
+2025-04-11 19:52:50 [INFO] [Multiverse-Core] Loading World & Settings - 'KillGod' - Env: NORMAL - Type: FLAT & seed: 5545128808117866254
+2025-04-11 19:52:51 [INFO] [Multiverse-Core] Loading World & Settings - 'HUB' - Env: NORMAL - Type: FLAT & seed: 5140637696893756237
+2025-04-11 19:52:51 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP' - Env: NORMAL - Type: NORMAL & seed: 27594263
+2025-04-11 19:52:51 [INFO] [Multiverse-Core] Loading World & Settings - 'VIPworld' - Env: NORMAL - Type: FLAT & seed: 1615850614446281026
+2025-04-11 19:52:51 [INFO] [Multiverse-Core] Loading World & Settings - 'Guildworld' - Env: NORMAL - Type: NORMAL & seed: 27594263
+2025-04-11 19:52:52 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP_nether' - Env: NETHER - Type: NORMAL & seed: -6683929186114743893
+2025-04-11 19:52:52 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP_the_end' - Env: THE_END - Type: NORMAL & seed: -6683929186114743893
+2025-04-11 19:52:52 [INFO] [Multiverse-Core] 8 - World(s) loaded.
+2025-04-11 19:52:53 [WARNING] [Multiverse-Core] Portal HPW has an invalid DESTINATION!
+2025-04-11 19:52:53 [WARNING] [Multiverse-Core] Portal ParkourLeave has an invalid DESTINATION!
+2025-04-13 10:23:04 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2025-04-13 10:23:04 [INFO] [Multiverse-Core] Loading World & Settings - 'MiniGames' - Env: NORMAL - Type: FLAT & seed: 8944420162186356143
+2025-04-13 10:23:05 [INFO] [Multiverse-Core] Loading World & Settings - 'KillGod' - Env: NORMAL - Type: FLAT & seed: 5545128808117866254
+2025-04-13 10:23:05 [INFO] [Multiverse-Core] Loading World & Settings - 'HUB' - Env: NORMAL - Type: FLAT & seed: 5140637696893756237
+2025-04-13 10:23:05 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP' - Env: NORMAL - Type: NORMAL & seed: 27594263
+2025-04-13 10:23:05 [INFO] [Multiverse-Core] Loading World & Settings - 'VIPworld' - Env: NORMAL - Type: FLAT & seed: 1615850614446281026
+2025-04-13 10:23:05 [INFO] [Multiverse-Core] Loading World & Settings - 'Guildworld' - Env: NORMAL - Type: NORMAL & seed: 27594263
+2025-04-13 10:23:06 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP_nether' - Env: NETHER - Type: NORMAL & seed: -6683929186114743893
+2025-04-13 10:23:06 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP_the_end' - Env: THE_END - Type: NORMAL & seed: -6683929186114743893
+2025-04-13 10:23:06 [INFO] [Multiverse-Core] 8 - World(s) loaded.
+2025-04-13 10:23:07 [WARNING] [Multiverse-Core] Portal HPW has an invalid DESTINATION!
+2025-04-13 10:23:07 [WARNING] [Multiverse-Core] Portal ParkourLeave has an invalid DESTINATION!
+2025-04-13 10:27:18 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2025-04-13 10:27:18 [INFO] [Multiverse-Core] Loading World & Settings - 'MiniGames' - Env: NORMAL - Type: FLAT & seed: 8944420162186356143
+2025-04-13 10:27:18 [INFO] [Multiverse-Core] Loading World & Settings - 'KillGod' - Env: NORMAL - Type: FLAT & seed: 5545128808117866254
+2025-04-13 10:27:19 [INFO] [Multiverse-Core] Loading World & Settings - 'HUB' - Env: NORMAL - Type: FLAT & seed: 5140637696893756237
+2025-04-13 10:27:19 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP' - Env: NORMAL - Type: NORMAL & seed: 27594263
+2025-04-13 10:27:19 [INFO] [Multiverse-Core] Loading World & Settings - 'VIPworld' - Env: NORMAL - Type: FLAT & seed: 1615850614446281026
+2025-04-13 10:27:19 [INFO] [Multiverse-Core] Loading World & Settings - 'Guildworld' - Env: NORMAL - Type: NORMAL & seed: 27594263
+2025-04-13 10:27:19 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP_nether' - Env: NETHER - Type: NORMAL & seed: -6683929186114743893
+2025-04-13 10:27:19 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP_the_end' - Env: THE_END - Type: NORMAL & seed: -6683929186114743893
+2025-04-13 10:27:19 [INFO] [Multiverse-Core] 8 - World(s) loaded.
+2025-04-13 10:27:20 [WARNING] [Multiverse-Core] Portal HPW has an invalid DESTINATION!
+2025-04-13 10:27:20 [WARNING] [Multiverse-Core] Portal ParkourLeave has an invalid DESTINATION!
+2025-04-13 11:02:25 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2025-04-13 11:02:25 [INFO] [Multiverse-Core] Loading World & Settings - 'MiniGames' - Env: NORMAL - Type: FLAT & seed: 8944420162186356143
+2025-04-13 11:02:26 [INFO] [Multiverse-Core] Loading World & Settings - 'KillGod' - Env: NORMAL - Type: FLAT & seed: 5545128808117866254
+2025-04-13 11:02:26 [INFO] [Multiverse-Core] Loading World & Settings - 'HUB' - Env: NORMAL - Type: FLAT & seed: 5140637696893756237
+2025-04-13 11:02:26 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP' - Env: NORMAL - Type: NORMAL & seed: 27594263
+2025-04-13 11:02:26 [INFO] [Multiverse-Core] Loading World & Settings - 'VIPworld' - Env: NORMAL - Type: FLAT & seed: 1615850614446281026
+2025-04-13 11:02:26 [INFO] [Multiverse-Core] Loading World & Settings - 'Guildworld' - Env: NORMAL - Type: NORMAL & seed: 27594263
+2025-04-13 11:02:27 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP_nether' - Env: NETHER - Type: NORMAL & seed: -6683929186114743893
+2025-04-13 11:02:27 [INFO] [Multiverse-Core] Loading World & Settings - 'PvP_the_end' - Env: THE_END - Type: NORMAL & seed: -6683929186114743893
+2025-04-13 11:02:27 [INFO] [Multiverse-Core] 8 - World(s) loaded.
+2025-04-13 11:02:28 [WARNING] [Multiverse-Core] Portal HPW has an invalid DESTINATION!
+2025-04-13 11:02:28 [WARNING] [Multiverse-Core] Portal ParkourLeave has an invalid DESTINATION!

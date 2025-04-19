@@ -35,6 +35,7 @@ regions:
     claim-only-inside-existing-regions: false
     max-region-count-per-player:
         default: 7
+    explosion-flags-block-entity-damage: true
 auto-invincible: false
 use-player-move-event: true
 security:
@@ -95,6 +96,7 @@ mobs:
     block-zombie-door-destruction: false
     block-creature-spawn: []
     disable-snowman-trails: false
+    allow-tamed-spawns: true
 player-damage:
     disable-fall-damage: false
     disable-lava-damage: false
@@ -134,6 +136,8 @@ dynamics:
     disable-grass-growth: false
     disable-mycelium-spread: false
     disable-vine-growth: false
+    disable-soil-dehydration: false
+    snow-fall-blocks: []
 blacklist:
     use-as-whitelist: false
     logging:

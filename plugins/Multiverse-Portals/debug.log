@@ -642,3 +642,231 @@
 2025-04-02 17:24:35 [WARNING] [Multiverse-Portals]  Portal GuildWorldEntry has an invalid LOCATION!
 2025-04-02 17:24:35 [WARNING] [Multiverse-Portals]  Portal 'GuildWorldEntry' not loaded due to invalid location!
 2025-04-02 17:24:35 [INFO] [Multiverse-Portals]  34 - Portals(s) loaded
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Failed Parsing World for: FlyPaintLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Portal FlyPaintLeave has an invalid LOCATION!
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Portal 'FlyPaintLeave' not loaded due to invalid location!
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Failed Parsing World for: SpleefLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Portal SpleefLeave has an invalid LOCATION!
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Portal 'SpleefLeave' not loaded due to invalid location!
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Failed Parsing World for: IcePvPFall (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Portal IcePvPFall has an invalid LOCATION!
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Portal 'IcePvPFall' not loaded due to invalid location!
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Failed Parsing World for: ParkourFall (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Portal ParkourFall has an invalid LOCATION!
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Portal 'ParkourFall' not loaded due to invalid location!
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Failed Parsing World for: ParkourWinner (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Portal ParkourWinner has an invalid LOCATION!
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Portal 'ParkourWinner' not loaded due to invalid location!
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Failed Parsing World for: PropHuntLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Portal PropHuntLeave has an invalid LOCATION!
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Portal 'PropHuntLeave' not loaded due to invalid location!
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Failed Parsing World for: HungerGamesLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Portal HungerGamesLeave has an invalid LOCATION!
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Portal 'HungerGamesLeave' not loaded due to invalid location!
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Failed Parsing World for: KOFHFall (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Portal KOFHFall has an invalid LOCATION!
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Portal 'KOFHFall' not loaded due to invalid location!
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Failed Parsing World for: ParkourLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Portal ParkourLeave has an invalid LOCATION!
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Portal 'ParkourLeave' not loaded due to invalid location!
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Failed Parsing World for: HPW (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Portal HPW has an invalid LOCATION!
+2025-04-11 18:12:45 [WARNING] [Multiverse-Portals]  Portal 'HPW' not loaded due to invalid location!
+2025-04-11 18:12:46 [WARNING] [Multiverse-Portals]  Failed Parsing World for: MiniGamesEntrance (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:12:46 [WARNING] [Multiverse-Portals]  Portal MiniGamesEntrance has an invalid LOCATION!
+2025-04-11 18:12:46 [WARNING] [Multiverse-Portals]  Portal 'MiniGamesEntrance' not loaded due to invalid location!
+2025-04-11 18:12:46 [WARNING] [Multiverse-Portals]  Failed Parsing World for: GuildWorldEntry (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:12:46 [WARNING] [Multiverse-Portals]  Portal GuildWorldEntry has an invalid LOCATION!
+2025-04-11 18:12:46 [WARNING] [Multiverse-Portals]  Portal 'GuildWorldEntry' not loaded due to invalid location!
+2025-04-11 18:12:46 [INFO] [Multiverse-Portals]  34 - Portals(s) loaded
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Failed Parsing World for: FlyPaintLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Portal FlyPaintLeave has an invalid LOCATION!
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Portal 'FlyPaintLeave' not loaded due to invalid location!
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Failed Parsing World for: SpleefLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Portal SpleefLeave has an invalid LOCATION!
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Portal 'SpleefLeave' not loaded due to invalid location!
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Failed Parsing World for: IcePvPFall (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Portal IcePvPFall has an invalid LOCATION!
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Portal 'IcePvPFall' not loaded due to invalid location!
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Failed Parsing World for: ParkourFall (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Portal ParkourFall has an invalid LOCATION!
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Portal 'ParkourFall' not loaded due to invalid location!
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Failed Parsing World for: ParkourWinner (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Portal ParkourWinner has an invalid LOCATION!
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Portal 'ParkourWinner' not loaded due to invalid location!
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Failed Parsing World for: PropHuntLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Portal PropHuntLeave has an invalid LOCATION!
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Portal 'PropHuntLeave' not loaded due to invalid location!
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Failed Parsing World for: HungerGamesLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Portal HungerGamesLeave has an invalid LOCATION!
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Portal 'HungerGamesLeave' not loaded due to invalid location!
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Failed Parsing World for: KOFHFall (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Portal KOFHFall has an invalid LOCATION!
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Portal 'KOFHFall' not loaded due to invalid location!
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Failed Parsing World for: ParkourLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Portal ParkourLeave has an invalid LOCATION!
+2025-04-11 18:20:15 [WARNING] [Multiverse-Portals]  Portal 'ParkourLeave' not loaded due to invalid location!
+2025-04-11 18:20:16 [WARNING] [Multiverse-Portals]  Failed Parsing World for: HPW (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:20:16 [WARNING] [Multiverse-Portals]  Portal HPW has an invalid LOCATION!
+2025-04-11 18:20:16 [WARNING] [Multiverse-Portals]  Portal 'HPW' not loaded due to invalid location!
+2025-04-11 18:20:16 [WARNING] [Multiverse-Portals]  Failed Parsing World for: MiniGamesEntrance (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:20:16 [WARNING] [Multiverse-Portals]  Portal MiniGamesEntrance has an invalid LOCATION!
+2025-04-11 18:20:16 [WARNING] [Multiverse-Portals]  Portal 'MiniGamesEntrance' not loaded due to invalid location!
+2025-04-11 18:20:16 [WARNING] [Multiverse-Portals]  Failed Parsing World for: GuildWorldEntry (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:20:16 [WARNING] [Multiverse-Portals]  Portal GuildWorldEntry has an invalid LOCATION!
+2025-04-11 18:20:16 [WARNING] [Multiverse-Portals]  Portal 'GuildWorldEntry' not loaded due to invalid location!
+2025-04-11 18:20:16 [INFO] [Multiverse-Portals]  34 - Portals(s) loaded
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Failed Parsing World for: FlyPaintLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Portal FlyPaintLeave has an invalid LOCATION!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Portal 'FlyPaintLeave' not loaded due to invalid location!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Failed Parsing World for: SpleefLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Portal SpleefLeave has an invalid LOCATION!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Portal 'SpleefLeave' not loaded due to invalid location!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Failed Parsing World for: IcePvPFall (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Portal IcePvPFall has an invalid LOCATION!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Portal 'IcePvPFall' not loaded due to invalid location!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Failed Parsing World for: ParkourFall (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Portal ParkourFall has an invalid LOCATION!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Portal 'ParkourFall' not loaded due to invalid location!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Failed Parsing World for: ParkourWinner (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Portal ParkourWinner has an invalid LOCATION!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Portal 'ParkourWinner' not loaded due to invalid location!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Failed Parsing World for: PropHuntLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Portal PropHuntLeave has an invalid LOCATION!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Portal 'PropHuntLeave' not loaded due to invalid location!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Failed Parsing World for: HungerGamesLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Portal HungerGamesLeave has an invalid LOCATION!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Portal 'HungerGamesLeave' not loaded due to invalid location!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Failed Parsing World for: KOFHFall (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Portal KOFHFall has an invalid LOCATION!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Portal 'KOFHFall' not loaded due to invalid location!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Failed Parsing World for: ParkourLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Portal ParkourLeave has an invalid LOCATION!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Portal 'ParkourLeave' not loaded due to invalid location!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Failed Parsing World for: HPW (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Portal HPW has an invalid LOCATION!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Portal 'HPW' not loaded due to invalid location!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Failed Parsing World for: MiniGamesEntrance (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Portal MiniGamesEntrance has an invalid LOCATION!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Portal 'MiniGamesEntrance' not loaded due to invalid location!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Failed Parsing World for: GuildWorldEntry (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Portal GuildWorldEntry has an invalid LOCATION!
+2025-04-11 18:25:57 [WARNING] [Multiverse-Portals]  Portal 'GuildWorldEntry' not loaded due to invalid location!
+2025-04-11 18:25:57 [INFO] [Multiverse-Portals]  34 - Portals(s) loaded
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Failed Parsing World for: FlyPaintLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Portal FlyPaintLeave has an invalid LOCATION!
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Portal 'FlyPaintLeave' not loaded due to invalid location!
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Failed Parsing World for: SpleefLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Portal SpleefLeave has an invalid LOCATION!
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Portal 'SpleefLeave' not loaded due to invalid location!
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Failed Parsing World for: IcePvPFall (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Portal IcePvPFall has an invalid LOCATION!
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Portal 'IcePvPFall' not loaded due to invalid location!
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Failed Parsing World for: ParkourFall (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Portal ParkourFall has an invalid LOCATION!
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Portal 'ParkourFall' not loaded due to invalid location!
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Failed Parsing World for: ParkourWinner (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Portal ParkourWinner has an invalid LOCATION!
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Portal 'ParkourWinner' not loaded due to invalid location!
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Failed Parsing World for: PropHuntLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Portal PropHuntLeave has an invalid LOCATION!
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Portal 'PropHuntLeave' not loaded due to invalid location!
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Failed Parsing World for: HungerGamesLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Portal HungerGamesLeave has an invalid LOCATION!
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Portal 'HungerGamesLeave' not loaded due to invalid location!
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Failed Parsing World for: KOFHFall (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Portal KOFHFall has an invalid LOCATION!
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Portal 'KOFHFall' not loaded due to invalid location!
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Failed Parsing World for: ParkourLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Portal ParkourLeave has an invalid LOCATION!
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Portal 'ParkourLeave' not loaded due to invalid location!
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Failed Parsing World for: HPW (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Portal HPW has an invalid LOCATION!
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Portal 'HPW' not loaded due to invalid location!
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Failed Parsing World for: MiniGamesEntrance (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Portal MiniGamesEntrance has an invalid LOCATION!
+2025-04-11 18:30:24 [WARNING] [Multiverse-Portals]  Portal 'MiniGamesEntrance' not loaded due to invalid location!
+2025-04-11 18:30:25 [WARNING] [Multiverse-Portals]  Failed Parsing World for: GuildWorldEntry (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:30:25 [WARNING] [Multiverse-Portals]  Portal GuildWorldEntry has an invalid LOCATION!
+2025-04-11 18:30:25 [WARNING] [Multiverse-Portals]  Portal 'GuildWorldEntry' not loaded due to invalid location!
+2025-04-11 18:30:25 [INFO] [Multiverse-Portals]  34 - Portals(s) loaded
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Failed Parsing World for: FlyPaintLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Portal FlyPaintLeave has an invalid LOCATION!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Portal 'FlyPaintLeave' not loaded due to invalid location!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Failed Parsing World for: SpleefLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Portal SpleefLeave has an invalid LOCATION!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Portal 'SpleefLeave' not loaded due to invalid location!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Failed Parsing World for: IcePvPFall (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Portal IcePvPFall has an invalid LOCATION!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Portal 'IcePvPFall' not loaded due to invalid location!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Failed Parsing World for: ParkourFall (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Portal ParkourFall has an invalid LOCATION!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Portal 'ParkourFall' not loaded due to invalid location!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Failed Parsing World for: ParkourWinner (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Portal ParkourWinner has an invalid LOCATION!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Portal 'ParkourWinner' not loaded due to invalid location!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Failed Parsing World for: PropHuntLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Portal PropHuntLeave has an invalid LOCATION!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Portal 'PropHuntLeave' not loaded due to invalid location!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Failed Parsing World for: HungerGamesLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Portal HungerGamesLeave has an invalid LOCATION!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Portal 'HungerGamesLeave' not loaded due to invalid location!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Failed Parsing World for: KOFHFall (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Portal KOFHFall has an invalid LOCATION!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Portal 'KOFHFall' not loaded due to invalid location!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Failed Parsing World for: ParkourLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Portal ParkourLeave has an invalid LOCATION!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Portal 'ParkourLeave' not loaded due to invalid location!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Failed Parsing World for: HPW (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Portal HPW has an invalid LOCATION!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Portal 'HPW' not loaded due to invalid location!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Failed Parsing World for: MiniGamesEntrance (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Portal MiniGamesEntrance has an invalid LOCATION!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Portal 'MiniGamesEntrance' not loaded due to invalid location!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Failed Parsing World for: GuildWorldEntry (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Portal GuildWorldEntry has an invalid LOCATION!
+2025-04-11 18:33:21 [WARNING] [Multiverse-Portals]  Portal 'GuildWorldEntry' not loaded due to invalid location!
+2025-04-11 18:33:21 [INFO] [Multiverse-Portals]  34 - Portals(s) loaded
+2025-04-11 18:52:06 [WARNING] [Multiverse-Portals]  Failed Parsing World for: FlyPaintLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:52:06 [WARNING] [Multiverse-Portals]  Portal FlyPaintLeave has an invalid LOCATION!
+2025-04-11 18:52:06 [WARNING] [Multiverse-Portals]  Portal 'FlyPaintLeave' not loaded due to invalid location!
+2025-04-11 18:52:06 [WARNING] [Multiverse-Portals]  Failed Parsing World for: SpleefLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:52:06 [WARNING] [Multiverse-Portals]  Portal SpleefLeave has an invalid LOCATION!
+2025-04-11 18:52:06 [WARNING] [Multiverse-Portals]  Portal 'SpleefLeave' not loaded due to invalid location!
+2025-04-11 18:52:06 [WARNING] [Multiverse-Portals]  Failed Parsing World for: IcePvPFall (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:52:06 [WARNING] [Multiverse-Portals]  Portal IcePvPFall has an invalid LOCATION!
+2025-04-11 18:52:06 [WARNING] [Multiverse-Portals]  Portal 'IcePvPFall' not loaded due to invalid location!
+2025-04-11 18:52:06 [WARNING] [Multiverse-Portals]  Failed Parsing World for: ParkourFall (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:52:06 [WARNING] [Multiverse-Portals]  Portal ParkourFall has an invalid LOCATION!
+2025-04-11 18:52:06 [WARNING] [Multiverse-Portals]  Portal 'ParkourFall' not loaded due to invalid location!
+2025-04-11 18:52:06 [WARNING] [Multiverse-Portals]  Failed Parsing World for: ParkourWinner (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:52:06 [WARNING] [Multiverse-Portals]  Portal ParkourWinner has an invalid LOCATION!
+2025-04-11 18:52:06 [WARNING] [Multiverse-Portals]  Portal 'ParkourWinner' not loaded due to invalid location!
+2025-04-11 18:52:06 [WARNING] [Multiverse-Portals]  Failed Parsing World for: PropHuntLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:52:06 [WARNING] [Multiverse-Portals]  Portal PropHuntLeave has an invalid LOCATION!
+2025-04-11 18:52:06 [WARNING] [Multiverse-Portals]  Portal 'PropHuntLeave' not loaded due to invalid location!
+2025-04-11 18:52:06 [WARNING] [Multiverse-Portals]  Failed Parsing World for: HungerGamesLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:52:06 [WARNING] [Multiverse-Portals]  Portal HungerGamesLeave has an invalid LOCATION!
+2025-04-11 18:52:06 [WARNING] [Multiverse-Portals]  Portal 'HungerGamesLeave' not loaded due to invalid location!
+2025-04-11 18:52:06 [WARNING] [Multiverse-Portals]  Failed Parsing World for: KOFHFall (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:52:06 [WARNING] [Multiverse-Portals]  Portal KOFHFall has an invalid LOCATION!
+2025-04-11 18:52:06 [WARNING] [Multiverse-Portals]  Portal 'KOFHFall' not loaded due to invalid location!
+2025-04-11 18:52:07 [WARNING] [Multiverse-Portals]  Failed Parsing World for: ParkourLeave (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:52:07 [WARNING] [Multiverse-Portals]  Portal ParkourLeave has an invalid LOCATION!
+2025-04-11 18:52:07 [WARNING] [Multiverse-Portals]  Portal 'ParkourLeave' not loaded due to invalid location!
+2025-04-11 18:52:07 [WARNING] [Multiverse-Portals]  Failed Parsing World for: HPW (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:52:07 [WARNING] [Multiverse-Portals]  Portal HPW has an invalid LOCATION!
+2025-04-11 18:52:07 [WARNING] [Multiverse-Portals]  Portal 'HPW' not loaded due to invalid location!
+2025-04-11 18:52:07 [WARNING] [Multiverse-Portals]  Failed Parsing World for: MiniGamesEntrance (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:52:07 [WARNING] [Multiverse-Portals]  Portal MiniGamesEntrance has an invalid LOCATION!
+2025-04-11 18:52:07 [WARNING] [Multiverse-Portals]  Portal 'MiniGamesEntrance' not loaded due to invalid location!
+2025-04-11 18:52:07 [WARNING] [Multiverse-Portals]  Failed Parsing World for: GuildWorldEntry (World Error, World did not exist or was not imported into Multiverse-Core!)
+2025-04-11 18:52:07 [WARNING] [Multiverse-Portals]  Portal GuildWorldEntry has an invalid LOCATION!
+2025-04-11 18:52:07 [WARNING] [Multiverse-Portals]  Portal 'GuildWorldEntry' not loaded due to invalid location!
+2025-04-11 18:52:07 [INFO] [Multiverse-Portals]  34 - Portals(s) loaded
+2025-04-11 19:44:25 [INFO] [Multiverse-Portals]  34 - Portals(s) loaded
+2025-04-11 19:47:13 [INFO] [Multiverse-Portals]  34 - Portals(s) loaded
+2025-04-11 19:52:53 [INFO] [Multiverse-Portals]  34 - Portals(s) loaded
+2025-04-13 10:23:07 [INFO] [Multiverse-Portals]  34 - Portals(s) loaded
+2025-04-13 10:27:20 [INFO] [Multiverse-Portals]  34 - Portals(s) loaded
+2025-04-13 11:02:28 [INFO] [Multiverse-Portals]  34 - Portals(s) loaded
